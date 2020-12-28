@@ -1,0 +1,718 @@
+[
+  {
+    "Name": "Dusk Cap",
+    "Description": "Dusk Caps produce Mushrooms, fungal growths that can be harvested for Food.",
+    "SeedId": "mushroomseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "mushroom",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1617344768,
+    "LifeCycle": 4500,
+    "NumProduced": 1,
+    "GrowthRequirement": {
+      "Light": "Darkness",
+      "MinTemp": 278.15,
+      "MaxTemp": 308.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "carbondioxide"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 4,
+        "MinTemp": 0,
+        "MaterialId": "slimemold"
+      }
+    ],
+    "Id": "mushroomplant"
+  },
+  {
+    "Name": "Bristle Blossom",
+    "Description": "Bristle Blossoms produce Bristle Berry, a prickly edible bud.",
+    "SeedId": "prickleflowerseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "pricklefruit",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1724062848,
+    "LifeCycle": 3600,
+    "NumProduced": 1,
+    "GrowthRequirement": {
+      "Light": "Light",
+      "MinTemp": 278.15,
+      "MaxTemp": 303.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "oxygen",
+        "contaminatedoxygen",
+        "carbondioxide"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 20,
+        "MinTemp": 0,
+        "MaterialId": "water"
+      }
+    ],
+    "PathogenDropper": {
+      "PathogenId": "pollengerms",
+      "AverageEmitPerSecond": 0,
+      "SingleEmitQuantity": 1000000
+    },
+    "Id": "prickleflower"
+  },
+  {
+    "Name": "Dasha Saltvine",
+    "Description": "Dasha Saltvines consume small amounts of Chlorine Gas and form sodium deposits as they grow, producing harvestable Salt.",
+    "SeedId": "saltplantseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "salt",
+    "Decor": -10,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1830780928,
+    "LifeCycle": 3600,
+    "NumProduced": 65,
+    "GrowthRequirement": {
+      "MinTemp": 248.15,
+      "MaxTemp": 323.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.025,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "chlorinegas"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 7,
+        "MinTemp": 0,
+        "MaterialId": "sand"
+      },
+      {
+        "Rate": 3.60000014,
+        "MinTemp": 0,
+        "MaterialId": "chlorinegas"
+      }
+    ],
+    "Id": "saltplant"
+  },
+  {
+    "Name": "Waterweed",
+    "Description": "Waterweeds thrive in salty water and can be harvested for fresh, edible Lettuce.",
+    "SeedId": "sealettuceseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "lettuce",
+    "Decor": 10,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1237090688,
+    "LifeCycle": 7200,
+    "NumProduced": 12,
+    "GrowthRequirement": {
+      "MinTemp": 295.15,
+      "MaxTemp": 338.15,
+      "PressureSensitive": false,
+      "PressureLethalLow": -3.40282347e+38,
+      "PressureWarningLow": -3.40282347e+38,
+      "PressureWarningHigh": 3.40282347e+38,
+      "PressureLethalHigh": 3.40282347e+38,
+      "RequiredElement": [
+        "water",
+        "saltwater",
+        "brine"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 0.5,
+        "MinTemp": 0,
+        "MaterialId": "bleachstone"
+      },
+      {
+        "Rate": 5,
+        "MinTemp": 0,
+        "MaterialId": "saltwater"
+      }
+    ],
+    "Id": "sealettuce"
+  },
+  {
+    "Name": "Pincha Pepperplant",
+    "Description": "Pincha Pepperplants produce flavorful Pincha Peppernut for spicing Food.",
+    "SeedId": "spicevineseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "spicenut",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1343808768,
+    "LifeCycle": 4800,
+    "NumProduced": 4,
+    "GrowthRequirement": {
+      "MinTemp": 308.15,
+      "MaxTemp": 358.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30
+    },
+    "Require": [
+      {
+        "Rate": 1,
+        "MinTemp": 0,
+        "MaterialId": "phosphorite"
+      },
+      {
+        "Rate": 35,
+        "MinTemp": 0,
+        "MaterialId": "dirtywater"
+      }
+    ],
+    "Id": "spicevine"
+  },
+  {
+    "Name": "Balm Lily",
+    "Description": "Balm Lilies produce Balm Lily Flower, a lovely bloom with medicinal properties.",
+    "SeedId": "swamplilyseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "swamplilyflower",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1450526848,
+    "LifeCycle": 7200,
+    "NumProduced": 2,
+    "GrowthRequirement": {
+      "MinTemp": 308.15,
+      "MaxTemp": 358.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "chlorinegas"
+      ]
+    },
+    "Id": "swamplily"
+  },
+  {
+    "Name": "Gas Grass",
+    "Description": "Gas grass.",
+    "SeedId": "gasgrassseed",
+    "SeedProductionType": "Hidden",
+    "ProducedCrop": "gasgrassharvested",
+    "Decor": 25,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1557244928,
+    "LifeCycle": 2400,
+    "NumProduced": 1,
+    "GrowthRequirement": {
+      "Light": "20000",
+      "MinTemp": 0,
+      "MaxTemp": 348.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30
+    },
+    "Require": [
+      {
+        "Rate": 0.5,
+        "MinTemp": 0,
+        "MaterialId": "chlorine"
+      }
+    ],
+    "Id": "gasgrass"
+  },
+  {
+    "Name": "Hexalent",
+    "Description": "Hexalents are incapable of propagating but can be harvested for a single, calorie dense Food serving.",
+    "SeedId": "forestforageplant",
+    "SeedProductionType": "DigOnly",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1663963008,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 0,
+      "MaxTemp": 0,
+      "PressureSensitive": false,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0,
+      "PressureWarningHigh": 0,
+      "PressureLethalHigh": 0
+    },
+    "Id": "forestforageplantplanted"
+  },
+  {
+    "Name": "Thimble Reed",
+    "Description": "Thimble Reeds produce indescribably soft Reed Fiber for Clothing production.",
+    "SeedId": "basicfabricmaterialplantseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "basicfabric",
+    "Decor": 10,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1770681088,
+    "LifeCycle": 1200,
+    "NumProduced": 1,
+    "GrowthRequirement": {
+      "MinTemp": 295.15,
+      "MaxTemp": 310.15,
+      "PressureSensitive": false,
+      "PressureLethalLow": -3.40282347e+38,
+      "PressureWarningLow": -3.40282347e+38,
+      "PressureWarningHigh": 3.40282347e+38,
+      "PressureLethalHigh": 3.40282347e+38,
+      "RequiredElement": [
+        "oxygen",
+        "contaminatedoxygen",
+        "carbondioxide",
+        "dirtywater",
+        "water"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 160,
+        "MinTemp": 0,
+        "MaterialId": "dirtywater"
+      }
+    ],
+    "Id": "basicfabricplant"
+  },
+  {
+    "Name": "Buried Muckroot",
+    "Description": "Muckroots are incapable of propagating but can be harvested for a single Food serving.",
+    "SeedId": "basicforageplant",
+    "SeedProductionType": "DigOnly",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1877399168,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 0,
+      "MaxTemp": 0,
+      "PressureSensitive": false,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0,
+      "PressureWarningHigh": 0,
+      "PressureLethalHigh": 0
+    },
+    "Id": "basicforageplantplanted"
+  },
+  {
+    "Name": "Mealwood",
+    "Description": "Mealwoods produce Meal Lice, an oddly wriggly grain that can be harvested for Food.",
+    "SeedId": "basicsingleharvestplantseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "basicplantfood",
+    "Decor": -10,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 1984117248,
+    "LifeCycle": 1800,
+    "NumProduced": 1,
+    "GrowthRequirement": {
+      "MinTemp": 283.15,
+      "MaxTemp": 303.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "oxygen",
+        "contaminatedoxygen",
+        "carbondioxide"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 10,
+        "MinTemp": 0,
+        "MaterialId": "dirt"
+      }
+    ],
+    "Id": "basicsingleharvestplant"
+  },
+  {
+    "Name": "Nosh Sprout",
+    "Description": "Nosh Sprouts thrive in colder climates and produce edible Nosh Beans.",
+    "SeedId": "beanplantseed",
+    "SeedProductionType": "Harvest",
+    "ProducedCrop": "beanplantseed",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": 2090835328,
+    "LifeCycle": 12600,
+    "NumProduced": 12,
+    "GrowthRequirement": {
+      "MinTemp": 248.15,
+      "MaxTemp": 273.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.025,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "carbondioxide"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 5,
+        "MinTemp": 0,
+        "MaterialId": "dirt"
+      },
+      {
+        "Rate": 20,
+        "MinTemp": 0,
+        "MaterialId": "ethanol"
+      }
+    ],
+    "Id": "beanplant"
+  },
+  {
+    "Name": "Sleet Wheat",
+    "Description": "Sleet Wheat produces Sleet Wheat Grain, a chilly grain that can be processed into Food.",
+    "SeedId": "coldwheatseed",
+    "SeedProductionType": "DigOnly",
+    "ProducedCrop": "coldwheatseed",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": -2097413888,
+    "LifeCycle": 10800,
+    "NumProduced": 18,
+    "GrowthRequirement": {
+      "MinTemp": 218.15,
+      "MaxTemp": 278.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "oxygen",
+        "contaminatedoxygen",
+        "carbondioxide"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 5,
+        "MinTemp": 0,
+        "MaterialId": "dirt"
+      },
+      {
+        "Rate": 20,
+        "MinTemp": 0,
+        "MaterialId": "water"
+      }
+    ],
+    "Id": "coldwheat"
+  },
+  {
+    "Name": "Mirth Leaf",
+    "Description": "Mirth Leaves sport a calm green hue known for alleviating Stress and improving Morale.",
+    "SeedId": "leafyplantseed",
+    "SeedProductionType": "Hidden",
+    "Decor": 25,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": -1990695808,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 293.15,
+      "MaxTemp": 323.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "oxygen",
+        "contaminatedoxygen",
+        "carbondioxide",
+        "chlorinegas",
+        "hydrogen"
+      ]
+    },
+    "DecorModifiers": [
+      {
+        "Id": "GrowthBonus",
+        "Value": 25
+      },
+      {
+        "Id": "WiltPenalty",
+        "Value": -10
+      }
+    ],
+    "Id": "leafyplant"
+  },
+  {
+    "Name": "Oxyfern",
+    "Description": "Oxyferns absorb Carbon Dioxide and exude breathable Oxygen.",
+    "SeedId": "oxyfernseed",
+    "SeedProductionType": "Hidden",
+    "Decor": -10,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": -1883977728,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 273.15,
+      "MaxTemp": 313.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.025,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "carbondioxide"
+      ]
+    },
+    "Require": [
+      {
+        "Rate": 4,
+        "MinTemp": 0,
+        "MaterialId": "dirt"
+      },
+      {
+        "Rate": 19,
+        "MinTemp": 0,
+        "MaterialId": "water"
+      },
+      {
+        "Rate": 0.37500003,
+        "MinTemp": 0,
+        "MaterialId": "carbondioxide"
+      }
+    ],
+    "ProducedRate": [
+      {
+        "Rate": 18.7500019,
+        "MinTemp": 0,
+        "MaterialId": "oxygen"
+      }
+    ],
+    "Id": "oxyfern"
+  },
+  {
+    "Name": "Bluff Briar",
+    "Description": "Bluff Briars exude pheromones causing critters to view them as especially beautiful.",
+    "SeedId": "pricklegrassseed",
+    "SeedProductionType": "Hidden",
+    "Decor": 25,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": -1777259648,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 283.15,
+      "MaxTemp": 303.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "oxygen",
+        "contaminatedoxygen",
+        "carbondioxide"
+      ]
+    },
+    "DecorModifiers": [
+      {
+        "Id": "GrowthBonus",
+        "Value": 25
+      },
+      {
+        "Id": "WiltPenalty",
+        "Value": -10
+      }
+    ],
+    "Id": "pricklegrass"
+  },
+  {
+    "Name": "Arbor Tree",
+    "Description": "Arbor Trees grow Arbor Tree Branches and can be harvested for lumber.",
+    "SeedId": "foresttreeseed",
+    "SeedProductionType": "Hidden",
+    "ProducedCrop": "woodlog",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": -1670541568,
+    "LifeCycle": 2700,
+    "NumProduced": 300,
+    "GrowthRequirement": {
+      "MinTemp": 288.15,
+      "MaxTemp": 313.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30
+    },
+    "Require": [
+      {
+        "Rate": 10,
+        "MinTemp": 0,
+        "MaterialId": "dirt"
+      },
+      {
+        "Rate": 70,
+        "MinTemp": 0,
+        "MaterialId": "dirtywater"
+      }
+    ],
+    "Id": "foresttree"
+  },
+  {
+    "Name": "Buddy Bud",
+    "Description": "Buddy Buds are leafy plants that have a positive effect on Morale, much like a friend.",
+    "SeedId": "bulbplantseed",
+    "SeedProductionType": "Hidden",
+    "Decor": 15,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": -1563823488,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 293.15,
+      "MaxTemp": 313.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "oxygen",
+        "contaminatedoxygen",
+        "carbondioxide"
+      ]
+    },
+    "DecorModifiers": [
+      {
+        "Id": "GrowthBonus",
+        "Value": 25
+      },
+      {
+        "Id": "WiltPenalty",
+        "Value": -10
+      }
+    ],
+    "PathogenDropper": {
+      "PathogenId": "pollengerms",
+      "AverageEmitPerSecond": 5000,
+      "SingleEmitQuantity": 0
+    },
+    "Id": "bulbplant"
+  },
+  {
+    "Name": "Jumping Joya",
+    "Description": "Joyas are Decorative Plants that are colloquially said to make gardeners \"jump for joy\".",
+    "SeedId": "cactusplantseed",
+    "SeedProductionType": "Hidden",
+    "Decor": 25,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": -1457105408,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 273.15,
+      "MaxTemp": 373.15,
+      "PressureSensitive": false,
+      "PressureLethalLow": -3.40282347e+38,
+      "PressureWarningLow": -3.40282347e+38,
+      "PressureWarningHigh": 3.40282347e+38,
+      "PressureLethalHigh": 3.40282347e+38,
+      "RequiredElement": [
+        "oxygen",
+        "contaminatedoxygen",
+        "carbondioxide"
+      ]
+    },
+    "DecorModifiers": [
+      {
+        "Id": "GrowthBonus",
+        "Value": 25
+      },
+      {
+        "Id": "WiltPenalty",
+        "Value": -10
+      }
+    ],
+    "Id": "cactusplant"
+  },
+  {
+    "Name": "Wheezewort",
+    "Description": "Wheezeworts can be grown in flower pots and absorb Heat by respiring through their porous outer membranes.",
+    "SeedId": "coldbreatherseed",
+    "SeedProductionType": "Hidden",
+    "Decor": 15,
+    "DeltaEmitTemperature": -5,
+    "PlantsFactor": -1350387328,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 213.15,
+      "MaxTemp": 368.15,
+      "PressureSensitive": false,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0,
+      "PressureWarningHigh": 0,
+      "PressureLethalHigh": 0
+    },
+    "Require": [
+      {
+        "Rate": 4,
+        "MinTemp": 0,
+        "MaterialId": "phosphorite"
+      }
+    ],
+    "Id": "coldbreather"
+  },
+  {
+    "Name": "Sporechid",
+    "Description": "Sporechids have an eerily alluring appearance to mask the fact that they host particularly nasty strain of brain fungus.",
+    "SeedId": "evilflowerseed",
+    "SeedProductionType": "Hidden",
+    "Decor": 80,
+    "DeltaEmitTemperature": 0,
+    "PlantsFactor": -1243669248,
+    "LifeCycle": 0,
+    "NumProduced": 0,
+    "GrowthRequirement": {
+      "MinTemp": 258.15,
+      "MaxTemp": 513.15,
+      "PressureSensitive": true,
+      "PressureLethalLow": 0,
+      "PressureWarningLow": 0.15,
+      "PressureWarningHigh": 10,
+      "PressureLethalHigh": 30,
+      "RequiredElement": [
+        "carbondioxide"
+      ]
+    },
+    "PathogenDropper": {
+      "PathogenId": "zombiespores",
+      "AverageEmitPerSecond": 1000,
+      "SingleEmitQuantity": 100000
+    },
+    "Id": "evilflower"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "Name": "Slimelung",
+    "Description": "Lethal without medical treatment. Duplicants experience coughing and shortness of breath.",
+    "SicknessDuration": 2220,
+    "Severity": "Minor",
+    "Type": "Pathogen",
+    "CausedByPathogen": "slimelung",
+    "InfectionVectors": [
+      "Inhalation"
+    ],
+    "Symptoms": [
+      {
+        "first": "Breath",
+        "second": "-1%/s"
+      },
+      {
+        "first": "Athletics",
+        "second": "-3"
+      },
+      {
+        "first": "Coughing",
+        "second": ""
+      }
+    ],
+    "CuredByMedicine": [
+      "doctorstation"
+    ],
+    "Id": "slimesickness"
+  },
+  {
+    "Name": "Zombie Spores",
+    "Description": "Duplicants lose much of their motor control and experience extreme discomfort.",
+    "SicknessDuration": 10800,
+    "Severity": "Major",
+    "Type": "Pathogen",
+    "CausedByPathogen": "zombiespores",
+    "InfectionVectors": [
+      "Inhalation",
+      "Contact"
+    ],
+    "Symptoms": [
+      {
+        "first": "Athletics",
+        "second": "-10"
+      },
+      {
+        "first": "Strength",
+        "second": "-10"
+      },
+      {
+        "first": "Excavation",
+        "second": "-10"
+      },
+      {
+        "first": "Construction",
+        "second": "-10"
+      },
+      {
+        "first": "Creativity",
+        "second": "-10"
+      },
+      {
+        "first": "Medicine",
+        "second": "-10"
+      },
+      {
+        "first": "Science",
+        "second": "-10"
+      },
+      {
+        "first": "Machinery",
+        "second": "-10"
+      },
+      {
+        "first": "Cuisine",
+        "second": "-10"
+      },
+      {
+        "first": "Agriculture",
+        "second": "-10"
+      },
+      {
+        "first": "Husbandry",
+        "second": "-10"
+      }
+    ],
+    "CuredByMedicine": [
+      "advanceddoctorstation"
+    ],
+    "Id": "zombiesickness"
+  },
+  {
+    "Name": "Food Poisoning",
+    "Description": "Nonlethal. A Duplicant's body \"purges\" from both ends, causing extreme fatigue.",
+    "SicknessDuration": 1020,
+    "Severity": "Minor",
+    "Type": "Pathogen",
+    "CausedByPathogen": "foodpoisoning",
+    "InfectionVectors": [
+      "Digestion"
+    ],
+    "Symptoms": [
+      {
+        "first": "Bladder",
+        "second": "+200%/cycle"
+      },
+      {
+        "first": "Bathroom Use Speed",
+        "second": "-20%"
+      },
+      {
+        "first": "Stamina",
+        "second": "-30%/cycle"
+      }
+    ],
+    "CuredByMedicine": [
+      "basiccure"
+    ],
+    "Id": "foodsickness"
+  },
+  {
+    "Name": "Allergic Reaction",
+    "Description": "Allergens cause excessive sneezing fits",
+    "SicknessDuration": 60,
+    "Severity": "Minor",
+    "Type": "Pathogen",
+    "CausedByPathogen": "pollengerms",
+    "InfectionVectors": [
+      "Inhalation"
+    ],
+    "Symptoms": [
+      {
+        "first": "Stress",
+        "second": "+15%/cycle"
+      },
+      {
+        "first": "Sneeziness",
+        "second": "+10"
+      }
+    ],
+    "CuredByMedicine": [
+      "antihistamine"
+    ],
+    "Id": "allergies"
+  },
+  {
+    "Name": "Hypothermia",
+    "Description": "Nonlethal. Duplicants experience extreme body heat loss causing chills and discomfort.",
+    "SicknessDuration": 180,
+    "Severity": "Minor",
+    "Type": "Ailment",
+    "InfectionVectors": [
+      "Inhalation"
+    ],
+    "Symptoms": [
+      {
+        "first": "Science",
+        "second": "-5"
+      },
+      {
+        "first": "Machinery",
+        "second": "-5"
+      },
+      {
+        "first": "Construction",
+        "second": "-5"
+      },
+      {
+        "first": "Cuisine",
+        "second": "-5"
+      },
+      {
+        "first": "Sneeziness",
+        "second": "+1"
+      }
+    ],
+    "Id": "coldsickness"
+  },
+  {
+    "Name": "Heat Stroke",
+    "Description": "Nonlethal. Duplicants experience high fever and discomfort.",
+    "SicknessDuration": 180,
+    "Severity": "Minor",
+    "Type": "Ailment",
+    "InfectionVectors": [
+      "Inhalation"
+    ],
+    "Symptoms": [
+      {
+        "first": "Science",
+        "second": "-5"
+      },
+      {
+        "first": "Machinery",
+        "second": "-5"
+      },
+      {
+        "first": "Construction",
+        "second": "-5"
+      },
+      {
+        "first": "Cuisine",
+        "second": "-5"
+      }
+    ],
+    "Id": "heatsickness"
+  },
+  {
+    "Name": "Sunburn",
+    "Description": "Nonlethal. Duplicants experience temporary discomfort due to dermatological damage.",
+    "SicknessDuration": 1020,
+    "Severity": "Minor",
+    "Type": "Ailment",
+    "InfectionVectors": [
+      "Exposure"
+    ],
+    "Symptoms": [
+      {
+        "first": "Stress",
+        "second": "+20%/cycle"
+      }
+    ],
+    "Id": "sunburnsickness"
+  }
+]

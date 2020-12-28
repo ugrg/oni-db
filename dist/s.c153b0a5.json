@@ -1,0 +1,107 @@
+[
+  {
+    "Name": "Dusk Cap seed",
+    "GrowthInto": "mushroomplant",
+    "Id": "mushroomseed"
+  },
+  {
+    "Name": "Bristle Blossom seed",
+    "GrowthInto": "prickleflower",
+    "Id": "prickleflowerseed"
+  },
+  {
+    "Name": "Dasha Saltvine seed",
+    "GrowthInto": "saltplant",
+    "Id": "saltplantseed"
+  },
+  {
+    "Name": "Waterweed seed",
+    "GrowthInto": "sealettuce",
+    "Id": "sealettuceseed"
+  },
+  {
+    "Name": "Pincha Pepperplant seed",
+    "GrowthInto": "spicevine",
+    "Id": "spicevineseed"
+  },
+  {
+    "Name": "Balm Lily seed",
+    "GrowthInto": "swamplily",
+    "Id": "swamplilyseed"
+  },
+  {
+    "Name": "Gas Grass seed",
+    "GrowthInto": "gasgrass",
+    "Id": "gasgrassseed"
+  },
+  {
+    "Name": "Hexalent seed",
+    "GrowthInto": "forestforageplantplanted",
+    "Id": "forestforageplant"
+  },
+  {
+    "Name": "Thimble Reed seed",
+    "GrowthInto": "basicfabricplant",
+    "Id": "basicfabricmaterialplantseed"
+  },
+  {
+    "Name": "Buried Muckroot seed",
+    "GrowthInto": "basicforageplantplanted",
+    "Id": "basicforageplant"
+  },
+  {
+    "Name": "Mealwood seed",
+    "GrowthInto": "basicsingleharvestplant",
+    "Id": "basicsingleharvestplantseed"
+  },
+  {
+    "Name": "Nosh Sprout seed",
+    "GrowthInto": "beanplant",
+    "Id": "beanplantseed"
+  },
+  {
+    "Name": "Sleet Wheat seed",
+    "GrowthInto": "coldwheat",
+    "Id": "coldwheatseed"
+  },
+  {
+    "Name": "Mirth Leaf seed",
+    "GrowthInto": "leafyplant",
+    "Id": "leafyplantseed"
+  },
+  {
+    "Name": "Oxyfern seed",
+    "GrowthInto": "oxyfern",
+    "Id": "oxyfernseed"
+  },
+  {
+    "Name": "Bluff Briar seed",
+    "GrowthInto": "pricklegrass",
+    "Id": "pricklegrassseed"
+  },
+  {
+    "Name": "Arbor Tree seed",
+    "GrowthInto": "foresttree",
+    "Id": "foresttreeseed"
+  },
+  {
+    "Name": "Buddy Bud seed",
+    "GrowthInto": "bulbplant",
+    "Id": "bulbplantseed"
+  },
+  {
+    "Name": "Jumping Joya seed",
+    "GrowthInto": "cactusplant",
+    "Id": "cactusplantseed"
+  },
+  {
+    "Name": "Wheezewort seed",
+    "GrowthInto": "coldbreather",
+    "Id": "coldbreatherseed"
+  },
+  {
+    "Name": "Sporechid seed",
+    "GrowthInto": "evilflower",
+    "Id": "evilflowerseed"
+  }
+]

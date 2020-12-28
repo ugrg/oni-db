@@ -1,0 +1,284 @@
+[
+  {
+    "Name": "Nutrient Bar",
+    "Description": "A nourishing nutrient paste, sandwiched between thin wafer layers.",
+    "CaloriesPerUnit": 800000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 9600,
+    "Quality": -1,
+    "Id": "fieldration"
+  },
+  {
+    "Name": "Mush Bar",
+    "Description": "An edible, putrefied mudslop.\n\nMush Bars are preferable to starvation, but only just barely.",
+    "CaloriesPerUnit": 800000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": -1,
+    "Id": "mushbar"
+  },
+  {
+    "Name": "Meal Lice",
+    "Description": "A flavorless grain that almost never wiggles on its own.",
+    "CaloriesPerUnit": 600000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": -1,
+    "Id": "basicplantfood"
+  },
+  {
+    "Name": "Muckroot",
+    "Description": "A seedless fruit with an upsettingly bland aftertaste.\n\nIt cannot be replanted.\n\nDigging up Buried Objects may uncover a Muckroot.",
+    "CaloriesPerUnit": 800000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": -1,
+    "Id": "basicforageplant"
+  },
+  {
+    "Name": "Hexalent Fruit",
+    "Description": "A seedless fruit with an unusual rubbery texture.\n\nIt cannot be replanted.\n\nHexalent fruit is much more calorie dense than Muckroot fruit.",
+    "CaloriesPerUnit": 6400000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": -1,
+    "Id": "forestforageplant"
+  },
+  {
+    "Name": "Mushroom",
+    "Description": "An edible, flavorless fungus that grew in the dark.",
+    "CaloriesPerUnit": 2400000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 0,
+    "Id": "mushroom"
+  },
+  {
+    "Name": "Lettuce",
+    "Description": "Crunchy, slightly salty leaves from a Waterweed plant.",
+    "CaloriesPerUnit": 400000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 0,
+    "Id": "lettuce"
+  },
+  {
+    "Name": "Meat",
+    "Description": "Uncooked meat from a very dead critter. Yum!",
+    "CaloriesPerUnit": 1600000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": -1,
+    "Id": "meat"
+  },
+  {
+    "Name": "Bristle Berry",
+    "Description": "A sweet, mostly pleasant-tasting fruit covered in prickly barbs.",
+    "CaloriesPerUnit": 1600000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 0,
+    "Id": "pricklefruit"
+  },
+  {
+    "Name": "Pacu Fillet",
+    "Description": "An uncooked fillet from a very dead Pacu. Yum!",
+    "CaloriesPerUnit": 1000000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 2,
+    "Id": "fishmeat"
+  },
+  {
+    "Name": "Pickled Meal",
+    "Description": "Meal Lice preserved in vinegar.\n\nIt's a rarely acquired taste.",
+    "CaloriesPerUnit": 1800000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 9600,
+    "Quality": -1,
+    "Id": "pickledmeal"
+  },
+  {
+    "Name": "Liceloaf",
+    "Description": "Meal Lice compacted into a dense, immobile loaf.",
+    "CaloriesPerUnit": 1700000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 0,
+    "Id": "basicplantbar"
+  },
+  {
+    "Name": "Mush Fry",
+    "Description": "Deep fried, solidified mudslop.\n\nThe inside is almost completely uncooked, despite the crunch on the outside.",
+    "CaloriesPerUnit": 1050000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 0,
+    "Id": "friedmushbar"
+  },
+  {
+    "Name": "Gristle Berry",
+    "Description": "The grilled bud of a Bristle Berry.\n\nHeat unlocked an exquisite taste in the fruit, though the burnt spines leave something to be desired.",
+    "CaloriesPerUnit": 2000000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 1,
+    "Id": "grilledpricklefruit"
+  },
+  {
+    "Name": "Fried Mushroom",
+    "Description": "A fried dish made with a fruiting Dusk Cap.\n\nIt has a thick, savory flavor with subtle earthy undertones.",
+    "CaloriesPerUnit": 2800000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 1,
+    "Id": "friedmushroom"
+  },
+  {
+    "Name": "Frost Bun",
+    "Description": "A simple bun baked from Sleet Wheat Grain grain.\n\nEach bite leaves a mild cooling sensation in one's mouth, even when the bun itself is warm.",
+    "CaloriesPerUnit": 1200000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 2,
+    "Id": "coldwheatbread"
+  },
+  {
+    "Name": "Omelette",
+    "Description": "Fluffed and folded Egg innards.\n\nIt turns out you do, in fact, have to break a few eggs to make it.",
+    "CaloriesPerUnit": 2800000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 2,
+    "Id": "cookedegg"
+  },
+  {
+    "Name": "Cooked Fish",
+    "Description": "The cooked Fillet of a freshly caught Pacu.\n\nUnsurprisingly, it tastes a bit fishy.",
+    "CaloriesPerUnit": 1600000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 3,
+    "Id": "cookedfish"
+  },
+  {
+    "Name": "Barbeque",
+    "Description": "The cooked meat of a defeated critter.\n\nIt has a delightful smoky aftertaste.",
+    "CaloriesPerUnit": 4000000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 3,
+    "Id": "cookedmeat"
+  },
+  {
+    "Name": "Berry Sludge",
+    "Description": "A mashed up Bristle Berry sludge with an exceptionally long shelf life.\n\nIts aggressive, overbearing sweetness can leave the tongue feeling temporarily numb.",
+    "CaloriesPerUnit": 4000000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 9600,
+    "Quality": 3,
+    "Id": "fruitcake"
+  },
+  {
+    "Name": "Stuffed Berry",
+    "Description": "A baked Bristle Berry stuffed with delectable spices and vibrantly flavored.",
+    "CaloriesPerUnit": 4400000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 4,
+    "Id": "salsa"
+  },
+  {
+    "Name": "Surf'n'Turf",
+    "Description": "A bit of Meat from the land and Fish from the sea.\n\nIt hearty and satisfying.",
+    "CaloriesPerUnit": 6000000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 4,
+    "Id": "surfandturf"
+  },
+  {
+    "Name": "Mushroom Wrap",
+    "Description": "Flavorful Mushrooms wrapped in Lettuce.\n\nIt has an earthy flavor punctuated by a refreshing crunch.",
+    "CaloriesPerUnit": 4800000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 4,
+    "Id": "mushroomwrap"
+  },
+  {
+    "Name": "Tofu",
+    "Description": "A bland curd made from Nosh Beans.\n\nIt has an unusual but pleasant consistency.",
+    "CaloriesPerUnit": 3600000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 2,
+    "Id": "tofu"
+  },
+  {
+    "Name": "Pepper Bread",
+    "Description": "A loaf of bread, lightly spiced with Pincha Peppernut for a mild bite.\n\nThere's a simple joy to be had in pulling it apart in one's fingers.",
+    "CaloriesPerUnit": 4000000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 5,
+    "Id": "spicebread"
+  },
+  {
+    "Name": "Spicy Tofu",
+    "Description": "Tofu marinated in a flavorful Pincha Pepperplant sauce.\n\nIt packs a delightful punch.",
+    "CaloriesPerUnit": 4000000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 5,
+    "Id": "spicytofu"
+  },
+  {
+    "Name": "Frost Burger",
+    "Description": "Meat and Lettuce on a chilled Frost Bun.\n\nIt's the only burger ever to be served cold.",
+    "CaloriesPerUnit": 6000000,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 6,
+    "Effects": [
+      "GoodEats"
+    ],
+    "Id": "burger"
+  },
+  {
+    "Name": "Nosh Bean",
+    "Description": "An inedible bean that can be processed into delicious foods.",
+    "CaloriesPerUnit": 0,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": 3,
+    "Id": "beanplantseed"
+  },
+  {
+    "Name": "Pincha Peppernut",
+    "Description": "The flavorful nut of a Pincha Pepperplant.\n\nThe bitter outer rind hides a rich, peppery core that is useful in cooking.",
+    "CaloriesPerUnit": 0,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 1200,
+    "Quality": 0,
+    "Id": "spicenut"
+  },
+  {
+    "Name": "Sleet Wheat Grain",
+    "Description": "An edible grain that leaves a cool taste on the tongue.",
+    "CaloriesPerUnit": 0,
+    "PreserveTemperature": 283.15,
+    "SpoilTime": 4800,
+    "Quality": 0,
+    "Id": "coldwheatseed"
+  },
+  {
+    "Name": "Raw Egg",
+    "Description": "A raw Egg that has been cracked open for use in Food preparation.\n\nIt will never hatch.",
+    "CaloriesPerUnit": 0,
+    "PreserveTemperature": 255.15,
+    "SpoilTime": 2400,
+    "Quality": -1,
+    "Id": "rawegg"
+  }
+]

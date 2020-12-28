@@ -1,0 +1,319 @@
+[
+  {
+    "Name": "Shove Vole Egg",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "mole",
+    "Id": "moleegg"
+  },
+  {
+    "Name": "Larva Egg",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "oilfloater",
+    "Id": "oilfloateregg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "MinTemp": 293.15,
+        "MaxTemp": 333.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "oilfloaterdecoregg",
+        "Type": "temperature"
+      }
+    ],
+    "Name": "Longhair Larva Egg",
+    "BaseIncubationRate": 0.00555555569,
+    "SpawnedCreature": "oilfloaterdecor",
+    "Id": "oilfloaterdecoregg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "friedmushroom",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugpurpleegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Royal Nymph Egg",
+    "BaseIncubationRate": 0.0333333351,
+    "SpawnedCreature": "lightbugpurple",
+    "Id": "lightbugpurpleegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "MinTemp": 373.15,
+        "MaxTemp": 523.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "oilfloaterhightempegg",
+        "Type": "temperature"
+      }
+    ],
+    "Name": "Molten Larva Egg",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "oilfloaterhightemp",
+    "Id": "oilfloaterhightempegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "MinTemp": 243.15,
+        "MaxTemp": 278.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "pacucleaneregg",
+        "Type": "temperature"
+      }
+    ],
+    "Name": "Gulp Fry Egg",
+    "BaseIncubationRate": 0.0333333351,
+    "SpawnedCreature": "pacucleaner",
+    "Id": "pacucleaneregg"
+  },
+  {
+    "Name": "Fry Egg",
+    "BaseIncubationRate": 0.0333333351,
+    "SpawnedCreature": "pacu",
+    "Id": "pacuegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "MinTemp": 308.15,
+        "MaxTemp": 353.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "pacutropicalegg",
+        "Type": "temperature"
+      }
+    ],
+    "Name": "Tropical Fry Egg",
+    "BaseIncubationRate": 0.0333333351,
+    "SpawnedCreature": "pacutropical",
+    "Id": "pacutropicalegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Creature": "puftalpha",
+        "Reverse": true,
+        "Rate": -0.00025,
+        "ModifyTo": "puftalphaegg",
+        "Type": "nearby"
+      }
+    ],
+    "Name": "Puftlet Prince Egg",
+    "BaseIncubationRate": 0.0111111114,
+    "SpawnedCreature": "puftalpha",
+    "Id": "puftalphaegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "spicebread",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugpinkegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Coral Nymph Egg",
+    "BaseIncubationRate": 0.0333333351,
+    "SpawnedCreature": "lightbugpink",
+    "Id": "lightbugpinkegg"
+  },
+  {
+    "Name": "Drecklet Egg",
+    "BaseIncubationRate": 0.00555555569,
+    "SpawnedCreature": "drecko",
+    "Id": "dreckoegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "basicsingleharvestplant",
+        "Rate": 0.025,
+        "ModifyTo": "dreckoplasticegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Glossy Drecklet Egg",
+    "BaseIncubationRate": 0.00555555569,
+    "SpawnedCreature": "dreckoplastic",
+    "Id": "dreckoplasticegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "phosphorus",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugblackegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Abyss Nymph Egg",
+    "BaseIncubationRate": 0.0111111114,
+    "SpawnedCreature": "lightbugblack",
+    "Id": "lightbugblackegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "salsa",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugblueegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Azure Nymph Egg",
+    "BaseIncubationRate": 0.0333333351,
+    "SpawnedCreature": "lightbugblue",
+    "Id": "lightbugblueegg"
+  },
+  {
+    "Name": "Shine Nymph Egg",
+    "BaseIncubationRate": 0.0333333351,
+    "SpawnedCreature": "lightbug",
+    "Id": "lightbugegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "cookedmeat",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugcrystalegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Radiant Nymph Egg",
+    "BaseIncubationRate": 0.0111111114,
+    "SpawnedCreature": "lightbugcrystal",
+    "Id": "lightbugcrystalegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "grilledpricklefruit",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugorangeegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Sun Nymph Egg",
+    "BaseIncubationRate": 0.0333333351,
+    "SpawnedCreature": "lightbugorange",
+    "Id": "lightbugorangeegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Creature": "puftalpha",
+        "Reverse": false,
+        "Rate": 0.00008333333,
+        "ModifyTo": "puftbleachstoneegg",
+        "Type": "nearby"
+      }
+    ],
+    "Name": "Squeaky Puftlet Egg",
+    "BaseIncubationRate": 0.0111111114,
+    "SpawnedCreature": "puftbleachstone",
+    "Id": "puftbleachstoneegg"
+  },
+  {
+    "Name": "Puftlet Egg",
+    "BaseIncubationRate": 0.0111111114,
+    "SpawnedCreature": "puft",
+    "Id": "puftegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Creature": "puftalpha",
+        "Reverse": false,
+        "Rate": 0.00008333333,
+        "ModifyTo": "puftoxyliteegg",
+        "Type": "nearby"
+      }
+    ],
+    "Name": "Dense Puftlet Egg",
+    "BaseIncubationRate": 0.0111111114,
+    "SpawnedCreature": "puftoxylite",
+    "Id": "puftoxyliteegg"
+  },
+  {
+    "Name": "Pip Egg",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "squirrel",
+    "Id": "squirrelegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "sedimentaryrock",
+        "Rate": 0.05,
+        "ModifyTo": "hatchhardegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Stone Hatchling Egg",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "hatchhard",
+    "Id": "hatchhardegg"
+  },
+  {
+    "Name": "Hatchling Egg",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "hatch",
+    "Id": "hatchegg"
+  },
+  {
+    "Name": "Pinch Roe",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "crab",
+    "Id": "crabegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "dirt",
+        "Rate": 0.05,
+        "ModifyTo": "hatchveggieegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Sage Hatchling Egg",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "hatchveggie",
+    "Id": "hatchveggieegg"
+  },
+  {
+    "BreedingModifier": [
+      {
+        "Element": "cuprite",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "goldamalgam",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "ironore",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "wolframite",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      }
+    ],
+    "Name": "Smooth Hatchling Egg",
+    "BaseIncubationRate": 0.008333334,
+    "SpawnedCreature": "hatchmetal",
+    "Id": "hatchmetalegg"
+  }
+]

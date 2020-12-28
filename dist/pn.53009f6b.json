@@ -1,0 +1,417 @@
+[
+  {
+    "Name": "Satellite",
+    "Description": "An artificial construct that has escaped its orbit. It no longer appears to be monitored.",
+    "Composition": [
+      "steel",
+      "copper",
+      "glass"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "0": 5,
+      "1": 3,
+      "2": 2
+    },
+    "Id": "satellite"
+  },
+  {
+    "Name": "Metallic Asteroid",
+    "Description": "A shimmering conglomerate of various metals.",
+    "Composition": [
+      "iron",
+      "copper",
+      "obsidian"
+    ],
+    "Resources": [
+      {
+        "Amount": 3,
+        "MaterialId": "hatchmetal"
+      }
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "1": 5,
+      "2": 3,
+      "3": 2
+    },
+    "Id": "metallicasteroid"
+  },
+  {
+    "Name": "Rocky Asteroid",
+    "Description": "A minor mineral planet. Unlike a comet, it does not possess a tail.",
+    "Composition": [
+      "cuprite",
+      "sedimentaryrock",
+      "igneousrock"
+    ],
+    "Resources": [
+      {
+        "Amount": 3,
+        "MaterialId": "hatchhard"
+      }
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "2": 5,
+      "3": 3,
+      "4": 2
+    },
+    "Id": "rockyasteroid"
+  },
+  {
+    "Name": "Carbon Asteroid",
+    "Description": "A common asteroid containing several useful resources.",
+    "Composition": [
+      "refinedcarbon",
+      "carbon",
+      "diamond"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "1": 5,
+      "2": 3,
+      "3": 2
+    },
+    "Id": "carbonaceousasteroid"
+  },
+  {
+    "Name": "Interstellar Ice",
+    "Description": "A terrestrial destination, frozen completely solid.",
+    "Composition": [
+      "ice",
+      "solidcarbondioxide",
+      "solidoxygen"
+    ],
+    "Resources": [
+      {
+        "Amount": 3,
+        "MaterialId": "coldbreatherseed"
+      },
+      {
+        "Amount": 4,
+        "MaterialId": "coldwheatseed"
+      }
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "3": 5,
+      "4": 3,
+      "5": 2
+    },
+    "Id": "icydwarf"
+  },
+  {
+    "Name": "Organic Mass",
+    "Description": "A mass of organic material similar to the ooze used to print Duplicants. This sample is heavily degraded.",
+    "Composition": [
+      "slimemold",
+      "algae",
+      "contaminatedoxygen"
+    ],
+    "Resources": [
+      {
+        "Amount": 1,
+        "MaterialId": "moo"
+      },
+      {
+        "Amount": 4,
+        "MaterialId": "gasgrassseed"
+      }
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "3": 5,
+      "4": 3,
+      "5": 2
+    },
+    "Id": "organicdwarf"
+  },
+  {
+    "Name": "Dusty Dwarf",
+    "Description": "A loosely held together composite of minerals.",
+    "Composition": [
+      "regolith",
+      "maficrock",
+      "sedimentaryrock"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "3": 3,
+      "4": 5,
+      "5": 2
+    },
+    "Id": "dustymoon"
+  },
+  {
+    "Name": "Terrestrial Planet",
+    "Description": "A planet with a walkable surface, though it does not possess the resources to sustain long-term life.",
+    "Composition": [
+      "water",
+      "algae",
+      "oxygen",
+      "dirt"
+    ],
+    "Resources": [
+      {
+        "Amount": 4,
+        "MaterialId": "prickleflowerseed"
+      },
+      {
+        "Amount": 4,
+        "MaterialId": "pacuegg"
+      }
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "3": 3,
+      "4": 5,
+      "5": 2
+    },
+    "Id": "terraplanet"
+  },
+  {
+    "Name": "Volcanic Planet",
+    "Description": "A large terrestrial object composed mainly of molten rock.",
+    "Composition": [
+      "magma",
+      "igneousrock",
+      "katairite"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "3": 3,
+      "4": 5,
+      "5": 2
+    },
+    "Id": "volcanoplanet"
+  },
+  {
+    "Name": "Gas Giant",
+    "Description": "A massive volume of Hydrogen formed around a small solid center.",
+    "Composition": [
+      "methane",
+      "hydrogen"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "4": 6,
+      "5": 4
+    },
+    "Id": "gasgiant"
+  },
+  {
+    "Name": "Ice Giant",
+    "Description": "A massive volume of frozen material, primarily composed of Ice.",
+    "Composition": [
+      "ice",
+      "solidcarbondioxide",
+      "solidoxygen",
+      "solidmethane"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "4": 6,
+      "5": 4
+    },
+    "Id": "icegiant"
+  },
+  {
+    "Name": "Salty Dwarf",
+    "Description": "A dwarf planet with unusually high sodium concentrations.",
+    "Composition": [
+      "saltwater",
+      "solidcarbondioxide",
+      "brine"
+    ],
+    "Resources": [
+      {
+        "Amount": 3,
+        "MaterialId": "saltplantseed"
+      }
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "0": 5,
+      "1": 3,
+      "2": 2
+    },
+    "Id": "saltdwarf"
+  },
+  {
+    "Name": "Oxidized Planetoid",
+    "Description": "A small planet covered in large swathes of brown rust.",
+    "Composition": [
+      "rust",
+      "solidcarbondioxide"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "4": 6,
+      "5": 4
+    },
+    "Id": "rustplanet"
+  },
+  {
+    "Name": "Living Planet",
+    "Description": "A small green planet displaying several markers of primitive life.",
+    "Composition": [
+      "aluminumore",
+      "solidoxygen"
+    ],
+    "Resources": [
+      {
+        "Amount": 1,
+        "MaterialId": "squirrel"
+      },
+      {
+        "Amount": 4,
+        "MaterialId": "foresttreeseed"
+      }
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "1": 5,
+      "2": 3,
+      "3": 2
+    },
+    "Id": "forestplanet"
+  },
+  {
+    "Name": "Red Dwarf",
+    "Description": "An M-class star orbited by clusters of extractable aluminum and methane.",
+    "Composition": [
+      "aluminum",
+      "liquidmethane",
+      "fossil"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "3": 3,
+      "4": 5,
+      "5": 2
+    },
+    "Id": "reddwarf"
+  },
+  {
+    "Name": "Gilded Asteroid",
+    "Description": "A rich asteroid with thin gold coating and veins of gold deposits throughout.",
+    "Composition": [
+      "gold",
+      "fullerene",
+      "foolsgold"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "0": 5,
+      "1": 3,
+      "2": 2
+    },
+    "Id": "goldasteroid"
+  },
+  {
+    "Name": "Helium Giant",
+    "Description": "A massive volume of Helium formed around a small solid center.",
+    "Composition": [
+      "liquidhydrogen",
+      "water",
+      "niobium"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "1": 5,
+      "2": 3,
+      "3": 2
+    },
+    "Id": "heliumgiant"
+  },
+  {
+    "Name": "Oily Asteroid",
+    "Description": "A viscous asteroid that is only loosely held together. Contains fossil fuel resources.",
+    "Composition": [
+      "solidmethane",
+      "solidcarbondioxide",
+      "crudeoil",
+      "petroleum"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "1": 5,
+      "2": 3,
+      "3": 2
+    },
+    "Id": "oilyasteriod"
+  },
+  {
+    "Name": "Glimmering Planet",
+    "Description": "A planet composed of rare, shimmering minerals. From the distance, it looks like gem in the sky.",
+    "Composition": [
+      "tungsten",
+      "wolframite"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "2": 5,
+      "3": 3,
+      "4": 2
+    },
+    "Id": "shinyplanet"
+  },
+  {
+    "Name": "Chlorine Planet",
+    "Description": "A noxious planet permeated by unbreathable chlorine.",
+    "Composition": [
+      "solidchlorine",
+      "bleachstone"
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "0": 5,
+      "1": 3,
+      "2": 2
+    },
+    "Id": "chlorineplanet"
+  },
+  {
+    "Name": "Arid Planet",
+    "Description": "A sweltering, desert-like planet covered in surface salt deposits.",
+    "Composition": [
+      "salt",
+      "crushedrock"
+    ],
+    "Resources": [
+      {
+        "Amount": 1,
+        "MaterialId": "crab"
+      }
+    ],
+    "TotalWeight": 20,
+    "NothingWeight": 10,
+    "TierWeight": {
+      "0": 5,
+      "1": 3,
+      "2": 2
+    },
+    "Id": "saltdesertplanet"
+  }
+]

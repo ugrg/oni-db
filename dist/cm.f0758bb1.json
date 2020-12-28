@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "Rock Comet",
+    "MinMass": 4800,
+    "MaxMass": 7200.00049,
+    "PrimaryElem": "regolith",
+    "Temperature": 373.15,
+    "Id": "rockcomet"
+  },
+  {
+    "Name": "Iron Comet",
+    "MinMass": 3,
+    "MaxMass": 20,
+    "PrimaryElem": "iron",
+    "Temperature": 373.15,
+    "Id": "ironcomet"
+  },
+  {
+    "Name": "Copper Comet",
+    "MinMass": 3,
+    "MaxMass": 20,
+    "PrimaryElem": "cuprite",
+    "Temperature": 373.15,
+    "Id": "coppercometconfig"
+  },
+  {
+    "Name": "Gold Comet",
+    "MinMass": 3,
+    "MaxMass": 20,
+    "PrimaryElem": "goldamalgam",
+    "Temperature": 373.15,
+    "Id": "goldcomet"
+  },
+  {
+    "Name": "Dust Comet",
+    "MinMass": 0.2,
+    "MaxMass": 0.5,
+    "PrimaryElem": "regolith",
+    "Temperature": 238.15,
+    "Id": "dustcomet"
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "Name": "Floral Scent",
+    "Strength": 0,
+    "MinTemp": 263.15,
+    "MaxTemp": 373.15,
+    "MinPressure": 0,
+    "MaxPressure": 1000,
+    "CanCauseDisease": "allergies",
+    "BaseResistance": 0,
+    "ExposureThreshold": 0,
+    "DisinfectedBy": [
+      "Solid",
+      "Gas",
+      "oxygen",
+      "Liquid"
+    ],
+    "DroppedBy": [
+      "prickleflower",
+      "bulbplant"
+    ],
+    "Id": "pollengerms"
+  },
+  {
+    "Name": "Zombie Spores",
+    "Strength": 0,
+    "MinTemp": 168.15,
+    "MaxTemp": 563.15,
+    "MinPressure": 0,
+    "MaxPressure": 1000,
+    "CanCauseDisease": "zombiesickness",
+    "BaseResistance": 0,
+    "ExposureThreshold": 0,
+    "SurviveIn": [
+      "carbon",
+      "diamond",
+      "carbondioxide",
+      "methane",
+      "sourgas",
+      "crudeoil",
+      "petroleum",
+      "naphtha",
+      "liquidmethane"
+    ],
+    "InhibitedBy": [
+      "Gas"
+    ],
+    "KilledBy": [
+      "Solid",
+      "Liquid"
+    ],
+    "DisinfectedBy": [
+      "bleachstone",
+      "chlorinegas",
+      "chlorine"
+    ],
+    "DroppedBy": [
+      "evilflower"
+    ],
+    "Id": "zombiespores"
+  },
+  {
+    "Name": "Food Poisoning",
+    "Strength": 0,
+    "MinTemp": 248.15,
+    "MaxTemp": 348.15,
+    "MinPressure": 0,
+    "MaxPressure": 1000,
+    "CanCauseDisease": "foodsickness",
+    "BaseResistance": 0,
+    "ExposureThreshold": 0,
+    "MultipiesIn": [
+      "dirtywater",
+      "Edible"
+    ],
+    "SurviveIn": [
+      "toxicsand",
+      "creature"
+    ],
+    "InhibitedBy": [
+      "contaminatedoxygen",
+      "Liquid"
+    ],
+    "KilledBy": [
+      "Gas"
+    ],
+    "DisinfectedBy": [
+      "Solid",
+      "bleachstone",
+      "chlorinegas",
+      "Pickled"
+    ],
+    "Id": "foodpoisoning"
+  },
+  {
+    "Name": "Slimelung",
+    "Strength": 0,
+    "MinTemp": 283.15,
+    "MaxTemp": 373.15,
+    "MinPressure": 0,
+    "MaxPressure": 1000,
+    "CanCauseDisease": "slimesickness",
+    "BaseResistance": 0,
+    "ExposureThreshold": 0,
+    "MultipiesIn": [
+      "slimemold",
+      "contaminatedoxygen"
+    ],
+    "InhibitedBy": [
+      "Gas"
+    ],
+    "KilledBy": [
+      "Solid",
+      "oxygen",
+      "Liquid"
+    ],
+    "DisinfectedBy": [
+      "bleachstone",
+      "chlorinegas"
+    ],
+    "Id": "slimelung"
+  }
+]
