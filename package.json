@@ -1,0 +1,15 @@
+{
+  "name": "oni-db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ugrg/oni-db.git",
+  "author": "ugrg <ugrg@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "decode": "node --experimental-modules src/decode.mjs"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@msgpack/msgpack": "^2.3.0"
+  }
+}
