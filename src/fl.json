@@ -1,0 +1,646 @@
+{
+  "agriculture": {
+    "Name": "农业用品",
+    "Elements": [
+      "fertilizer",
+      "phosphorite"
+    ]
+  },
+  "alloy": {
+    "Name": "合金",
+    "Elements": [
+      "steelgas"
+    ]
+  },
+  "antiseptic": {
+    "Name": "抗菌物品",
+    "Elements": [
+      "polypropylene"
+    ]
+  },
+  "anywater": {
+    "Name": "水基物",
+    "Elements": [
+      "brine",
+      "dirtywater",
+      "water",
+      "saltwater"
+    ]
+  },
+  "breathable": {
+    "Name": "可呼吸的气体",
+    "Elements": [
+      "oxygen",
+      "contaminatedoxygen"
+    ]
+  },
+  "buildableany": {
+    "Name": "通用建造材料",
+    "Elements": [
+      "diamond",
+      "niobium",
+      "cuprite",
+      "copper",
+      "superinsulator",
+      "brineice",
+      "ceramic",
+      "wolframite",
+      "polypropylene",
+      "tungsten",
+      "steel",
+      "lead",
+      "obsidian",
+      "igneousrock",
+      "gold",
+      "granite",
+      "electrum",
+      "solidpropane",
+      "aluminumore",
+      "sedimentaryrock",
+      "goldamalgam",
+      "sandstone",
+      "glass",
+      "clay",
+      "ice",
+      "carbon",
+      "maficrock",
+      "iron",
+      "tempconductorsolid",
+      "ironore",
+      "dirt",
+      "dirtyice",
+      "foolsgold",
+      "aluminum"
+    ]
+  },
+  "buildableprocessed": {
+    "Name": "精炼矿物",
+    "Elements": [
+      "crushedrock"
+    ]
+  },
+  "buildableraw": {
+    "Name": "矿物原料",
+    "Elements": [
+      "isoresin",
+      "superinsulator",
+      "ceramic",
+      "obsidian",
+      "igneousrock",
+      "granite",
+      "sedimentaryrock",
+      "sandstone",
+      "maficrock",
+      "fossil"
+    ]
+  },
+  "buildingfiber": {
+    "Name": "纤维",
+    "Elements": [
+      "basicfabric"
+    ]
+  },
+  "buildingwood": {
+    "Name": "木头",
+    "Elements": [
+      "woodlog"
+    ]
+  },
+  "burns": {
+    "Name": "可燃物",
+    "Elements": [
+      "copper",
+      "solidhydrogen",
+      "lead",
+      "solidchlorine",
+      "gold",
+      "phosphorus",
+      "solidpropane",
+      "carbon",
+      "solidmethane",
+      "iron",
+      "solidethanol",
+      "aluminum",
+      "moltenaluminum",
+      "moltenlead",
+      "crudeoil",
+      "liquidsulfur",
+      "moltengold",
+      "chlorine",
+      "liquidhydrogen",
+      "liquidpropane",
+      "petroleum",
+      "moltensalt",
+      "ethanol",
+      "liquidmethane",
+      "molteniron",
+      "moltencarbon",
+      "moltensteel",
+      "moltenniobium",
+      "moltencopper",
+      "sulfurgas",
+      "propane",
+      "niobiumgas",
+      "steelgas",
+      "chlorinegas",
+      "hydrogen",
+      "sourgas",
+      "methane",
+      "goldgas",
+      "ethanolgas",
+      "carbongas",
+      "aluminumgas",
+      "leadgas",
+      "irongas",
+      "phosphorusgas",
+      "coppergas"
+    ]
+  },
+  "coal": {
+    "Name": "煤炭",
+    "Elements": [
+      "carbon"
+    ]
+  },
+  "combustiblegas": {
+    "Name": "可燃气体",
+    "Elements": [
+      "methane"
+    ]
+  },
+  "combustibleliquid": {
+    "Name": "可燃液体",
+    "Elements": [
+      "petroleum",
+      "ethanol"
+    ]
+  },
+  "compostable": {
+    "Name": "可堆肥的物品",
+    "Elements": [
+      "toxicsand"
+    ]
+  },
+  "consumableore": {
+    "Name": "消耗性矿石",
+    "Elements": [
+      "refinedcarbon",
+      "bleachstone",
+      "lime",
+      "rust",
+      "phosphorus",
+      "salt",
+      "carbon",
+      "solidmethane",
+      "oxyrock"
+    ]
+  },
+  "crushable": {
+    "Name": "可粉碎的物品",
+    "Elements": [
+      "superinsulator",
+      "ceramic",
+      "obsidian",
+      "igneousrock",
+      "granite",
+      "sedimentaryrock",
+      "sandstone"
+    ]
+  },
+  "emitslight": {
+    "Name": "发光源",
+    "Elements": [
+      "moltenaluminum",
+      "moltenlead",
+      "moltenglass",
+      "moltengold",
+      "magma",
+      "molteniron",
+      "liquidphosphorus",
+      "moltensteel",
+      "moltenniobium",
+      "moltencopper",
+      "niobiumgas",
+      "steelgas",
+      "goldgas",
+      "rockgas",
+      "carbongas",
+      "aluminumgas",
+      "leadgas",
+      "irongas",
+      "phosphorusgas",
+      "coppergas"
+    ]
+  },
+  "farmable": {
+    "Name": "可耕作的泥土",
+    "Elements": [
+      "clay",
+      "dirt"
+    ]
+  },
+  "filter": {
+    "Name": "过滤介质",
+    "Elements": [
+      "sand",
+      "regolith"
+    ]
+  },
+  "flyingcritteredible": {
+    "Name": "诱饵",
+    "Elements": [
+      "diamond",
+      "slimemold",
+      "phosphorite",
+      "bleachstone",
+      "phosphorus",
+      "oxyrock"
+    ]
+  },
+  "gas": {
+    "Name": "气体",
+    "Elements": [
+      "sulfurgas",
+      "saltgas",
+      "propane",
+      "niobiumgas",
+      "oxygen",
+      "steelgas",
+      "chlorinegas",
+      "hydrogen",
+      "sourgas",
+      "steam",
+      "methane",
+      "goldgas",
+      "ethanolgas",
+      "rockgas",
+      "carbongas",
+      "supercoolantgas",
+      "aluminumgas",
+      "tungstengas",
+      "contaminatedoxygen",
+      "leadgas",
+      "irongas",
+      "phosphorusgas",
+      "carbondioxide",
+      "coppergas"
+    ]
+  },
+  "iceore": {
+    "Name": "冰",
+    "Elements": [
+      "crushedice",
+      "brineice",
+      "snow",
+      "ice",
+      "dirtyice"
+    ]
+  },
+  "liquid": {
+    "Name": "液体",
+    "Elements": [
+      "liquidoxygen",
+      "viscogel",
+      "moltenaluminum",
+      "moltenlead",
+      "liquidcarbondioxide",
+      "crudeoil",
+      "moltenglass",
+      "liquidsulfur",
+      "moltengold",
+      "magma",
+      "chlorine",
+      "liquidhydrogen",
+      "liquidpropane",
+      "moltentungsten",
+      "petroleum",
+      "moltensalt",
+      "brine",
+      "supercoolant",
+      "ethanol",
+      "liquidmethane",
+      "molteniron",
+      "moltencarbon",
+      "naphtha",
+      "liquidphosphorus",
+      "moltensteel",
+      "moltenniobium",
+      "dirtywater",
+      "water",
+      "saltwater",
+      "moltencopper"
+    ]
+  },
+  "liquifiable": {
+    "Name": "可液化的物品",
+    "Elements": [
+      "crushedice",
+      "brineice",
+      "solidcrudeoil",
+      "solidnaphtha",
+      "solidhydrogen",
+      "solidchlorine",
+      "solidpetroleum",
+      "solidcarbondioxide",
+      "solidpropane",
+      "snow",
+      "ice",
+      "solidoxygen",
+      "dirtyice"
+    ]
+  },
+  "manufacturedmaterial": {
+    "Name": "人造材料",
+    "Elements": [
+      "superinsulator",
+      "solidviscogel",
+      "polypropylene",
+      "steel",
+      "solidsupercoolant",
+      "glass",
+      "tempconductorsolid"
+    ]
+  },
+  "metal": {
+    "Name": "金属矿石",
+    "Elements": [
+      "niobium",
+      "cuprite",
+      "wolframite",
+      "steel",
+      "electrum",
+      "aluminumore",
+      "goldamalgam",
+      "tempconductorsolid",
+      "ironore",
+      "foolsgold",
+      "moltenaluminum",
+      "moltenlead",
+      "moltengold",
+      "moltentungsten",
+      "molteniron",
+      "moltensteel",
+      "moltenniobium",
+      "moltencopper",
+      "niobiumgas",
+      "steelgas",
+      "goldgas",
+      "aluminumgas",
+      "tungstengas",
+      "leadgas",
+      "irongas",
+      "coppergas"
+    ]
+  },
+  "mixture": {
+    "Name": "混合物",
+    "Elements": [
+      "dirtyice",
+      "dirtywater"
+    ]
+  },
+  "oil": {
+    "Name": "烃类物质",
+    "Elements": [
+      "naphtha"
+    ]
+  },
+  "ore": {
+    "Name": "矿石",
+    "Elements": [
+      "cuprite",
+      "electrum",
+      "aluminumore",
+      "goldamalgam",
+      "ironore",
+      "foolsgold"
+    ]
+  },
+  "organics": {
+    "Name": "有机物",
+    "Elements": [
+      "algae",
+      "slimemold",
+      "toxicsand"
+    ]
+  },
+  "other": {
+    "Name": "其他",
+    "Elements": [
+      "diamond",
+      "sulfur",
+      "katairite"
+    ]
+  },
+  "plastic": {
+    "Name": "塑料",
+    "Elements": [
+      "solidviscogel",
+      "polypropylene"
+    ]
+  },
+  "plumbable": {
+    "Name": "可做管道的物品",
+    "Elements": [
+      "superinsulator",
+      "ceramic",
+      "wolframite",
+      "tungsten",
+      "obsidian",
+      "igneousrock",
+      "granite",
+      "sedimentaryrock",
+      "sandstone",
+      "tempconductorsolid"
+    ]
+  },
+  "preciousrock": {
+    "Name": "宝石",
+    "Elements": [
+      "obsidian",
+      "granite"
+    ]
+  },
+  "rarematerials": {
+    "Name": "稀有资源",
+    "Elements": [
+      "isoresin",
+      "niobium",
+      "fullerene"
+    ]
+  },
+  "refinedmetal": {
+    "Name": "精炼金属",
+    "Elements": [
+      "niobium",
+      "copper",
+      "tungsten",
+      "steel",
+      "lead",
+      "gold",
+      "iron",
+      "tempconductorsolid",
+      "aluminum",
+      "moltenaluminum",
+      "moltenlead",
+      "moltengold",
+      "moltentungsten",
+      "molteniron",
+      "moltensteel",
+      "moltenniobium",
+      "moltencopper",
+      "niobiumgas",
+      "steelgas",
+      "goldgas",
+      "aluminumgas",
+      "tungstengas",
+      "leadgas",
+      "irongas",
+      "coppergas"
+    ]
+  },
+  "solid": {
+    "Name": "固体",
+    "Elements": [
+      "crushedice",
+      "diamond",
+      "isoresin",
+      "algae",
+      "niobium",
+      "cuprite",
+      "copper",
+      "crushedrock",
+      "superinsulator",
+      "brineice",
+      "solidviscogel",
+      "ceramic",
+      "fertilizer",
+      "solidcrudeoil",
+      "wolframite",
+      "slimemold",
+      "polypropylene",
+      "solidnaphtha",
+      "tungsten",
+      "refinedcarbon",
+      "steel",
+      "phosphorite",
+      "solidhydrogen",
+      "bleachstone",
+      "lead",
+      "sulfur",
+      "lime",
+      "solidchlorine",
+      "obsidian",
+      "solidpetroleum",
+      "solidsupercoolant",
+      "igneousrock",
+      "gold",
+      "rust",
+      "phosphorus",
+      "granite",
+      "radium",
+      "electrum",
+      "solidcarbondioxide",
+      "solidpropane",
+      "aluminumore",
+      "sedimentaryrock",
+      "fullerene",
+      "goldamalgam",
+      "salt",
+      "sand",
+      "snow",
+      "sandstone",
+      "glass",
+      "clay",
+      "toxicsand",
+      "ice",
+      "carbon",
+      "solidoxygen",
+      "creature",
+      "katairite",
+      "solidmethane",
+      "oxyrock",
+      "maficrock",
+      "iron",
+      "regolith",
+      "bitumen",
+      "tempconductorsolid",
+      "ironore",
+      "dirt",
+      "dirtyice",
+      "fossil",
+      "unobtanium",
+      "solidethanol",
+      "foolsgold",
+      "aluminum"
+    ]
+  },
+  "special": {
+    "Name": "特殊",
+    "Elements": [
+      "unobtanium"
+    ]
+  },
+  "toxic": {
+    "Name": "有毒物品",
+    "Elements": [
+      "solidchlorine",
+      "radium",
+      "solidethanol",
+      "crudeoil",
+      "liquidsulfur",
+      "chlorine",
+      "petroleum",
+      "moltensalt",
+      "ethanol",
+      "chlorinegas",
+      "ethanolgas",
+      "contaminatedoxygen"
+    ]
+  },
+  "transparent": {
+    "Name": "透明体",
+    "Elements": [
+      "diamond",
+      "glass"
+    ]
+  },
+  "unbreathable": {
+    "Name": "不可呼吸的气体",
+    "Elements": [
+      "sulfurgas",
+      "saltgas",
+      "propane",
+      "niobiumgas",
+      "steelgas",
+      "chlorinegas",
+      "hydrogen",
+      "sourgas",
+      "steam",
+      "methane",
+      "goldgas",
+      "ethanolgas",
+      "rockgas",
+      "carbongas",
+      "supercoolantgas",
+      "aluminumgas",
+      "tungstengas",
+      "leadgas",
+      "irongas",
+      "phosphorusgas",
+      "carbondioxide",
+      "coppergas"
+    ]
+  },
+  "unstable": {
+    "Name": "不稳定",
+    "Elements": [
+      "crushedice",
+      "crushedrock",
+      "sand",
+      "snow",
+      "toxicsand",
+      "regolith"
+    ]
+  }
+}
