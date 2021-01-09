@@ -3132,28 +3132,28 @@
   function wt (e) {
     var A = [], t = "Normmal";
     A.push({
-      Name: "Category",
+      Name: "类型",
       Id: "Category",
       Value: e.Category,
       Image: nA(e.Category.toLowerCase()),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Size",
+      Name: "尺寸",
       Id: "Size",
       Value: e.WidthInCells + "x" + e.HeightInCells,
       Image: nA("size"),
       Type: "Normal",
       Input: !1
     }), 0 !== e.StorageCapacity && A.push({
-      Name: "Storage Capacity",
+      Name: "存储容量",
       Id: "StorageCapacity",
       Value: 0 !== e.StorageCapacity ? SA(e.StorageCapacity) : "-",
       Image: nA("capacity"),
       Type: "Normal",
       Input: !1
     }), t = "Normal", 0 !== e.BaseDecor && (t = e.BaseDecor > 0 ? "Produced" : "Consumed"), 0 !== e.BaseDecor && A.push({
-      Name: "Decor (Radius: " + e.BaseDecorRadius + ")",
+      Name: "装饰度 (覆盖半径: " + e.BaseDecorRadius + ")",
       Id: "Decor",
       Value: 0 !== e.BaseDecor ? pA(e.BaseDecor) : "-",
       Image: nA("decor"),
@@ -3162,28 +3162,28 @@
     });
     var a = "-";
     return 0 !== e.EnergyConsumptionWhenActive ? (a = BA(e.EnergyConsumptionWhenActive), t = "Consumed") : 0 !== e.GeneratorWattageRating && (a = uA(e.GeneratorWattageRating), t = "Produced"), "-" !== a && A.push({
-      Name: "Power",
+      Name: "电力消耗",
       Id: "Power",
       Value: a,
       Image: nA("power"),
       Type: t,
       Input: !1
     }), t = "Normal", 0 !== e.HeatKilowatt && (t = e.HeatKilowatt < 0 ? "Produced" : "Consumed"), 0 !== e.HeatKilowatt && A.push({
-      Name: "Heat",
+      Name: "发热量",
       Id: "Heat",
       Value: 0 !== e.HeatKilowatt ? mA(e.HeatKilowatt) : "-",
       Image: nA("hot"),
       Type: t,
       Input: !1
     }), 0 !== e.OverheatTemperature && A.push({
-      Name: "Overheat Temperature",
+      Name: "过热温度",
       Id: "overheattemp",
       Value: oA(e.OverheatTemperature),
       Image: nA("fire"),
       Type: "Normal",
       Input: !1
     }), 1 !== e.ThermalConductivity && 0 !== e.ThermalConductivity && A.push({
-      Name: "Thermal Conductivity",
+      Name: "导热系数倍率",
       Id: "thermalCond",
       Value: e.ThermalConductivity,
       Image: nA("thermalconductivity"),
@@ -3542,42 +3542,42 @@
       return (t = Object(c.a)(this, (e = Object(s.a)(A)).call.apply(e, [this].concat(n)))).generateFeatures = function (e) {
         var A = [];
         return A.push({
-          Name: e.Floodable ? "Doesn't work while flooded" : "Works while flooded",
+          Name: e.Floodable ? "不可淹没" : "可淹没",
           Id: "Floodable",
           Value: "Floodable",
           Image: e.Floodable ? nA("floodable_no") : nA("floodable"),
           Type: "Normal",
           Input: !1
         }), A.push({
-          Name: e.Entombable ? "Doesn't work while entombed" : "Works while entombed",
+          Name: e.Entombable ? "不可掩埋" : "可掩埋",
           Id: "Entombable",
           Value: "Entombable",
           Image: e.Entombable ? nA("entombable_no") : nA("entombable"),
           Type: "Normal",
           Input: !1
         }), "InputConduitType" in e && A.push({
-          Name: "".concat(e.InputConduitType.charAt(0).toUpperCase() + e.InputConduitType.slice(1), " Input Conduit"),
+          Name: "".concat({ gas: "气体", solid: "固体", liquid: "液体" }[e.InputConduitType], " 输入"),
           Id: "input conduit",
           Value: e.InputConduitType,
           Image: nA("input_".concat(e.InputConduitType)),
           Type: "Normal",
           Input: !1
         }), "OutputConduitType" in e && A.push({
-          Name: "".concat(e.OutputConduitType.charAt(0).toUpperCase() + e.OutputConduitType.slice(1), " Output Conduit"),
+          Name: "".concat({ gas: "气体", solid: "固体", liquid: "液体" }[e.InputConduitType], " 输出"),
           Id: "output conduit",
           Value: e.OutputConduitType,
           Image: nA("output_".concat(e.OutputConduitType)),
           Type: "Normal",
           Input: !1
         }), "LogicalInputPort" in e && 1 === e.LogicalInputPort && A.push({
-          Name: "Logical Input",
+          Name: "信号输入",
           Id: "Logical Input",
           Value: e.LogicalInputPort,
           Image: nA("logical_input"),
           Type: "Normal",
           Input: !1
         }), "LogicalOutputPort" in e && 1 === e.LogicalOutputPort && A.push({
-          Name: "Logical Output",
+          Name: "信号输出",
           Id: "Logical Output",
           Value: e.LogicalOutputPort,
           Image: nA("logical_output"),
@@ -3592,7 +3592,7 @@
       value: function () {
         var e = this.props.classes, A = this.props.building;
         return n.a.createElement(tt, {
-          title: "Additional Features",
+          title: "附加功能",
           variant: "main"
         }, n.a.createElement("div", { className: e.materialContainer }, this.generateFeatures(A).map(function (e) {
           return n.a.createElement(FA, {
@@ -4223,11 +4223,11 @@
   var pa = function (e) {
     return [{
       Key: "DecorModifier",
-      Name: "Decor",
+      Name: "装饰度",
       Display: function (A) {return "AttributeModifiers" in A && "Decor" === A.AttributeModifiers[0].Id ? pA(e.BaseDecor + Math.abs(e.BaseDecor * A.AttributeModifiers[0].Value)) : pA(e.BaseDecor);},
       Value: function (A) {return "AttributeModifiers" in A && "Decor" === A.AttributeModifiers[0].Id ? e.BaseDecor + Math.abs(e.BaseDecor * A.AttributeModifiers[0].Value) : e.BaseDecor;}
     }, {
-      Key: "OverheatTemperature", Name: "Overheat", Display: function (A) {
+      Key: "OverheatTemperature", Name: "过热", Display: function (A) {
         var t = ma(A);
         return e.Overheatable ? "undefined" !== typeof t ? bA(e.OverheatTemperature) + t.Value + DA() : bA(e.OverheatTemperature) + DA() : "-";
       }, Value: function (A) {
@@ -4236,7 +4236,7 @@
       }
     }, {
       Key: "ThermalConductivity",
-      Name: "Thermal Cond.",
+      Name: "热传导效率",
       Display: function (A) {return e.ThermalConductivity * A.ThermalConductivity;},
       Value: function (A) {return e.ThermalConductivity * A.ThermalConductivity;}
     }];
@@ -4294,7 +4294,7 @@
       value: function () {
         var e = this.props.classes, A = this.props.building;
         return n.a.createElement(tt, {
-          title: "Build With",
+          title: "建造",
           variant: "main"
         }, n.a.createElement(Gt.a, {
           value: this.state.tabValue,
@@ -4304,12 +4304,12 @@
           className: e.tabs,
           centered: !0
         }, n.a.createElement(Rt.a, {
-          label: "Overview",
+          label: "概述",
           value: "overview",
           key: "overview",
           className: e.tab
         }), n.a.createElement(Rt.a, {
-          label: "Details",
+          label: "详情",
           value: "details",
           key: "details",
           className: e.tab
@@ -4548,23 +4548,23 @@
           packet: 1
         }), "Require" in A && n.a.createElement(tt, {
           variant: "main",
-          title: "Require"
+          title: "需要"
         }, n.a.createElement(KA, { effects: lt(A.Require) })), "Fuel" in A && n.a.createElement(tt, {
           variant: "main",
-          title: "Fuel"
+          title: "燃料"
         }, n.a.createElement(KA, { effects: lt(A.Fuel) })), ("ConsumedRate" in A || "ProducedRate" in A) && n.a.createElement(tt, {
-          title: "Effects",
+          title: "配方",
           variant: "main"
         }, n.a.createElement(KA, {
           effects: Bt(A),
           useArrow: !0
         })), ("ConsumedOnUse" in A || "ProducedOnUse" in A) && n.a.createElement(tt, {
-          title: "Effects on use",
+          title: "使用物品",
           variant: "main"
         }, n.a.createElement(KA, {
           effects: Ct(A),
           useArrow: !0
-        })), "Recipes" in A && n.a.createElement(tt, { title: "Recipes", variant: "main" }, function (e) {
+        })), "Recipes" in A && n.a.createElement(tt, { title: "食谱", variant: "main" }, function (e) {
           var A = [];
           return e.Recipes.forEach(function (e) {
             var t = [];
@@ -4600,7 +4600,7 @@
         }, n.a.createElement(KA, { effects: A.CureDisease.map(function (e) {return rt(e);}) })), "BuildWith" in A && "Others" !== A.Category && n.a.createElement(Ba, { building: A }), "CarePackages" in A && n.a.createElement(n.a.Fragment, null, n.a.createElement("br", null), n.a.createElement(it.a, {
           variant: "body1",
           gutterBottom: !0
-        }, "Each 3 Cycle the Printing Pod can produce a new duplicant or a random care package.", n.a.createElement("br", null), "Here You can find a list of all possible care packages. The elements with the ", n.a.createElement("b", null, "*"), " must first be discovered in order do be produced."), n.a.createElement(tt, {
+        }, "每三个周期，地球就会传送一批物资过来，这批物资可能是复制人或某些材料食物动物以及种子。", n.a.createElement("br", null), "以下列表你可以找到所有可能的物资，带", n.a.createElement("b", null, "*"), " 必须是在生产之后才会出现。"), n.a.createElement(tt, {
           title: "Care Packages",
           variant: "main"
         }, n.a.createElement(Jt, { rows: ft(A.CarePackages).sort(function (e, A) {return e.Cycle < A.Cycle ? -1 : e.Cycle > A.Cycle ? 1 : e.Name < A.Name ? -1 : e.Name > A.Name ? 1 : 0;}) })), n.a.createElement(it.a, {
@@ -4797,7 +4797,7 @@
             r = "undefined" !== typeof A && ("RequiredInRecipe" in A || "ConsumedRateIn" in A || "ConsumedOnUse" in A || "EatenByCreature" in A),
             c = "undefined" !== typeof A && ("RequiredToPlantGrowth" in A || "RequiredBy" in A || "UsedAsFuelBy" in A);
           return n.a.createElement("div", null, null !== a && n.a.createElement(tt, {
-            title: "Growth",
+            title: "生长",
             variant: "main"
           }, n.a.createElement(Na, { values: ea(a) })), t.length > 0 && n.a.createElement(tt, {
             variant: "main",
@@ -6659,7 +6659,7 @@
           case"elements":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(Eg, {
               items: aA.getElementsOfType("element"),
-              title: "Elements",
+              title: "元素",
               sort: "Name",
               filter: this.state.filter
             }), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(S.a, {
@@ -6672,7 +6672,7 @@
           case"buildings":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(Eg, {
               items: aA.getElementsOfType("building"),
-              title: "Buildings",
+              title: "建筑",
               sort: "Category",
               filter: this.state.filter
             }), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(S.a, {
@@ -6685,12 +6685,12 @@
           case"critters":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("creature"),
-              title: "Critters",
+              title: "生物",
               sort: "Species",
               filter: this.state.filter
             }), n.a.createElement(Eg, {
               items: aA.getElementsOfType("egg"),
-              title: "Eggs",
+              title: "蛋",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(S.a, {
@@ -6711,12 +6711,12 @@
           case"plants":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("plant"),
-              title: "Plants",
+              title: "植物",
               sort: "Name",
               filter: this.state.filter
             }), n.a.createElement(Eg, {
               items: aA.getElementsOfType("seed"),
-              title: "Seeds",
+              title: "种子",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(S.a, {
@@ -6729,7 +6729,7 @@
           case"food":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("food"),
-              title: "Food",
+              title: "食物",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(S.a, {
