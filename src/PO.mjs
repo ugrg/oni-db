@@ -26,11 +26,9 @@ const zh = fs.readFileSync("src/strings_preinstalled_zh_klei.po", "utf-8").match
     .replace(/\\"/g, "\"")
     .clearTag()
     .split("|||");
-}).reduce((p, [key, value], i, a) =>
-  Object.assign(p, {
-    [key.replace(/^"|"$/g, "")]: value.replace(/^"|"$/g, "")
-  }), {}
-);
+}).reduce((p, [key, value]) => Object.assign(p, {
+  [key.replace(/^"|"$/g, "")]: value.replace(/^"|"$/g, "")
+}), {});
 
 fs.writeFileSync("src/zh.json", JSON.stringify(zh, null, 2), "utf-8");
 
@@ -63,11 +61,9 @@ function decode (l, N) {
     return value;
   });
 
-  const eb = new Uint8Array(pack.encode(db));
-  for (let l = 0; l < eb.length; l++) {
-    eb[l] = decode(l, eb[l]);
-  }
+  const eb = new Uint8Array(pack.encode(db)).map((b, i) => decode(i, b));
+  // for (let l = 0; l < eb.length; l++) {
+  //   eb[l] = decode(l, eb[l]);
+  // }
   fs.writeFileSync(PATH.join("static/media", filename.replace(/\.json$/, ".b")), eb);
 });
-
-

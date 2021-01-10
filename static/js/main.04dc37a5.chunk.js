@@ -3618,7 +3618,7 @@
     if ("IdealTemperature" in e) {
       var a = yA(bA(e.IdealTemperature.MinLiveable)) + " to " + yA(bA(e.IdealTemperature.MaxLiveable)) + " " + DA();
       t.push({
-        Name: "Temp. Livable Range",
+        Name: "宜居温度范围",
         Id: "Temp. Livable Range",
         Value: a,
         Image: nA("thermometer"),
@@ -3628,14 +3628,14 @@
     }
     var n = e.Decor > 0 ? "Produced" : "Consumed";
     if (0 === e.Decor && (n = "Normal"), t.push({
-      Name: "Decor (Radius: " + e.DecorRadius + ")",
+      Name: "装饰度 (范围: " + e.DecorRadius + ")",
       Id: "Decor",
       Value: pA(e.Decor),
       Image: nA("decor"),
       Type: n,
       Input: !1
     }), t.push({
-      Name: "Calories Needed",
+      Name: "食量",
       Id: "Calories per Cycle",
       Value: kA(e.CaloriesPerSecond * A.Metabolism),
       Image: nA("food"),
@@ -3649,7 +3649,7 @@
       Type: "Normal",
       Input: !1
     }), 0 !== e.SpaceRequired && t.push({
-      Name: "Space Required",
+      Name: "居住空间",
       Id: "SpaceRequired",
       Value: e.SpaceRequired,
       Image: nA("size"),
@@ -3658,7 +3658,7 @@
     }), "ReproductionInfo" in e) {
       var g = 1 / e.ReproductionInfo.BaseFertileCycles * (1 + A.ReproductionRate);
       t.push({
-        Name: "Lay an egg every",
+        Name: "下蛋周期",
         Id: "ReproductionInfo",
         Value: sA(1 / g * 600),
         Image: nA("fertility"),
@@ -3667,7 +3667,7 @@
       });
     }
     return "ButcheredProduced" in e && t.push(ot(e.ButcheredProduced)), "undefined" !== typeof e.LightEmitter && t.push({
-      Name: "Light Emitter (range: " + e.LightEmitter.Range + ")",
+      Name: "发光量 (范围: " + e.LightEmitter.Range + ")",
       Id: "LightEmitter",
       Value: "+" + e.LightEmitter.Lux + " lux",
       Image: nA("light"),
@@ -3862,7 +3862,7 @@
   function Kt (e) {
     var A = [], t = "-";
     e.GrowthRequirement.PressureSensitive && (t = SA(e.GrowthRequirement.PressureWarningLow) + " to " + SA(e.GrowthRequirement.PressureWarningHigh)), "-" !== t && A.push({
-      Name: "Air Pressure Required",
+      Name: "气压要求",
       Id: "Air Pressure",
       Value: t,
       Image: nA("pressure"),
@@ -3871,7 +3871,7 @@
     });
     var a = yA(bA(e.GrowthRequirement.MinTemp)) + " to " + yA(bA(e.GrowthRequirement.MaxTemp)) + " " + DA();
     A.push({
-      Name: "Temp. Required",
+      Name: "生长温度范围",
       Id: "Temp. Required",
       Value: a,
       Image: nA("thermometer"),
@@ -3880,7 +3880,7 @@
     });
     var n = "-";
     "undefined" !== typeof e.GrowthRequirement.Light && (n = e.GrowthRequirement.Light), isNaN(n) || (n = "".concat(n, " lux")), "-" !== n && A.push({
-      Name: "Require",
+      Name: "生长需要",
       Id: "Require Light",
       Value: n,
       Image: nA("light"),
@@ -3889,7 +3889,7 @@
     });
     var g = e.Decor > 0 ? "Produced" : "Consumed";
     return 0 === e.Decor && (g = "Normal"), A.push({
-      Name: "Base Decor",
+      Name: "基础装饰度",
       Id: "Decor",
       Value: pA(e.Decor),
       Image: nA("decor"),
@@ -3897,14 +3897,14 @@
       Input: !1
     }), "DecorModifiers" in e && e.DecorModifiers.forEach(function (e) {
       "GrowthBonus" === e.Id ? (g = e.Value > 0 ? "Produced" : "Consumed", A.push({
-        Name: "Growth Bonus",
+        Name: "生长奖励",
         Id: "GrowthBonus",
         Value: pA(e.Value),
         Image: nA("decor"),
         Type: g,
         Input: !1
       })) : "WiltPenalty" === e.Id && (g = e.Value > 0 ? "Produced" : "Consumed", A.push({
-        Name: "Wilt Penalty",
+        Name: "枯萎惩罚",
         Id: "WiltPenalty",
         Value: pA(e.Value),
         Image: nA("decor"),
@@ -4968,11 +4968,11 @@
           }, n.a.createElement(k.e, {
             value: "wild",
             control: n.a.createElement(k.h, null),
-            label: "Wild"
+            label: "野生"
           }), n.a.createElement(k.e, {
             value: "tame",
             control: n.a.createElement(k.h, null),
-            label: "Tame"
+            label: "驯养"
           })), n.a.createElement(k.i, {
             "aria-label": "Happiness",
             name: "happiness",
@@ -4982,8 +4982,8 @@
           }, n.a.createElement(k.e, {
             value: "glum",
             control: n.a.createElement(k.h, null),
-            label: "Glum"
-          }), n.a.createElement(k.e, { value: "happy", control: n.a.createElement(k.h, null), label: "Happy" }))));
+            label: "闷闷不乐"
+          }), n.a.createElement(k.e, { value: "happy", control: n.a.createElement(k.h, null), label: "快乐" }))));
         }
       }]), A;
     }(a.Component), Pa = Object(C.withStyles)(function (e) {
@@ -5042,17 +5042,17 @@
             happiness: this.state.happiness,
             onChange: function (A) {return e.setState(Object(va.a)({}, A));}
           }), 0 !== a.AgeMax && n.a.createElement(tt, {
-            title: "Life Cycle",
+            title: "生命周期",
             variant: "main"
           }, n.a.createElement(Na, { values: Qt(a) })), "ReproductionInfo" in a && n.a.createElement(tt, {
             variant: "main",
-            title: "Breeding Chance"
+            title: "繁殖变异"
           }, n.a.createElement(_A, {
             variant: "secondary",
-            text: "Base"
+            text: "基础"
           }), n.a.createElement(KA, { effects: Ut(a) }), "BreedingModifier" in a && n.a.createElement(n.a.Fragment, null, n.a.createElement(_A, {
             variant: "secondary",
-            text: "Modifiers"
+            text: "修饰方案"
           }), a.BreedingModifier.map(function (A) {
             return n.a.createElement(KA, {
               useArrow: !0,
@@ -5060,16 +5060,16 @@
             });
           }))), "ScaleGrowth" in a && n.a.createElement(tt, {
             variant: "main",
-            title: "Scale"
+            title: "去鳞"
           }, n.a.createElement(Na, { values: Lt(a, t) })), "Consumed" in a && n.a.createElement(tt, {
             variant: "main",
-            title: "Effects"
+            title: "特效"
           }, n.a.createElement(KA, { effects: Ht(a) })), "Diet" in a && n.a.createElement(tt, {
             variant: "main",
-            title: "Diet"
+            title: "食物"
           }, a.Diet.every(function (e) {return "0" !== e.ProducedElement;}) && a.Diet.map(function (e) {return n.a.createElement(n.a.Fragment, null, n.a.createElement(Na, { values: Wt(a, e, t) }), n.a.createElement(de.a, null));}), a.Diet.every(function (e) {return "0" === e.ProducedElement;}) && n.a.createElement(KA, { effects: jt(a, t) })), "ElementDropper" in a && n.a.createElement(tt, {
             variant: "main",
-            title: "Effects"
+            title: "特效"
           }, n.a.createElement(KA, { effects: Ft(a) })), n.a.createElement(Xa, { element: a }));
         }
       }]), A;
@@ -5372,13 +5372,13 @@
           alt: t.Name
         }), n.a.createElement(tt, {
           variant: "main",
-          title: "Life Cycle"
+          title: "生命周期"
         }, n.a.createElement(Na, { values: Qt(a) })), n.a.createElement(tt, {
           variant: "main",
-          title: "Can be layed by"
+          title: "生产自"
         }, n.a.createElement(KA, { effects: aA.getElementsOfType("creature").filter(function (e) {return "ReproductionInfo" in e && e.ReproductionInfo.BreedingChances.some(function (e) {return e.egg.Name.toLowerCase() === t.Id;});}).map(function (e) {return rt(e.Id);}) })), "BreedingModifier" in t && n.a.createElement(tt, {
           variant: "main",
-          title: "Increase breeding chance with"
+          title: "产蛋变化"
         }, t.BreedingModifier.map(function (A) {
           return n.a.createElement(KA, {
             useArrow: !0,
@@ -6045,12 +6045,12 @@
         value: function () {
           var e, A = this.props, t = A.classes, a = A.wheezewort.GrowthRequirement.MaxTemp;
           return n.a.createElement(tt, {
-            title: "Heat deletion overview",
+            title: "吞热表",
             variant: "main"
           }, n.a.createElement(k.m, {
             variant: "body1",
             className: t.padding
-          }, "A Wheezewort provide the best cooling effect (-12 kDTU/s) with the", " ", n.a.createElement(Mt.a, { to: "/details/hydrogen" }, "Hydrogen"), "."), n.a.createElement(ht, {
+          }, "冰息萝卜提供最佳的冷却效果（-12 kDTU/s）", n.a.createElement(Mt.a, { to: "/details/hydrogen" }, "Hydrogen"), "."), n.a.createElement(ht, {
             rows: aA.getElementsOfType("element").filter(function (e) {return "Gas" === e.State && e.LowTemp <= a && e.HighTemp >= a;}),
             fields: (e = -5, [{
               Key: "SpecificHeatCapacity",
@@ -6096,25 +6096,25 @@
             }, rA()(e));
           }), n.a.createElement(WA, { rows: Kt(t) }), n.a.createElement(tt, {
             variant: "main",
-            title: "Growth"
+            title: "生长"
           }, n.a.createElement(Na, { values: ea(t) })), "GrowthRequirement" in t && "RequiredElement" in t.GrowthRequirement && n.a.createElement(tt, {
             variant: "main",
-            title: "Atmosphere"
+            title: "大气成分要求"
           }, n.a.createElement(KA, { effects: qt(t) })), "Require" in t && n.a.createElement(tt, {
             variant: "main",
-            title: "Require"
+            title: "需要"
           }, n.a.createElement(KA, {
             effects: _t(t),
             useArrow: !0
           })), 0 !== t.DeltaEmitTemperature && n.a.createElement(tt, {
             variant: "main",
-            title: "Effects"
+            title: "效果"
           }, n.a.createElement(KA, {
             effects: $t(t),
             useArrow: !0
           })), "coldbreather" === t.Id && n.a.createElement(Tn, { wheezewort: t }), "PathogenDropper" in t && n.a.createElement(tt, {
             variant: "main",
-            title: "Drops Pathogens"
+            title: "制造病毒"
           }, n.a.createElement(KA, {
             effects: [{
               Name: aA.getElem(t.PathogenDropper.PathogenId).Name,
