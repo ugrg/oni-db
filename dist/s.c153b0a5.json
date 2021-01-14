@@ -1,106 +1,106 @@
 [
   {
-    "Name": "Dusk Cap seed",
+    "Name": "Dusk Cap\n Seed",
     "GrowthInto": "mushroomplant",
     "Id": "mushroomseed"
   },
   {
-    "Name": "Bristle Blossom seed",
+    "Name": "Bristle Blossom\n Seed",
     "GrowthInto": "prickleflower",
     "Id": "prickleflowerseed"
   },
   {
-    "Name": "Dasha Saltvine seed",
+    "Name": "Dasha Saltvine\n Seed",
     "GrowthInto": "saltplant",
     "Id": "saltplantseed"
   },
   {
-    "Name": "Waterweed seed",
+    "Name": "Waterweed\n Seed",
     "GrowthInto": "sealettuce",
     "Id": "sealettuceseed"
   },
   {
-    "Name": "Pincha Pepperplant seed",
+    "Name": "Pincha Pepperplant\n Seed",
     "GrowthInto": "spicevine",
     "Id": "spicevineseed"
   },
   {
-    "Name": "Balm Lily seed",
+    "Name": "Balm Lily\n Seed",
     "GrowthInto": "swamplily",
     "Id": "swamplilyseed"
   },
   {
-    "Name": "Gas Grass seed",
+    "Name": "Gas Grass\n Seed",
     "GrowthInto": "gasgrass",
     "Id": "gasgrassseed"
   },
   {
-    "Name": "Hexalent seed",
+    "Name": "Hexalent\n Seed",
     "GrowthInto": "forestforageplantplanted",
     "Id": "forestforageplant"
   },
   {
-    "Name": "Thimble Reed seed",
+    "Name": "Thimble Reed\n Seed",
     "GrowthInto": "basicfabricplant",
     "Id": "basicfabricmaterialplantseed"
   },
   {
-    "Name": "Buried Muckroot seed",
+    "Name": "Buried Muckroot\n Seed",
     "GrowthInto": "basicforageplantplanted",
     "Id": "basicforageplant"
   },
   {
-    "Name": "Mealwood seed",
+    "Name": "Mealwood\n Seed",
     "GrowthInto": "basicsingleharvestplant",
     "Id": "basicsingleharvestplantseed"
   },
   {
-    "Name": "Nosh Sprout seed",
+    "Name": "Nosh Sprout\n Seed",
     "GrowthInto": "beanplant",
     "Id": "beanplantseed"
   },
   {
-    "Name": "Sleet Wheat seed",
+    "Name": "Sleet Wheat\n Seed",
     "GrowthInto": "coldwheat",
     "Id": "coldwheatseed"
   },
   {
-    "Name": "Mirth Leaf seed",
+    "Name": "Mirth Leaf\n Seed",
     "GrowthInto": "leafyplant",
     "Id": "leafyplantseed"
   },
   {
-    "Name": "Oxyfern seed",
+    "Name": "Oxyfern\n Seed",
     "GrowthInto": "oxyfern",
     "Id": "oxyfernseed"
   },
   {
-    "Name": "Bluff Briar seed",
+    "Name": "Bluff Briar\n Seed",
     "GrowthInto": "pricklegrass",
     "Id": "pricklegrassseed"
   },
   {
-    "Name": "Arbor Tree seed",
+    "Name": "Arbor Tree\n Seed",
     "GrowthInto": "foresttree",
     "Id": "foresttreeseed"
   },
   {
-    "Name": "Buddy Bud seed",
+    "Name": "Buddy Bud\n Seed",
     "GrowthInto": "bulbplant",
     "Id": "bulbplantseed"
   },
   {
-    "Name": "Jumping Joya seed",
+    "Name": "Jumping Joya\n Seed",
     "GrowthInto": "cactusplant",
     "Id": "cactusplantseed"
   },
   {
-    "Name": "Wheezewort seed",
+    "Name": "Wheezewort\n Seed",
     "GrowthInto": "coldbreather",
     "Id": "coldbreatherseed"
   },
   {
-    "Name": "Sporechid seed",
+    "Name": "Sporechid\n Seed",
     "GrowthInto": "evilflower",
     "Id": "evilflowerseed"
   }

@@ -6,7 +6,9 @@
   "author": "ugrg <ugrg@163.com>",
   "license": "MIT",
   "scripts": {
-    "decode": "node --experimental-modules src/decode.mjs"
+    "decode": "node --experimental-modules src/decode.mjs",
+    "run":"node --experimental-modules",
+    "start": "serve -s -l 80"
   },
   "devDependencies": {},
   "dependencies": {
