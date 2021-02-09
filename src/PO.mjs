@@ -9,7 +9,7 @@ import PATH from "path";
 
 const matchPo = /#\. \S+\smsgctxt [\s\S]+?\nmsgid [\s\S]+?\nmsgstr [\s\S]+?\n\n/g;
 const tagReg = /<(link|style|b|color)(?:=[^>]+?)?>(.+?)<\/\1>/g;
-const keys = new Set(["Name", "Description"]);
+const keys = new Set(["Name", "Description", "Category"]);
 
 String.prototype.clearTag = function () {
   let str = this;

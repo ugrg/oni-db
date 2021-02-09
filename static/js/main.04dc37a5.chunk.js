@@ -2187,7 +2187,9 @@
     "./arrow-right.png": 1186,
     "./asteroid.png": 1187,
     "./automation.png": 1188,
+    "./自动化.png": 1188,
     "./base.png": 1189,
+    "./基地.png": 1189,
     "./book.png": 1190,
     "./capacity.png": 1191,
     "./cloud.png": 1192,
@@ -2210,7 +2212,9 @@
     "./floodable_no.png": 1207,
     "./flow.png": 1208,
     "./food.png": 1209,
+    "./食物.png": 1209,
     "./furniture.png": 1210,
+    "./家具.png": 1210,
     "./heatDelete.png": 1211,
     "./horizontalFlow.png": 1212,
     "./hot.png": 1213,
@@ -2226,29 +2230,37 @@
     "./logical_input.png": 1223,
     "./logical_output.png": 1224,
     "./medicine.png": 1225,
+    "./医疗.png": 1225,
     "./others.png": 1226,
     "./out.png": 1227,
     "./output_gas.png": 1228,
     "./output_liquid.png": 1229,
     "./output_solid.png": 1230,
     "./oxygen.png": 1231,
+    "./氧气.png": 1231,
     "./pickaxe.png": 1232,
     "./pickled.png": 1233,
     "./plumbing.png": 1234,
+    "./水管.png": 1234,
     "./plumbing_mini.png": 1235,
     "./power.png": 1236,
+    "./电力.png": 1236,
     "./power_mini.png": 1237,
     "./pressure.png": 1238,
     "./quality.png": 1239,
     "./refinement.png": 1240,
+    "./精炼.png": 1240,
     "./rocketry.png": 1241,
+    "./火箭.png": 1241,
     "./shipping.png": 1242,
+    "./运输.png": 1242,
     "./sick.png": 1243,
     "./size.png": 1244,
     "./slide.png": 1245,
     "./solid.png": 1246,
     "./spoil.png": 1247,
     "./stations.png": 1248,
+    "./站台.png": 1248,
     "./tab_plants.png": 1249,
     "./thermalconductivity.png": 1250,
     "./thermometer.png": 1251,
@@ -2257,7 +2269,9 @@
     "./tier.png": 1254,
     "./time.png": 1255,
     "./utilities.png": 1256,
+    "./实用.png": 1256,
     "./ventilation.png": 1257,
+    "./通风.png": 1257,
     "./verticalFlow.png": 1258,
     "./viscosity.png": 1259,
     "./welcome.png": 276,
@@ -2742,21 +2756,21 @@
   function VA (e) {
     var A = [];
     return A.push({
-      Name: "Tier",
+      Name: "等级",
       Id: "tier",
       Value: e.Tier,
       Image: nA("tier"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Decor",
+      Name: "装饰度",
       Id: "decor",
       Value: pA(e.Decor),
       Image: nA("decor"),
       Type: "Produced",
       Input: !1
     }), A.push({
-      Name: "Decor Radius",
+      Name: "装饰度范围",
       Id: "decorRadius",
       Value: e.DecorRadius,
       Image: nA("decor"),
@@ -3061,7 +3075,7 @@
               gutterBottom: !0
             }, rA()(e));
           }), n.a.createElement(WA, { rows: VA(A) }), n.a.createElement(tt, {
-            title: "Discover Chance",
+            title: "发现于",
             variant: "main"
           }, n.a.createElement(KA, { effects: NA(A, this.state.archaeologist) })));
         }
@@ -3387,7 +3401,7 @@
             Key: "Name",
             Value: function (e) {return e.Name;}
           })
-        }, "Name")), this.props.fields.map(function (t) {
+        }, "名称")), this.props.fields.map(function (t) {
           return n.a.createElement(QA.a, {
             component: "th",
             scope: "col",
@@ -4567,7 +4581,7 @@
         }, n.a.createElement(KA, {
           effects: Ct(A),
           useArrow: !0
-        })), "Recipes" in A && n.a.createElement(tt, { title: "食谱", variant: "main" }, function (e) {
+        })), "Recipes" in A && n.a.createElement(tt, { title: "配方", variant: "main" }, function (e) {
           var A = [];
           return e.Recipes.forEach(function (e) {
             var t = [];
@@ -4831,7 +4845,7 @@
             }), n.a.createElement(de.a, null));
           })), "ProducedInRecipe" in A && n.a.createElement(n.a.Fragment, null, n.a.createElement(_A, {
             variant: "secondary",
-            text: "With recipe"
+            text: "工业制造"
           }), A.ProducedInRecipe.map(function (e) {
             return n.a.createElement(n.a.Fragment, null, n.a.createElement(KA, {
               effects: ia(e),
@@ -4850,7 +4864,7 @@
             }));
           })), "ProducedByButchering" in A && n.a.createElement(n.a.Fragment, null, n.a.createElement(_A, {
             variant: "secondary",
-            text: "Killing creatures"
+            text: "死亡掉落"
           }), n.a.createElement(KA, {
             effects: A.ProducedByButchering.map(function (e) {
               return ot({
@@ -4860,7 +4874,7 @@
             })
           })), "ProducedByScale" in A && n.a.createElement(n.a.Fragment, null, n.a.createElement(_A, {
             variant: "secondary",
-            text: "Shearing creatures"
+            text: "剪毛站"
           }), Object.keys(A.ProducedByScale).map(function (e) {
             return n.a.createElement(KA, {
               effects: Oa(e, A.ProducedByScale[e][0]),
@@ -5055,7 +5069,7 @@
             text: "基础"
           }), n.a.createElement(KA, { effects: Ut(a) }), "BreedingModifier" in a && n.a.createElement(n.a.Fragment, null, n.a.createElement(_A, {
             variant: "secondary",
-            text: "修饰方案"
+            text: "变异方案"
           }), a.BreedingModifier.map(function (A) {
             return n.a.createElement(KA, {
               useArrow: !0,
@@ -5099,7 +5113,7 @@
   function Ua (e) {
     var A = [];
     return e.Duration > 0 && A.push({
-      Name: "Duration",
+      Name: "持续时间",
       Id: "duration",
       Value: sA(e.Duration),
       Image: nA("time"),
@@ -5108,7 +5122,7 @@
     }), "Modifiers" in e && e.Modifiers.forEach(function (e) {
       return A.push(function (e) {
         if ("GermResistance" === e.Id) return {
-          Name: "Germ Resistance",
+          Name: "细菌抗性",
           Id: "GermResistance",
           Value: "+" + e.Value,
           Image: nA("desease"),
@@ -5116,7 +5130,7 @@
           Input: !1
         };
         if ("Tracking Effect" === e.Id) return {
-          Name: "Antihistamines",
+          Name: "抗组胺药",
           Id: "Antihistamines",
           Value: fA(e.Value),
           Image: nA("leaf"),
@@ -5130,31 +5144,31 @@
   function Wa (e) {
     var A = [];
     return A.push({
-      Name: "Duration",
+      Name: "持续时间",
       Id: "duration",
       Value: sA(e.SicknessDuration),
       Image: nA("time"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Severity",
+      Name: "严重程度",
       Id: "severity",
-      Value: e.Severity,
+      Value: { "Minor": "普通", "Major": "严重" }[e.Severity],
       Image: nA("sick"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Type",
+      Name: "类型",
       Id: "type",
-      Value: e.Type,
+      Value: { "Ailment": "小病", "Pathogen": "疾病" }[e.Type],
       Image: nA("medicine"),
       Type: "Normal",
       Input: !1
     }), e.InfectionVectors.forEach(function (e) {
       A.push({
-        Name: "Caused by",
+        Name: "发病原因",
         Id: "causedBy" + e,
-        Value: e,
+        Value: { "Inhalation": "吸入", "Contact": "接触", "Exposure": "暴露", "Digestion": "进食" }[e] || e,
         Image: nA("desease"),
         Type: "Normal",
         Input: !1
@@ -5165,7 +5179,7 @@
   function ja (e) {
     var A = [], t = yA(bA(e.MinTemp)) + " to " + yA(bA(e.MaxTemp)) + " " + DA();
     return A.push({
-      Name: "Survive in Temp.",
+      Name: "生存温度",
       Id: "Temp. Required",
       Value: t,
       Image: nA("thermometer"),
@@ -5225,7 +5239,7 @@
       key: "render", value: function () {
         var e = this.props, A = e.classes, t = e.pathogen;
         return n.a.createElement(tt, {
-          title: "Chance to get sick",
+          title: "发病几率",
           variant: "main"
         }, n.a.createElement("div", { className: A.row }, n.a.createElement(FA, {
           hideName: !0,
@@ -5238,32 +5252,43 @@
           hideName: !0,
           element: rt(t.CanCauseDisease)
         })), n.a.createElement("div", { className: A.row }, "pollengerms" !== t.Id && n.a.createElement(Ea.a, {
-          value: this.state.duplicantModifier,
-          onChange: this.handleDuplicantModifierChange,
-          inputProps: { name: "duplicantModifier", id: "duplicantModifier" }
-        }, n.a.createElement(_.a, { value: "Biohazardous" }, "Biohazardous [-0.5]"), n.a.createElement(_.a, { value: "Normal" }, "No Trait"), n.a.createElement(_.a, { value: "Resistant" }, "Germ Resistant [+0.5]"), "foodpoisoning" === t.Id && n.a.createElement(_.a, { value: "IronGut" }, "Iron Gut")), "pollengerms" === t.Id && n.a.createElement(Ea.a, {
-          value: this.state.duplicantModifier,
-          onChange: this.handleDuplicantModifierChange,
-          inputProps: { name: "duplicantModifier", id: "duplicantModifier" }
-        }, n.a.createElement(_.a, { value: "Allergies" }, "Allergies"), n.a.createElement(_.a, { value: "Normal" }, "No Trait")), n.a.createElement("img", {
-          className: A.imageElem,
-          src: aA.getImage("duplicant"),
-          alt: "Duplicant"
-        })), n.a.createElement("div", { className: A.row }, n.a.createElement(Ea.a, {
-          value: this.state.booster,
-          onChange: this.handleBoosterModifierChange,
-          inputProps: { name: "booster", id: "booster" }
-        }, n.a.createElement(_.a, { value: "None" }, "No Booster"), aA.getElementsOfType("medicine").filter(function (e) {return "Modifiers" in e && "GermResistance" === e.Modifiers[0].Id;}).map(function (e) {
-          return n.a.createElement(_.a, { value: e.Id }, " ", n.a.createElement("img", {
+            value: this.state.duplicantModifier,
+            onChange: this.handleDuplicantModifierChange,
+            inputProps: { name: "duplicantModifier", id: "duplicantModifier" }
+          },
+          n.a.createElement(_.a, { value: "Biohazardous" }, "生物危害 [-0.5]"),
+          n.a.createElement(_.a, { value: "Normal" }, "没有特征"),
+          n.a.createElement(_.a, { value: "Resistant" }, "病菌抗性 [+0.5]"),
+          "foodpoisoning" === t.Id && n.a.createElement(_.a, { value: "IronGut" }, "铁石胃肠")),
+          "pollengerms" === t.Id && n.a.createElement(Ea.a, {
+            value: this.state.duplicantModifier,
+            onChange: this.handleDuplicantModifierChange,
+            inputProps: { name: "duplicantModifier", id: "duplicantModifier" }
+          }, n.a.createElement(_.a, { value: "Allergies" }, "过敏症"), n.a.createElement(_.a, { value: "Normal" }, "没有特征")),
+          n.a.createElement("img", {
             className: A.imageElem,
-            src: aA.getImage(e.Id),
+            src: aA.getImage("duplicant"),
             alt: "Duplicant"
-          }), " ", "".concat(e.Name, " [+").concat(e.Modifiers[0].Value, "]"));
-        }))), n.a.createElement("div", { className: A.row }, n.a.createElement("div", { className: A.padding }, n.a.createElement(Ea.a, {
-          value: this.state.difficulty,
-          onChange: this.handleDifficulty,
-          inputProps: { name: "difficulty", id: "difficulty" }
-        }, n.a.createElement(_.a, { value: "Miserable" }, "Miserable"), n.a.createElement(_.a, { value: "Weak" }, "Weak"), n.a.createElement(_.a, { value: "Regular" }, "Regular Difficulty"), n.a.createElement(_.a, { value: "Strong" }, "Strong"), n.a.createElement(_.a, { value: "Perfect" }, "Perfect")))));
+          })), n.a.createElement("div", { className: A.row }, n.a.createElement(Ea.a, {
+            value: this.state.booster,
+            onChange: this.handleBoosterModifierChange,
+            inputProps: { name: "booster", id: "booster" }
+          }, n.a.createElement(_.a, { value: "None" }, "没有吃药"),
+          aA.getElementsOfType("medicine").filter(function (e) {return "Modifiers" in e && "GermResistance" === e.Modifiers[0].Id;}).map(function (e) {
+            return n.a.createElement(_.a, { value: e.Id }, " ", n.a.createElement("img", {
+              className: A.imageElem,
+              src: aA.getImage(e.Id),
+              alt: "Duplicant"
+            }), " ", "".concat(e.Name, " [+").concat(e.Modifiers[0].Value, "]"));
+          }))), n.a.createElement("div", { className: A.row }, n.a.createElement("div", { className: A.padding }, n.a.createElement(Ea.a, {
+            value: this.state.difficulty,
+            onChange: this.handleDifficulty,
+            inputProps: { name: "difficulty", id: "difficulty" }
+          }, n.a.createElement(_.a, { value: "Miserable" }, "不堪一击"),
+          n.a.createElement(_.a, { value: "Weak" }, "脆弱"),
+          n.a.createElement(_.a, { value: "Regular" }, "正常"),
+          n.a.createElement(_.a, { value: "Strong" }, "强壮"),
+          n.a.createElement(_.a, { value: "Perfect" }, "完美无缺")))));
       }
     }]), A;
   }(a.Component), Ya = Object(C.withStyles)(function (e) {
@@ -5296,11 +5321,11 @@
             gutterBottom: !0
           }, rA()(e));
         }), n.a.createElement(WA, { rows: Wa(A) }), "CausedByPathogen" in A && n.a.createElement(Ya, { pathogen: aA.getElem(A.CausedByPathogen) }), "allergies" === A.Id && n.a.createElement(tt, {
-          title: "Effects (Not Allergic)",
+          title: "效果（非过敏）",
           variant: "main"
         }, n.a.createElement(WA, {
           rows: [{
-            Name: "Stress Change",
+            Name: "压力变化",
             Id: "Stress Change",
             Value: "-5%/cycle",
             Image: nA("thumb-up"),
@@ -5308,12 +5333,31 @@
             Input: !1
           }]
         })), n.a.createElement(tt, {
-          title: "Symptoms",
+          title: "症状",
           variant: "main"
         }, n.a.createElement(WA, {
           rows: A.Symptoms.map(function (e) {
             return {
-              Name: e.first,
+              Name: {
+                "Athletics": "运动",
+                "Science": "科学",
+                "Machinery": "机械",
+                "Construction": "建造",
+                "Cuisine": "烹饪",
+                "Sneeziness": "喷嚏",
+                "Strength": "力量",
+                "Excavation": "挖掘",
+                "Creativity": "创作",
+                "Medicine": "医疗",
+                "Agriculture": "农业",
+                "Husbandry": "畜牧",
+                "Stress": "压力",
+                "Breath": "呼吸",
+                "Coughing": "咳嗽",
+                "Bladder": "膀胱",
+                "Bathroom Use Speed": "浴室使用速度",
+                "Stamina": "体力"
+              }[e.first] || e.first,
               Id: e.first,
               Value: e.second,
               Image: nA("thumb-down"),
@@ -5322,10 +5366,10 @@
             };
           })
         })), n.a.createElement(Xa, { element: A }), "CuredByMedicine" in A && n.a.createElement(tt, {
-          title: "Cured By",
+          title: "治疗方案",
           variant: "main"
         }, n.a.createElement(KA, { effects: A.CuredByMedicine.map(function (e) {return rt(e);}) })), "CausedByPathogen" in A && n.a.createElement(tt, {
-          title: "Caused by",
+          title: "病因",
           variant: "main"
         }, n.a.createElement(KA, { effects: [].concat(rt(A.CausedByPathogen)) })));
       }
@@ -5482,7 +5526,7 @@
           title: "状态转换",
           variant: "main"
         }, n.a.createElement(an, { element: t })), "undefined" !== typeof t.Sublimate && n.a.createElement(tt, {
-          title: "Sublimate in",
+          title: "挥发",
           variant: "main"
         }, n.a.createElement(KA, { effects: (e = [t.Sublimate], e.map(st)) })), n.a.createElement(Xa, { element: t }));
       }
@@ -5510,21 +5554,21 @@
   function cn (e) {
     var A = [], t = "Normal", a = "";
     return e.Quality > 0 && (t = "Produce", a = "+ "), e.Quality < 0 && (t = "Consumed"), A.push({
-      Name: "Quality",
+      Name: "品质",
       Id: "Quality",
       Value: a + e.Quality,
       Image: nA("quality"),
       Type: t,
       Input: !1
     }), A.push({
-      Name: "Calories",
+      Name: "卡路里",
       Id: "Calories",
       Value: 0 !== e.CaloriesPerUnit ? TA(e.CaloriesPerUnit) : "-",
       Image: nA("food"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Spoil Time",
+      Name: "腐烂时间",
       Id: "Spoil Time",
       Value: sA(e.SpoilTime),
       Image: nA("spoil"),
@@ -5575,20 +5619,25 @@
             gutterBottom: !0
           }, rA()(e));
         }), n.a.createElement(WA, { rows: cn(a) }), n.a.createElement(Xa, { element: a }), a.CaloriesPerUnit > 0 && n.a.createElement(tt, {
-          title: "Duplicant Diet",
-          variant: "main"
-        }, n.a.createElement("div", { className: e.center }, n.a.createElement(rn.a, {
-          checked: this.state.bottomless,
-          onChange: this.handleChange("checkedb"),
-          value: "bottomless"
-        }), n.a.createElement(it.a, { variant: "body1" }, "Bottomless Stomach")), n.a.createElement("div", { className: e.center }, n.a.createElement(Ea.a, {
-          value: this.state.hungerRate,
-          onChange: this.handleHungerRateChange,
-          inputProps: { name: "hunger", id: "hunger" }
-        }, n.a.createElement(_.a, { value: "VeryHard" }, "Ravaging Hunger"), n.a.createElement(_.a, { value: "Hard" }, "Hungry"), n.a.createElement(_.a, { value: "Normal" }, "Regular"), n.a.createElement(_.a, { value: "Easy" }, "Fasting")), n.a.createElement(it.a, { variant: "body1" }, "Hunger Rate")), n.a.createElement(KA, {
-          effects: sn(a, t),
-          useArrow: !0
-        })));
+            title: "餐饮计算器",
+            variant: "main"
+          }, n.a.createElement("div", { className: e.center }, n.a.createElement(rn.a, {
+            checked: this.state.bottomless,
+            onChange: this.handleChange("checkedb"),
+            value: "bottomless"
+          }), n.a.createElement(it.a, { variant: "body1" }, "无底洞之胃")), n.a.createElement("div", { className: e.center }, n.a.createElement(Ea.a, {
+            value: this.state.hungerRate,
+            onChange: this.handleHungerRateChange,
+            inputProps: { name: "hunger", id: "hunger" }
+          }, n.a.createElement(_.a, { value: "VeryHard" }, "毁灭性饥饿"),
+          n.a.createElement(_.a, { value: "Hard" }, "饥饿"),
+          n.a.createElement(_.a, { value: "Normal" }, "正常"),
+          n.a.createElement(_.a, { value: "Easy" }, "节食")),
+          n.a.createElement(it.a, { variant: "body1" }, "饥饿速度")),
+          n.a.createElement(KA, {
+            effects: sn(a, t),
+            useArrow: !0
+          })));
       }
     }]), A;
   }(a.Component), mn = Object(C.withStyles)(function (e) {
@@ -5624,49 +5673,49 @@
   function Bn (e) {
     var A = [];
     return A.push({
-      Name: "Max Pressure",
+      Name: "超压范围",
       Id: "maxPressure",
       Value: SA(e.MaxPressure),
       Image: nA("pressure"),
       Type: "Normal",
       Input: !1
     }), "DiseaseName" in e && A.push({
-      Name: e.DiseaseName,
+      Name: { "Slimelung": "黏液肺", "Food Poisoning": "食物中毒" }[e.DiseaseName],
       Id: "disease",
       Value: e.DiseaseAmount,
       Image: nA("desease"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Avg. Emission Rate",
+      Name: "平均排放率",
       Id: "emissionRate",
       Value: CA(e.MinRatePerCycle / 1e3) + " - " + CA(e.MaxRatePerCycle / 1e3),
       Image: nA("out"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Total Eruption Period",
+      Name: "总喷发期",
       Id: "eruptionPeriod",
       Value: sA(e.MinIterationLength) + " - " + sA(e.MaxIterationLength),
       Image: nA("time"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "% Active of Eruption Period",
+      Name: "喷发活跃期%",
       Id: "eruptionPercPeriod",
       Value: fA(e.MinIterationPercent) + " - " + fA(e.MaxIterationPercent),
       Image: nA("time"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Total Period",
+      Name: "总周期",
       Id: "totalPeriod",
       Value: sA(e.MinYearLength) + " - " + sA(e.MaxYearLength),
       Image: nA("time"),
       Type: "Normal",
       Input: !1
     }), A.push({
-      Name: "Active Period",
+      Name: "活跃期",
       Id: "activePeriod",
       Value: fA(e.MinYearPercent) + " - " + fA(e.MaxYearPercent),
       Image: nA("time"),
@@ -5681,14 +5730,14 @@
         return Object(l.a)(this, A), (t = Object(c.a)(this, Object(s.a)(A).call(this, e))).handleTextChange = function (e) {return function (A) {/^-?\d*([.,]\d*)?$/.test(A.target.value) && t.setState(Object(J.a)({}, e, A.target.value));};}, t.rows = function (e) {
           var A = t.state.rate * (t.state.eruptionActive / t.state.eruptionTotal) * 600;
           return A = A * t.state.activeActive / t.state.activeTotal, [{
-            Name: "Avg. rate",
+            Name: "平均排放速率",
             Id: "time",
             Value: CA(A /= 6e5),
             Image: aA.getImage(t.props.geyser.ProducedElement),
             Type: "Normal",
             Input: !1
           }, {
-            Name: "Tot. amount per period",
+            Name: "活跃期总排放量",
             Id: "time",
             Value: SA(A * t.state.activeTotal * 600),
             Image: aA.getImage(t.props.geyser.ProducedElement),
@@ -5702,12 +5751,12 @@
         key: "render", value: function () {
           var e = this.props, A = e.classes, t = e.geyser;
           return n.a.createElement(tt, {
-            title: "Average Output Calculator",
+            title: "平均输出计算器",
             variant: "main"
           }, n.a.createElement("div", { className: A.row }, n.a.createElement(k.m, {
             variant: "body1",
             className: A.padding
-          }, "Rate:"), n.a.createElement(k.k, {
+          }, "排放速度:"), n.a.createElement(k.k, {
             id: "rate",
             className: A.textInput,
             label: "g/s",
@@ -5718,46 +5767,56 @@
             hideName: !0,
             element: rt(t.ProducedElement)
           })), n.a.createElement("div", { className: A.row }, n.a.createElement(k.m, {
-            variant: "body1",
-            className: A.padding
-          }, "Eruption Period:"), n.a.createElement(k.k, {
-            id: "eruptionActive",
-            className: A.textInputSmall,
-            label: "sec.",
-            value: this.state.eruptionActive,
-            onChange: this.handleTextChange("eruptionActive"),
-            error: this.state.error
-          }), n.a.createElement(k.m, {
-            variant: "body1",
-            className: A.padding
-          }, "every"), n.a.createElement(k.k, {
-            id: "eruptionTotal",
-            className: A.textInputSmall,
-            label: "sec.",
-            value: this.state.eruptionTotal,
-            onChange: this.handleTextChange("eruptionTotal"),
-            error: this.state.error
-          })), n.a.createElement("div", { className: A.row }, n.a.createElement(k.m, {
-            variant: "body1",
-            className: A.padding
-          }, "Active Period:"), n.a.createElement(k.k, {
-            id: "activeActive",
-            className: A.textInputSmall,
-            label: "cycle",
-            value: this.state.activeActive,
-            onChange: this.handleTextChange("activeActive"),
-            error: this.state.error
-          }), n.a.createElement(k.m, {
-            variant: "body1",
-            className: A.padding
-          }, "every"), n.a.createElement(k.k, {
-            id: "activeTotal",
-            className: A.textInputSmall,
-            label: "cycle",
-            value: this.state.activeTotal,
-            onChange: this.handleTextChange("activeTotal"),
-            error: this.state.error
-          })), n.a.createElement(WA, { rows: this.rows() }));
+              variant: "body1",
+              className: A.padding
+            }, "喷发期:"),
+            n.a.createElement(k.m, {
+              variant: "body1",
+              className: A.padding
+            }, "每"),
+            n.a.createElement(k.k, {
+              id: "eruptionTotal",
+              className: A.textInputSmall,
+              label: "秒",
+              value: this.state.eruptionTotal,
+              onChange: this.handleTextChange("eruptionTotal"),
+              error: this.state.error
+            }), n.a.createElement(k.m, {
+              variant: "body1",
+              className: A.padding
+            }, "喷发"),
+            n.a.createElement(k.k, {
+              id: "eruptionActive",
+              className: A.textInputSmall,
+              label: "秒",
+              value: this.state.eruptionActive,
+              onChange: this.handleTextChange("eruptionActive"),
+              error: this.state.error
+            })), n.a.createElement("div", { className: A.row }, n.a.createElement(k.m, {
+              variant: "body1",
+              className: A.padding
+            }, "活跃期:"), n.a.createElement(k.m, {
+              variant: "body1",
+              className: A.padding
+            }, "每"), n.a.createElement(k.k, {
+              id: "activeTotal",
+              className: A.textInputSmall,
+              label: "周期",
+              value: this.state.activeTotal,
+              onChange: this.handleTextChange("activeTotal"),
+              error: this.state.error
+            }), n.a.createElement(k.m, {
+              variant: "body1",
+              className: A.padding
+            }, "活跃"),
+            n.a.createElement(k.k, {
+              id: "activeActive",
+              className: A.textInputSmall,
+              label: "周期",
+              value: this.state.activeActive,
+              onChange: this.handleTextChange("activeActive"),
+              error: this.state.error
+            })), n.a.createElement(WA, { rows: this.rows() }));
         }
       }]), A;
     }(a.Component), dn = Object(C.withStyles)(function (e) {
@@ -5830,7 +5889,7 @@
               gutterBottom: !0
             }, rA()(e));
           }), n.a.createElement(WA, { rows: Ua(A) }), "CureDisease" in A && n.a.createElement(tt, {
-            title: "Cure Diseases",
+            title: "治疗",
             variant: "main"
           }, n.a.createElement(KA, { effects: A.CureDisease.map(function (e) {return rt(e);}) })), n.a.createElement(Xa, { element: A }));
         }
@@ -5875,7 +5934,7 @@
             }, rA()(e));
           }), "Duplicant" in A && n.a.createElement(WA, {
             rows: [{
-              Name: "Calories Needed",
+              Name: "所需热量",
               Id: "calories",
               Value: kA(t),
               Image: nA("food"),
@@ -5883,26 +5942,31 @@
               Input: !1
             }]
           }), "Capacity" in A && n.a.createElement(tt, {
-            title: "Capacity",
+            title: "容量",
             variant: "main"
           }, n.a.createElement(KA, { effects: A.Capacity.map(ot) })), ("ConsumedRate" in A || "ProducedRate" in A) && n.a.createElement(tt, {
-            title: "Effects",
+            title: "效果",
             variant: "main"
           }, n.a.createElement(KA, {
             effects: Bt(A),
             useArrow: !0
           })), n.a.createElement(Xa, { element: A }), "Duplicant" in A && n.a.createElement(tt, {
-            title: "Diet",
-            variant: "main"
-          }, n.a.createElement("div", { className: e.center }, n.a.createElement(rn.a, {
-            checked: this.state.bottomless,
-            onChange: this.handleChange("checkedb"),
-            value: "bottomless"
-          }), n.a.createElement(S.a, { variant: "body1" }, "Bottomless Stomach")), n.a.createElement("div", { className: e.center }, n.a.createElement(Ea.a, {
-            value: this.state.hungerRate,
-            onChange: this.handleHungerRateChange,
-            inputProps: { name: "hunger", id: "hunger" }
-          }, n.a.createElement(_.a, { value: "VeryHard" }, "Ravaging Hunger"), n.a.createElement(_.a, { value: "Hard" }, "Hungry"), n.a.createElement(_.a, { value: "Normal" }, "Regular"), n.a.createElement(_.a, { value: "Easy" }, "Fasting")), n.a.createElement(S.a, { variant: "body1" }, "Hunger Rate")), n.a.createElement(KA, { effects: on(t) })));
+              title: "饮食",
+              variant: "main"
+            }, n.a.createElement("div", { className: e.center }, n.a.createElement(rn.a, {
+              checked: this.state.bottomless,
+              onChange: this.handleChange("checkedb"),
+              value: "bottomless"
+            }), n.a.createElement(S.a, { variant: "body1" }, "无底洞之胃")), n.a.createElement("div", { className: e.center }, n.a.createElement(Ea.a, {
+              value: this.state.hungerRate,
+              onChange: this.handleHungerRateChange,
+              inputProps: { name: "hunger", id: "hunger" }
+            }, n.a.createElement(_.a, { value: "VeryHard" }, "毁灭性饥饿"),
+            n.a.createElement(_.a, { value: "Hard" }, "饥饿"),
+            n.a.createElement(_.a, { value: "Normal" }, "正常"),
+            n.a.createElement(_.a, { value: "Easy" }, "节食")),
+            n.a.createElement(S.a, { variant: "body1" }, "饥饿速度")),
+            n.a.createElement(KA, { effects: on(t) })));
         }
       }]), A;
     }(a.Component), In = Object(C.withStyles)(function (e) {
@@ -5961,9 +6025,15 @@
               gutterBottom: !0
             }, rA()(e));
           }), n.a.createElement(WA, { rows: ja(A) }), "BaseResistance" in A && n.a.createElement(Ya, { pathogen: A }), "CanCauseDisease" in A && n.a.createElement(tt, {
-            title: "Can Cause Disease",
+            title: "可能导致疾病",
             variant: "main"
-          }, n.a.createElement(KA, { effects: [rt(A.CanCauseDisease)] })), this.relationSection("DroppedBy", "Dropped By", A), this.relationSection("MultipiesIn", "Multipies In", A), this.relationSection("SurviveIn", "Survive In", A), this.relationSection("DisinfectedBy", "Disinfected By", A), this.relationSection("InhibitedBy", "Inhibited By", A), this.relationSection("KilledBy", "Killed By", A), n.a.createElement(Xa, { element: A }));
+          }, n.a.createElement(KA, { effects: [rt(A.CanCauseDisease)] })),
+            this.relationSection("DroppedBy", "掉落自", A),
+            this.relationSection("MultipiesIn", "繁殖于", A),
+            this.relationSection("SurviveIn", "存活于", A),
+            this.relationSection("DisinfectedBy", "灭菌物", A),
+            this.relationSection("InhibitedBy", "抑制物", A),
+            this.relationSection("KilledBy", "抗菌物", A), n.a.createElement(Xa, { element: A }));
         }
       }]), A;
     }(a.Component), Jn = Object(C.withStyles)(function (e) {
@@ -6423,42 +6493,42 @@
 
   var cg = [{
     Key: "Quality",
-    Name: "Quality",
+    Name: "品质",
     Display: function (e) {return e.Quality;},
     Value: function (e) {return e.Quality;}
   }, {
     Key: "CaloriesPerUnit",
-    Name: "Calories",
+    Name: "卡路里",
     Display: function (e) {return TA(e.CaloriesPerUnit);},
     Value: function (e) {return e.CaloriesPerUnit;}
   }, {
     Key: "SpoilTime",
-    Name: "Spoil Time",
+    Name: "腐烂时间",
     Display: function (e) {return sA(e.SpoilTime);},
     Value: function (e) {return e.SpoilTime;}
   }], sg = [{
     Key: "ProducedElement",
-    Name: "Produced Element",
+    Name: "排放元素",
     Display: function (e) {return n.a.createElement("div", null, n.a.createElement(tg, { element: ct(e.ProducedElement) }));},
     Value: function (e) {return e.ProducedElement;}
   }, {
     Key: "Temperature",
-    Name: "Temperature",
+    Name: "温度",
     Display: function (e) {return oA(e.Temperature);},
     Value: function (e) {return e.Temperature;}
   }, {
     Key: "DiseaseName",
-    Name: "Disease",
+    Name: "疾病",
     Display: function (e) {return e.DiseaseName;},
     Value: function (e) {return "DiseaseName" in e ? e.DiseaseName : "";}
   }, {
     Key: "MinRatePerCycle",
-    Name: "Min .Rate",
+    Name: "最小速率",
     Display: function (e) {return CA(e.MinRatePerCycle / 1e3);},
     Value: function (e) {return e.MinRatePerCycle;}
   }, {
     Key: "MaxRatePerCycle",
-    Name: "Max .Rate",
+    Name: "最大速率",
     Display: function (e) {return CA(e.MaxRatePerCycle / 1e3);},
     Value: function (e) {return e.MaxRatePerCycle;}
   }], og = [{
@@ -6659,7 +6729,7 @@
       key: "chooseSection", value: function (e) {
         var A;
         switch (e) {
-          case"elements":
+          case "elements":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(Eg, {
               items: aA.getElementsOfType("element"),
               title: "元素",
@@ -6670,9 +6740,9 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Elements"), n.a.createElement(ht, { rows: aA.getElementsOfType("element"), fields: lg })));
+            }, "元素"), n.a.createElement(ht, { rows: aA.getElementsOfType("element"), fields: lg })));
             break;
-          case"buildings":
+          case "buildings":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(Eg, {
               items: aA.getElementsOfType("building"),
               title: "建筑",
@@ -6683,9 +6753,9 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Buildings"), n.a.createElement(ht, { rows: aA.getElementsOfType("building"), fields: ng })));
+            }, "建筑"), n.a.createElement(ht, { rows: aA.getElementsOfType("building"), fields: ng })));
             break;
-          case"critters":
+          case "critters":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("creature"),
               title: "生物",
@@ -6701,7 +6771,7 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Critters"), n.a.createElement(ht, {
+            }, "生物"), n.a.createElement(ht, {
               rows: aA.getElementsOfType("creature"),
               fields: gg
             }), n.a.createElement("br", null), n.a.createElement(S.a, {
@@ -6709,9 +6779,9 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Eggs"), n.a.createElement(ht, { rows: aA.getElementsOfType("egg"), fields: ig })));
+            }, "蛋"), n.a.createElement(ht, { rows: aA.getElementsOfType("egg"), fields: ig })));
             break;
-          case"plants":
+          case "plants":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("plant"),
               title: "植物",
@@ -6727,9 +6797,9 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Plants"), n.a.createElement(ht, { rows: aA.getElementsOfType("plant"), fields: mg })));
+            }, "植物"), n.a.createElement(ht, { rows: aA.getElementsOfType("plant"), fields: mg })));
             break;
-          case"food":
+          case "food":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("food"),
               title: "食物",
@@ -6740,12 +6810,12 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Food"), n.a.createElement(ht, { rows: aA.getElementsOfType("food"), fields: cg })));
+            }, "食物"), n.a.createElement(ht, { rows: aA.getElementsOfType("food"), fields: cg })));
             break;
-          case"other":
+          case "other":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("misc"),
-              title: "Misc",
+              title: "杂项",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement("br", null), n.a.createElement(S.a, {
@@ -6754,7 +6824,7 @@
               gutterBottom: !0
             }, "Table View for this section not available!")));
             break;
-          case"space":
+          case "space":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("planet"),
               title: "行星",
@@ -6762,12 +6832,12 @@
               filter: this.state.filter
             }), n.a.createElement(Eg, {
               items: aA.getElementsOfType("artifact"),
-              title: "Artifacts",
+              title: "工艺品",
               sort: "Tier",
               filter: this.state.filter
             }), n.a.createElement(Eg, {
               items: aA.getElementsOfType("comet"),
-              title: "Comets",
+              title: "彗星",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(S.a, {
@@ -6775,7 +6845,7 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Planets"), n.a.createElement(ht, {
+            }, "行星"), n.a.createElement(ht, {
               rows: aA.getElementsOfType("planet"),
               fields: og
             }), n.a.createElement(S.a, {
@@ -6783,12 +6853,12 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Artifacs"), n.a.createElement(ht, { rows: aA.getElementsOfType("artifact"), fields: ag })));
+            }, "工艺品"), n.a.createElement(ht, { rows: aA.getElementsOfType("artifact"), fields: ag })));
             break;
           case"geysers":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("geyser"),
-              title: "Geyser",
+              title: "间歇泉",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(S.a, {
@@ -6796,22 +6866,22 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Geyser"), n.a.createElement(ht, { rows: aA.getElementsOfType("geyser"), fields: sg })));
+            }, "间歇泉"), n.a.createElement(ht, { rows: aA.getElementsOfType("geyser"), fields: sg })));
             break;
           case"medicine":
             A = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(Eg, {
               items: aA.getElementsOfType("medicine"),
-              title: "Medicine",
+              title: "医学",
               sort: "Name",
               filter: this.state.filter
             }), n.a.createElement(Eg, {
               items: aA.getElementsOfType("disease"),
-              title: "Diseases",
+              title: "疾病",
               sort: "Name",
               filter: this.state.filter
             }), n.a.createElement(Eg, {
               items: aA.getElementsOfType("pathogen"),
-              title: "Pathogens",
+              title: "病毒",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement("br", null), n.a.createElement(S.a, {
@@ -6836,7 +6906,7 @@
                 gutterBottom: !0,
                 align: "center",
                 className: e.titleDescription
-              }, "Elements Info"), n.a.createElement(S.a, {
+              }, "元素信息"), n.a.createElement(S.a, {
                 variant: "body1",
                 gutterBottom: !0,
                 align: "justify",
