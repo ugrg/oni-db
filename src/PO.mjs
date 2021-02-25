@@ -9,7 +9,7 @@ import PATH from "path";
 
 const matchPo = /#\. \S+\smsgctxt [\s\S]+?\nmsgid [\s\S]+?\nmsgstr [\s\S]+?\n\n/g;
 const tagReg = /<(link|style|b|color)(?:=[^>]+?)?>(.+?)<\/\1>/g;
-const keys = new Set(["Name", "Description"]);
+const keys = new Set(["Name", "Description", "Category"]);
 
 String.prototype.clearTag = function () {
   let str = this;
@@ -62,8 +62,5 @@ function decode (l, N) {
   });
 
   const eb = new Uint8Array(pack.encode(db)).map((b, i) => decode(i, b));
-  // for (let l = 0; l < eb.length; l++) {
-  //   eb[l] = decode(l, eb[l]);
-  // }
   fs.writeFileSync(PATH.join("static/media", filename.replace(/\.json$/, ".b")), eb);
 });

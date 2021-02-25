@@ -2808,7 +2808,7 @@
     "Id": "naphtha"
   },
   {
-    "Name": "Phosphorus",
+    "Name": "Liquid Phosphorus",
     "Description": "(P) Phosphorus is a chemical element.\n\nThis selection is in a Liquid state.",
     "State": "Liquid",
     "Toxicity": 0,
@@ -3607,7 +3607,7 @@
     "Id": "irongas"
   },
   {
-    "Name": "Phosphorus",
+    "Name": "Phosphorus Gas",
     "Description": "(P) Phosphorus is a chemical element in a Gaseous state.",
     "State": "Gas",
     "Toxicity": 0,

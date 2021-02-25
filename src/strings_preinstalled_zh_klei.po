@@ -35899,7 +35899,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.LIQUIDPHOSPHORUS.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDPHOSPHORUS.NAME"
-msgid "<link=\"LIQUIDPHOSPHORUS\">Phosphorus</link>"
+msgid "<link=\"LIQUIDPHOSPHORUS\">Liquid Phosphorus</link>"
 msgstr "<link=\"LIQUIDPHOSPHORUS\">液态磷</link>"
 
 #. STRINGS.ELEMENTS.LIQUIDPROPANE.DESC
@@ -36468,7 +36468,7 @@ msgstr "(P) 气态磷是一种<link=\"ELEMENTSGAS\">气态</link>化学元素。
 
 #. STRINGS.ELEMENTS.PHOSPHORUSGAS.NAME
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUSGAS.NAME"
-msgid "<link=\"PHOSPHORUSGAS\">Phosphorus</link>"
+msgid "<link=\"PHOSPHORUSGAS\">Phosphorus Gas</link>"
 msgstr "<link=\"PHOSPHORUSGAS\">气态磷</link>"
 
 #. STRINGS.ELEMENTS.POLYPROPYLENE.BUILD_DESC
