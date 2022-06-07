@@ -7284,12 +7284,28 @@
                 gutterBottom: !0,
                 align: "center",
                 className: A.titleDescription
-              }, "Elements Info"), n.a.createElement(f.a, {
+              }, "元素信息"), n.a.createElement(f.a, {
                 variant: "body1",
                 gutterBottom: !0,
                 align: "justify",
                 className: A.topPaddingDescription
-              }, "Elements are the basic resources. They can be found in the base map, in space or transformed from other element. They have a specific state of matter (solid, liquid or gas) and can change state with variation of temperature.", n.a.createElement("br", null), n.a.createElement("b", null, "Thermal Conductivity:"), " ability of a material to conduct heat. Measured in (DTU/(m*s))/\xb0C. Between two objects, the rate of heat transfer will be determined by the object with the lowest Thermal Conductivity. Heat transfer occurs at a lower rate in materials of low thermal conductivity (better insulaton) than in materials of high thermal conductivity (better conductivity).", n.a.createElement("br", null), n.a.createElement("b", null, "Specific Heat Capacity:"), " value, measured in (DTU/g)/\xb0C, required to heat 1 g of the selected object by 1 \xb0K. Elements with higher value of Specific Heat Capacity require more energy to increase their temperature.", n.a.createElement("br", null), n.a.createElement("b", null, "Molar Mass:"), " the mass of a given substance divided by the amount of substance. Elements with a lower value of molar mass are lighter.", n.a.createElement("br", null), n.a.createElement("b", null, "Hardness:"), " how is difficult excavate a solid material.", n.a.createElement("br", null), n.a.createElement("b", null, "Light Absorption Factor:"), " is the property of the material that indicates how much light the material absorbs.", n.a.createElement("br", null)))
+              }, "元素是基础资源。它们可以在地图中找到，也可以在太空中找到，或者从其他元素转换而来。它们具有特定的物质状态（固体、液体或气体），并且可以随着温度的变化而改变状态。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "导热系数:"),
+                " 材料的热传导能力，以(DTU/(m*s))/\xb0C为单位。在两个物体之间，传热速率将由导热系数最低的物体决定。与高导热系数（更好的导热性）材料相比，低导热热系数（更好的隔热）材料的热传递速率更低。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "比热容:"),
+                " 以（DTU/g）/\xb0C为单位的数值，将选定对象的1 g加热1\xb0K所需的热量。比热容值较高的元素需要更多的能量来提高其温度。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "摩尔质量:"),
+                " 给定物质的质量除以物质的量。具有较低摩尔质量值的元素更轻。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "硬度:"),
+                " 挖掘固体材料有多困难。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "光吸收系数:"),
+                " 某些材料的特性，表示透光率.",
+                n.a.createElement("br", null)))
             }(e));
             break;
           case"buildings":
@@ -7304,7 +7320,26 @@
                 gutterBottom: !0,
                 align: "justify",
                 className: A.topPaddingDescription
-              }, "Building can be used by duplicants to transform elements, produce power or perform new tasks.", n.a.createElement("br", null), n.a.createElement("b", null, "Category:"), " classification of the building.", n.a.createElement("br", null), n.a.createElement("b", null, "Size:"), " width and height, in tile.", n.a.createElement("br", null), n.a.createElement("b", null, "Decor:"), " affects a Duplicant's Stress and their opinion of their surroundings.", n.a.createElement("br", null), n.a.createElement("b", null, "Power:"), " how much power the building requires or produces.", n.a.createElement("br", null), n.a.createElement("b", null, "Heat:"), " how much heat the building produces or absorbs.", n.a.createElement("br", null), n.a.createElement("b", null, "Storage Capacity:"), " how much weight can be stored inside the building.", n.a.createElement("br", null)))
+              }, "小人可以使用建筑物来转换元素，产生能量或执行新任务。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "类别:"),
+                " 建筑物的分类。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "大小:"),
+                " 宽度和高度，以图块为单位。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "装饰:"),
+                " 影响小人的压力及其对周围环境的看法。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "电力:"),
+                " 建筑物需要或产生的功率。.",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "发热量:"),
+                " 建筑物产生或吸收的热量。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "储存容量:"),
+                " 建筑物内可以储存多少重量。",
+                n.a.createElement("br", null)))
             }(e));
             break;
           case"critters":
@@ -7319,7 +7354,23 @@
                 gutterBottom: !0,
                 align: "justify",
                 className: A.topPaddingDescription
-              }, "Wild critter run around the asteroid or come from outer space. They can be tamed to obtain the resources they produce.", n.a.createElement("br", null), n.a.createElement("b", null, "Temperature Livable Range:"), " the range of temperature required for the life of the critter.", n.a.createElement("br", null), n.a.createElement("b", null, "Decor:"), " affects a Duplicant's Stress and their opinion of their surroundings.", n.a.createElement("br", null), n.a.createElement("b", null, "Calories:"), " how much calories the critter needs to live", n.a.createElement("br", null), n.a.createElement("b", null, "Hp:"), " how much hit points the critter have.", n.a.createElement("br", null), n.a.createElement("b", null, "Light Emitter:"), " Some critter emits light.", n.a.createElement("br", null)))
+              }, "野生生物围绕小行星运行或来自外层空间。可以驯服它们以获得它们生产的资源。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "温度适宜范围："),
+                " 生物生存所需的温度范围。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "装饰："),
+                " 影响复制人的压力和他们对周围环境的看法。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "卡路里:"),
+                " 需要多少卡路里这种小动物才能生存。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "Hp:"),
+                " 这个生物有多少生命值。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "发光体："),
+                " 有些动物会发光。",
+                n.a.createElement("br", null)))
             }(e));
             break;
           case"plants":
@@ -7334,7 +7385,20 @@
                 gutterBottom: !0,
                 align: "justify",
                 className: A.topPaddingDescription
-              }, "Wild plants can be found around the asteroid or outer space. The seed can be extracted and planted.", n.a.createElement("br", null), n.a.createElement("b", null, "Decor:"), " affects a Duplicant's Stress and their opinion of their surroundings.", n.a.createElement("br", null), n.a.createElement("b", null, "Air Pressure:"), " the pressure that allows the life of the plant", n.a.createElement("br", null), n.a.createElement("b", null, "Temperature:"), " the temperature range that allows the life of the plant.", n.a.createElement("br", null), n.a.createElement("b", null, "Light:"), " the light condition needed by the plant.", n.a.createElement("br", null)))
+              }, "野生植物可以在小行星周围或外层空间找到。种子可以提取和种植。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "装饰:"),
+                " 影响复制人的压力和他们对周围环境的看法。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "气压："),
+                " 植物存活需要的气压范围。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "温度:"),
+                " 植物存活需要的温度范围。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "光照:"),
+                " 某些植物需要光照才能生长。",
+                n.a.createElement("br", null)))
             }(e));
             break;
           case"food":
@@ -7349,7 +7413,17 @@
                 gutterBottom: !0,
                 align: "justify",
                 className: A.topPaddingDescription
-              }, "Needed by duplicants or some critter to live.", n.a.createElement("br", null), n.a.createElement("b", null, "Quality:"), " how tasty the food is. Affects the morale provided.", n.a.createElement("br", null), n.a.createElement("b", null, "Calories:"), " the calories that the food provides when eaten", n.a.createElement("br", null), n.a.createElement("b", null, "Spoil Time:"), " how long the food lasts without spoil if not refrigerated.", n.a.createElement("br", null)))
+              }, "复制人或一些小动物生存所需。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "品质:"),
+                " 食物的好吃程度，影响提供的士气。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "卡路里:"),
+                " 食物所提供的卡路里。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "腐烂时间:"),
+                " 如果不冷藏，食物能保存多久而不变质。",
+                n.a.createElement("br", null)))
             }(e));
             break;
           default:
@@ -7399,12 +7473,14 @@
         }), n.a.createElement(f.a, {
           variant: "h6",
           align: "center"
-        }, "Welcome to Oxygen Not Included Database!", n.a.createElement("br", null)), n.a.createElement(f.a, {
+        }, "欢迎使用未包含氧气的数据库！", n.a.createElement("br", null)), n.a.createElement(f.a, {
           component: "div",
           variant: "body1",
           align: "center",
           className: e.topPadding
-        }, n.a.createElement("p", null, "Here you can help your little dupes to have a better and easy life providing a quick reference guide to help while playing at Oxygen not included."), n.a.createElement("p", null, "Select one entity on the left and start to explore all the relations that entity has with others."), n.a.createElement("p", null, "Have fun and... keep you oxygen level safe!")), n.a.createElement("img", {
+        }, n.a.createElement("p", null, "在这里，你可以帮助你的复制人过上更好、更轻松的生活，提供一个快速参考指南，帮助他们在缺氧里玩耍。"),
+          n.a.createElement("p", null, "从左侧选择一个实体，即可获得该实体与其他实体之间的所有关系。"),
+          n.a.createElement("p", null, "玩得开心。。。确保您的氧气水平安全！")), n.a.createElement("img", {
           src: ne("spaced-out-mini"),
           className: e.spacedOut,
           alt: "Spaced out"
@@ -7533,7 +7609,7 @@
           color: "inherit",
           noWrap: !0,
           className: e.title
-        }, "Oxygen Not Included Database"))), n.a.createElement("div", { className: e.buttonsBar }, n.a.createElement(T.a, {
+        }, "缺氧游戏数据库"))), n.a.createElement("div", { className: e.buttonsBar }, n.a.createElement(T.a, {
           title: "About",
           placement: "bottom"
         }, n.a.createElement(S.a, {

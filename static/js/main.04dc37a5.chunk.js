@@ -6803,7 +6803,23 @@
                 gutterBottom: !0,
                 align: "justify",
                 className: e.topPaddingDescription
-              }, "元素是基础资源。它们可以在地图中找到，也可以在太空中找到，或者从其他元素转换而来。它们具有特定的物质状态（固体、液体或气体），并且可以随着温度的变化而改变状态。", n.a.createElement("br", null), n.a.createElement("b", null, "导热系数:"), "材料的热传导能力，以(DTU/(m*s))/\xb0C为单位。在两个物体之间，传热速率将由导热系数最低的物体决定。与高导热系数（更好的导热性）材料相比，低导热热系数（更好的隔热）材料的热传递速率更低。", n.a.createElement("br", null), n.a.createElement("b", null, "比热容:"), " 以（DTU/g）/\xb0C为单位的数值，将选定对象的1 g加热1\xb0K所需的热量。比热容值较高的元素需要更多的能量来提高其温度。", n.a.createElement("br", null), n.a.createElement("b", null, "摩尔质量:"), " 给定物质的质量除以物质的量。具有较低摩尔质量值的元素更轻。", n.a.createElement("br", null), n.a.createElement("b", null, "硬度:"), " 挖掘固体材料有多困难。", n.a.createElement("br", null), n.a.createElement("b", null, "光吸收系数:"), " 某些材料的特性，表示透光率.", n.a.createElement("br", null)));
+              }, "元素是基础资源。它们可以在地图中找到，也可以在太空中找到，或者从其他元素转换而来。它们具有特定的物质状态（固体、液体或气体），并且可以随着温度的变化而改变状态。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "导热系数:"),
+                " 材料的热传导能力，以(DTU/(m*s))/\xb0C为单位。在两个物体之间，传热速率将由导热系数最低的物体决定。与高导热系数（更好的导热性）材料相比，低导热热系数（更好的隔热）材料的热传递速率更低。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "比热容:"),
+                " 以（DTU/g）/\xb0C为单位的数值，将选定对象的1 g加热1\xb0K所需的热量。比热容值较高的元素需要更多的能量来提高其温度。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "摩尔质量:"),
+                " 给定物质的质量除以物质的量。具有较低摩尔质量值的元素更轻。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "硬度:"),
+                " 挖掘固体材料有多困难。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "光吸收系数:"),
+                " 某些材料的特性，表示透光率.",
+                n.a.createElement("br", null)));
             }(A));
             break;
           case"buildings":
@@ -6818,7 +6834,26 @@
                 gutterBottom: !0,
                 align: "justify",
                 className: e.topPaddingDescription
-              }, "小人可以使用建筑物来转换元素，产生能量或执行新任务。", n.a.createElement("br", null), n.a.createElement("b", null, "类别:"), " 建筑物的分类。", n.a.createElement("br", null), n.a.createElement("b", null, "大小:"), " 宽度和高度，以图块为单位。", n.a.createElement("br", null), n.a.createElement("b", null, "装饰:"), " 影响小人的压力及其对周围环境的看法。", n.a.createElement("br", null), n.a.createElement("b", null, "电力:"), " 建筑物需要或产生的功率。.", n.a.createElement("br", null), n.a.createElement("b", null, "发热量:"), " 建筑物产生或吸收的热量。", n.a.createElement("br", null), n.a.createElement("b", null, "储存容量:"), " 建筑物内可以储存多少重量。", n.a.createElement("br", null)));
+              }, "小人可以使用建筑物来转换元素，产生能量或执行新任务。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "类别:"),
+                " 建筑物的分类。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "大小:"),
+                " 宽度和高度，以图块为单位。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "装饰:"),
+                " 影响小人的压力及其对周围环境的看法。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "电力:"),
+                " 建筑物需要或产生的功率。.",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "发热量:"),
+                " 建筑物产生或吸收的热量。",
+                n.a.createElement("br", null),
+                n.a.createElement("b", null, "储存容量:"),
+                " 建筑物内可以储存多少重量。",
+                n.a.createElement("br", null)));
             }(A));
             break;
           case"critters":
