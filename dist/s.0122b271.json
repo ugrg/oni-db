@@ -1,0 +1,147 @@
+[
+  {
+    "Name": "Bristle Blossom seed",
+    "GrowthInto": "prickleflower",
+    "Id": "prickleflowerseed"
+  },
+  {
+    "Name": "Dasha Saltvine seed",
+    "GrowthInto": "saltplant",
+    "Id": "saltplantseed"
+  },
+  {
+    "Name": "Waterweed seed",
+    "GrowthInto": "sealettuce",
+    "Id": "sealettuceseed"
+  },
+  {
+    "Name": "Pincha Pepperplant seed",
+    "GrowthInto": "spicevine",
+    "Id": "spicevineseed"
+  },
+  {
+    "Name": "Spindly Grubfruit Plant seed",
+    "GrowthInto": "wormplant",
+    "Id": "wormplantseed"
+  },
+  {
+    "Name": "Swamp Chard seed",
+    "GrowthInto": "swampforageplantplanted",
+    "Id": "swampforageplant"
+  },
+  {
+    "Name": "Bog Bucket seed",
+    "GrowthInto": "swampharvestplant",
+    "Id": "swampharvestplantseed"
+  },
+  {
+    "Name": "Balm Lily seed",
+    "GrowthInto": "swamplily",
+    "Id": "swamplilyseed"
+  },
+  {
+    "Name": "Thimble Reed seed",
+    "GrowthInto": "basicfabricplant",
+    "Id": "basicfabricmaterialplantseed"
+  },
+  {
+    "Name": "Buried Muckroot seed",
+    "GrowthInto": "basicforageplantplanted",
+    "Id": "basicforageplant"
+  },
+  {
+    "Name": "Mealwood seed",
+    "GrowthInto": "basicsingleharvestplant",
+    "Id": "basicsingleharvestplantseed"
+  },
+  {
+    "Name": "Nosh Sprout seed",
+    "GrowthInto": "beanplant",
+    "Id": "beanplantseed"
+  },
+  {
+    "Name": "Sleet Wheat seed",
+    "GrowthInto": "coldwheat",
+    "Id": "coldwheatseed"
+  },
+  {
+    "Name": "Saturn Critter Trap seed",
+    "GrowthInto": "crittertrapplant",
+    "Id": "crittertrapplantseed"
+  },
+  {
+    "Name": "Dusk Cap seed",
+    "GrowthInto": "mushroomplant",
+    "Id": "mushroomseed"
+  },
+  {
+    "Name": "Gas Grass seed",
+    "GrowthInto": "gasgrass",
+    "Id": "gasgrassseed"
+  },
+  {
+    "Name": "Hydrocactus seed",
+    "GrowthInto": "filterplant",
+    "Id": "filterplantseed"
+  },
+  {
+    "Name": "Hexalent seed",
+    "GrowthInto": "forestforageplantplanted",
+    "Id": "forestforageplant"
+  },
+  {
+    "Name": "Oxyfern seed",
+    "GrowthInto": "oxyfern",
+    "Id": "oxyfernseed"
+  },
+  {
+    "Name": "Tranquil Toes seed",
+    "GrowthInto": "toeplant",
+    "Id": "toeplantseed"
+  },
+  {
+    "Name": "Mellow Mallow seed",
+    "GrowthInto": "winecups",
+    "Id": "winecupsseed"
+  },
+  {
+    "Name": "Bluff Briar seed",
+    "GrowthInto": "pricklegrass",
+    "Id": "pricklegrassseed"
+  },
+  {
+    "Name": "Buddy Bud seed",
+    "GrowthInto": "bulbplant",
+    "Id": "bulbplantseed"
+  },
+  {
+    "Name": "Jumping Joya seed",
+    "GrowthInto": "cactusplant",
+    "Id": "cactusplantseed"
+  },
+  {
+    "Name": "Wheezewort seed",
+    "GrowthInto": "coldbreather",
+    "Id": "coldbreatherseed"
+  },
+  {
+    "Name": "Bliss Burst seed",
+    "GrowthInto": "cylindrica",
+    "Id": "cylindricaseed"
+  },
+  {
+    "Name": "Mirth Leaf seed",
+    "GrowthInto": "leafyplant",
+    "Id": "leafyplantseed"
+  },
+  {
+    "Name": "Arbor Tree seed",
+    "GrowthInto": "foresttree",
+    "Id": "foresttreeseed"
+  },
+  {
+    "Name": "Sporechid seed",
+    "GrowthInto": "evilflower",
+    "Id": "evilflowerseed"
+  }
+]

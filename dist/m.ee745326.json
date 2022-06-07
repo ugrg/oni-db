@@ -1,0 +1,220 @@
+[
+  {
+    "Name": "Balm Lily Flower",
+    "Description": "A medicinal flower that soothes most minor maladies.\n\nIt is exceptionally fragrant.",
+    "Id": "swamplilyflower"
+  },
+  {
+    "Name": "Reed Fiber",
+    "Description": "A ball of raw cellulose used in the production of Clothing and textiles.",
+    "Id": "basicfabric"
+  },
+  {
+    "Name": "Gas Grass",
+    "Description": "Gas grass.",
+    "Id": "gasgrassharvested"
+  },
+  {
+    "Name": "Lumber",
+    "Description": "Wood harvested from an Arbor Tree or an Oakshell.",
+    "Id": "woodlog"
+  },
+  {
+    "Name": "Snazzy Suit",
+    "Description": "Increases Decor in a small area effect around the wearer. Can be upgraded to Primo Garb at the Clothing Refashionator",
+    "Id": "funky_vest"
+  },
+  {
+    "Name": "Primo Garb",
+    "Description": "Increases Decor in a small area effect around the wearer",
+    "Id": "customclothing"
+  },
+  {
+    "Name": "Warm Sweater",
+    "Description": "Protects the wearer from Cold by increasing insulation",
+    "Id": "warm_vest"
+  },
+  {
+    "Name": "Cool Vest",
+    "Description": "Protects the wearer from Heat by decreasing insulation",
+    "Id": "cool_vest"
+  },
+  {
+    "Name": "Oxygen Mask",
+    "Description": "Supplies Duplicants with Oxygen in toxic and low breathability environments.",
+    "Capacity": [
+      {
+        "Amount": 20,
+        "MaterialId": "oxygen"
+      }
+    ],
+    "Id": "oxygen_mask"
+  },
+  {
+    "Name": "Worn Oxygen Mask",
+    "Description": "A worn out Oxygen Mask.\n\nMasks can be repaired at a Crafting Station.",
+    "Id": "worn_oxygen_mask"
+  },
+  {
+    "Name": "Tonic Root",
+    "Description": "A chewy, fibrous rhizome with a fiery aftertaste.\n\nIt relieves gassiness.",
+    "Id": "gingerconfig"
+  },
+  {
+    "Name": "Data Bank",
+    "Description": "Raw Data that can be processed into Data Analysis Research points.",
+    "Id": "orbitalresearchdatabank"
+  },
+  {
+    "Name": "Egg Shell",
+    "Description": "Can be crushed to produce Lime.",
+    "Id": "eggshell"
+  },
+  {
+    "Name": "Small Pokeshell Molt",
+    "Description": "Can be crushed to produce Lime.",
+    "Id": "babycrabshell"
+  },
+  {
+    "Name": "Pokeshell Molt",
+    "Description": "Can be crushed to produce Lime.",
+    "Id": "crabshell"
+  },
+  {
+    "Name": "Small Oakshell Molt",
+    "Description": "Can be crushed to produce Lumber.",
+    "Id": "babycrabwoodshell"
+  },
+  {
+    "Name": "Oakshell Molt",
+    "Description": "Can be crushed to produce Lumber.",
+    "Id": "crabwoodshell"
+  },
+  {
+    "Name": "Table Salt",
+    "Description": "A seasoning that Duplicants can add to their Food to boost Morale.\n\nDuplicants will automatically use Table Salt while sitting at a Mess Table during mealtime.\n\n<i>Only the finest grains are chosen.</i>",
+    "Id": "tablesalt"
+  },
+  {
+    "Name": "Atmo Suit",
+    "Description": "Supplies Duplicants with Oxygen in toxic and low breathability environments.",
+    "Capacity": [
+      {
+        "Amount": 75,
+        "MaterialId": "oxygen"
+      }
+    ],
+    "Id": "atmo_suit"
+  },
+  {
+    "Name": "Worn Atmo Suit",
+    "Description": "A worn out Atmo Suit.\n\nSuits can be repaired at an Exosuit Forge.",
+    "Id": "worn_atmo_suit"
+  },
+  {
+    "Name": "Jet Suit",
+    "Description": "Supplies Duplicants with Oxygen in toxic and low breathability environments.\n\nAllows Duplicant flight.",
+    "Capacity": [
+      {
+        "Amount": 75,
+        "MaterialId": "oxygen"
+      },
+      {
+        "Amount": 25,
+        "MaterialId": "petroleum"
+      }
+    ],
+    "ConsumedRate": [
+      {
+        "Rate": 0.1,
+        "MinTemp": 0,
+        "MaterialId": "petroleum"
+      }
+    ],
+    "ProducedRate": [
+      {
+        "Rate": 0.3,
+        "MinTemp": 0,
+        "MaterialId": "carbondioxide"
+      }
+    ],
+    "Id": "jet_suit"
+  },
+  {
+    "Name": "Worn Jet Suit",
+    "Description": "A worn out Jet Suit.\n\nSuits can be repaired at an Exosuit Forge.",
+    "Id": "worn_jet_suit"
+  },
+  {
+    "Name": "Lead Suit",
+    "Description": "Supplies Duplicants with Oxygen in toxic and low breathability environments.",
+    "Capacity": [
+      {
+        "Amount": 40,
+        "MaterialId": "oxygen"
+      }
+    ],
+    "Id": "lead_suit"
+  },
+  {
+    "Name": "Worn Lead Suit",
+    "Description": "A worn out Lead Suit.\n\nSuits can be repaired at an Exosuit Forge.",
+    "Id": "worn_lead_suit"
+  },
+  {
+    "Name": "Novice Research",
+    "Id": "basic"
+  },
+  {
+    "Name": "Advanced Research",
+    "Id": "advanced"
+  },
+  {
+    "Name": "Radbolts",
+    "Description": "A concentrated field of Radbolts that can be largely redirected using a Radbolt Reflector.",
+    "Id": "highenergyparticle"
+  },
+  {
+    "Name": "Nuclear Research",
+    "Id": "nuclear"
+  },
+  {
+    "Name": "Orbital Research",
+    "Id": "orbital"
+  },
+  {
+    "Name": "Vacillator Recharge",
+    "Description": "Replenishes one charge to a depleted Neural Vacillator.",
+    "Id": "geneshufflerrecharge"
+  },
+  {
+    "Name": "Rot Pile",
+    "Description": "An inedible glop of former foodstuff.\n\nRot Piles break down into Polluted Dirt over time.",
+    "Id": "rotpile"
+  },
+  {
+    "Name": "Duplicant",
+    "Duplicant": {
+      "CaloriesSecond": -1666.66663,
+      "Bs": -833.3333,
+      "VeryHard": -1666.66663,
+      "Hard": -833.3333,
+      "Easy": 833.3333
+    },
+    "ConsumedRate": [
+      {
+        "Rate": 0.1,
+        "MinTemp": 0,
+        "MaterialId": "oxygen"
+      }
+    ],
+    "ProducedRate": [
+      {
+        "Rate": 0.002,
+        "MinTemp": 0,
+        "MaterialId": "carbondioxide"
+      }
+    ],
+    "Id": "duplicant"
+  }
+]

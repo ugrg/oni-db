@@ -1,0 +1,82 @@
+[
+  {
+    "Name": "Rock Comet",
+    "MinMass": 4800,
+    "MaxMass": 7200.00049,
+    "PrimaryElem": "regolith",
+    "Temperature": 373.15,
+    "Id": "rockcomet"
+  },
+  {
+    "Name": "Iron Comet",
+    "MinMass": 3,
+    "MaxMass": 20,
+    "PrimaryElem": "iron",
+    "Temperature": 373.15,
+    "Id": "ironcomet"
+  },
+  {
+    "Name": "Copper Comet",
+    "MinMass": 3,
+    "MaxMass": 20,
+    "PrimaryElem": "cuprite",
+    "Temperature": 373.15,
+    "Id": "coppercometconfig"
+  },
+  {
+    "Name": "Gold Comet",
+    "MinMass": 3,
+    "MaxMass": 20,
+    "PrimaryElem": "goldamalgam",
+    "Temperature": 373.15,
+    "Id": "goldcomet"
+  },
+  {
+    "Name": "Fullerene Comet",
+    "MinMass": 3,
+    "MaxMass": 20,
+    "PrimaryElem": "fullerene",
+    "Temperature": 373.15,
+    "Id": "fullerenecomet"
+  },
+  {
+    "Name": "Dust Comet",
+    "MinMass": 0.2,
+    "MaxMass": 0.5,
+    "PrimaryElem": "regolith",
+    "Temperature": 238.15,
+    "Id": "dustcomet"
+  },
+  {
+    "Name": "Radioactive Comet",
+    "MinMass": 1,
+    "MaxMass": 1,
+    "PrimaryElem": "corium",
+    "Temperature": 523.15,
+    "Id": "nuclearwastecomet"
+  },
+  {
+    "Name": "Defunct Satellite",
+    "MinMass": 100,
+    "MaxMass": 200,
+    "PrimaryElem": "aluminum",
+    "Temperature": 523.15,
+    "Id": "satellitecometcomet"
+  },
+  {
+    "Name": "Snack Bomb",
+    "MinMass": 0.2,
+    "MaxMass": 0.5,
+    "PrimaryElem": "creature",
+    "Temperature": 300.65,
+    "Id": "foodcomet"
+  },
+  {
+    "Name": "Gassy Mooteor",
+    "MinMass": 100,
+    "MaxMass": 200,
+    "PrimaryElem": "creature",
+    "Temperature": 307.15,
+    "Id": "gassymoo"
+  }
+]

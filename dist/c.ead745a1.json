@@ -1,0 +1,3971 @@
+[
+  {
+    "Name": "Sweepy",
+    "Species": "sweepbot",
+    "Description": "An automated sweeping robot.\n\nSweeps up Solid debris and Liquid spills and stores the material back in its Sweepy Dock.",
+    "BaseIncubationRate": 0,
+    "CaloriesPerKg": 0,
+    "Decor": 0,
+    "DecorRadius": 1,
+    "HitPoints": 0,
+    "AgeMax": 0,
+    "CaloriesPerSecond": 0,
+    "CaloriesStomachSize": 0,
+    "CaloriesFactor": 348899328,
+    "SpaceRequired": 0,
+    "Id": "sweepbot"
+  },
+  {
+    "Name": "Coral Bug",
+    "Species": "lightbugspecies",
+    "Description": "Shine Bugs emit a soft Light in hopes of attracting more of their kind for company.\n\nThe light of the Coral morph has been turned pink through selective breeding.",
+    "Baby": {
+      "Id": "lightbugpinkbaby",
+      "Name": "Coral Nymph"
+    },
+    "HatchesFromEgg": [
+      "lightbugpinkegg"
+    ],
+    "BaseIncubationRate": 0.0333333351,
+    "IdealTemperature": {
+      "MinComfort": 263,
+      "MaxComfort": 313,
+      "MinLiveable": 253,
+      "MaxLiveable": 323
+    },
+    "Diet": [
+      {
+        "Element": "friedmushroom",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "spicebread",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "pricklefruit",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "grilledpricklefruit",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "salsa",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "phosphorite",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "LightEmitter": {
+      "Color": "RGBA(0.569, 0.439, 0.569, 1.000)",
+      "Range": 5,
+      "Lux": 1800
+    },
+    "HitPoints": 5,
+    "AgeMax": 25,
+    "CaloriesPerSecond": -66.6666641,
+    "CaloriesStomachSize": 320000,
+    "CaloriesFactor": -940465664,
+    "ReproductionInfo": {
+      "BaseFertileCycles": 15.000001,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "LightBugPurpleEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "LightBugPinkEgg",
+            "IsValid": true
+          },
+          "weight": 0.66
+        },
+        {
+          "egg": {
+            "Name": "LightBugBlueEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "friedmushroom",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugpurpleegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "spicebread",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugpinkegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "salsa",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugblueegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "lightbugpink"
+  },
+  {
+    "Name": "Royal Bug",
+    "Species": "lightbugspecies",
+    "Description": "Shine Bugs emit a soft Light in hopes of attracting more of their kind for company.\n\nThe light of the Royal morph has been turned purple through selective breeding.",
+    "Baby": {
+      "Id": "lightbugpurplebaby",
+      "Name": "Royal Nymph"
+    },
+    "HatchesFromEgg": [
+      "lightbugpurpleegg"
+    ],
+    "BaseIncubationRate": 0.0333333351,
+    "IdealTemperature": {
+      "MinComfort": 263,
+      "MaxComfort": 313,
+      "MinLiveable": 253,
+      "MaxLiveable": 323
+    },
+    "Diet": [
+      {
+        "Element": "friedmushroom",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "grilledpricklefruit",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "spicenut",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "spicebread",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "phosphorite",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "LightEmitter": {
+      "Color": "RGBA(0.490, 0.439, 0.569, 1.000)",
+      "Range": 5,
+      "Lux": 1800
+    },
+    "HitPoints": 5,
+    "AgeMax": 25,
+    "CaloriesPerSecond": -66.6666641,
+    "CaloriesStomachSize": 320000,
+    "CaloriesFactor": 2065136640,
+    "ReproductionInfo": {
+      "BaseFertileCycles": 15.000001,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "LightBugOrangeEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "LightBugPurpleEgg",
+            "IsValid": true
+          },
+          "weight": 0.66
+        },
+        {
+          "egg": {
+            "Name": "LightBugPinkEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "grilledpricklefruit",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugorangeegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "friedmushroom",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugpurpleegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "spicebread",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugpinkegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "lightbugpurple"
+  },
+  {
+    "Name": "Shove Vole",
+    "Species": "molespecies",
+    "Description": "Shove Voles are burrowing critters that eat the Regolith collected on terrestrial surfaces.\n\nThey cannot burrow through Refined Metals.",
+    "Baby": {
+      "Id": "molebaby",
+      "Name": "Vole Pup"
+    },
+    "HatchesFromEgg": [
+      "moleegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 123.149994,
+      "MaxComfort": 673.15,
+      "MinLiveable": 73.1499939,
+      "MaxLiveable": 773.15
+    },
+    "Diet": [
+      {
+        "Element": "regolith",
+        "CaloriesPerKg": 1000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "regolith"
+      },
+      {
+        "Element": "dirt",
+        "CaloriesPerKg": 1000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "dirt"
+      },
+      {
+        "Element": "ironore",
+        "CaloriesPerKg": 1000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "ironore"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 0,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -8000,
+    "CaloriesStomachSize": 48000000,
+    "CaloriesFactor": 775771648,
+    "ButcheredProduced": {
+      "Amount": 10,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "MoleEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "MoleDelicacyEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 0,
+    "Id": "mole"
+  },
+  {
+    "Name": "Delecta Vole",
+    "Species": "molespecies",
+    "Description": "Delecta Voles are burrowing critters whose bodies sprout shearable Tonic Root when Regolith is ingested at preferred temperatures.\n\nThey cannot burrow through Refined Metals.",
+    "Baby": {
+      "Id": "moledelicacybaby",
+      "Name": "Delecta Vole Pup"
+    },
+    "HatchesFromEgg": [
+      "moledelicacyegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 123.149994,
+      "MaxComfort": 673.15,
+      "MinLiveable": 73.1499939,
+      "MaxLiveable": 773.15
+    },
+    "Diet": [
+      {
+        "Element": "regolith",
+        "CaloriesPerKg": 1000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "regolith"
+      },
+      {
+        "Element": "dirt",
+        "CaloriesPerKg": 1000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "dirt"
+      },
+      {
+        "Element": "ironore",
+        "CaloriesPerKg": 1000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "ironore"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 0,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -8000,
+    "CaloriesStomachSize": 24000000,
+    "CaloriesFactor": -513593344,
+    "ButcheredProduced": {
+      "Amount": 5,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "MoleEgg",
+            "IsValid": true
+          },
+          "weight": 0.32
+        },
+        {
+          "egg": {
+            "Name": "MoleDelicacyEgg",
+            "IsValid": true
+          },
+          "weight": 0.65
+        }
+      ]
+    },
+    "SpaceRequired": 0,
+    "Id": "moledelicacy"
+  },
+  {
+    "Name": "Gassy Moo",
+    "Species": "moospecies",
+    "Description": "Moos are extraterrestrial critters that feed on Gas Grass and excrete Natural Gas.",
+    "BaseIncubationRate": 0,
+    "IdealTemperature": {
+      "MinComfort": 123.149994,
+      "MaxComfort": 423.15,
+      "MinLiveable": 73.1499939,
+      "MaxLiveable": 473.15
+    },
+    "Diet": [
+      {
+        "Element": "gasgrass",
+        "CaloriesPerKg": 100000,
+        "ConversionRatio": 5,
+        "ProducedElement": "methane"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 75,
+    "CaloriesPerSecond": -333.333344,
+    "CaloriesStomachSize": 1200000,
+    "CaloriesFactor": -1802958340,
+    "ButcheredProduced": {
+      "Amount": 10,
+      "MaterialId": "meat"
+    },
+    "SpaceRequired": 16,
+    "Id": "moo"
+  },
+  {
+    "Name": "Slickster",
+    "Species": "oilfloaterspecies",
+    "Description": "Slicksters are slimy critters that consume Carbon Dioxide and exude Crude Oil.",
+    "Baby": {
+      "Id": "oilfloaterbaby",
+      "Name": "Slickster Larva"
+    },
+    "HatchesFromEgg": [
+      "oilfloateregg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 323.15,
+      "MaxComfort": 413.15,
+      "MinLiveable": 308.15,
+      "MaxLiveable": 433.15
+    },
+    "Diet": [
+      {
+        "Element": "carbondioxide",
+        "CaloriesPerKg": 6000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "crudeoil"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 15,
+    "DecorRadius": 2,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -200,
+    "CaloriesStomachSize": 600000,
+    "CaloriesFactor": 1202644000,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "OilfloaterEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "OilfloaterHighTempEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "OilfloaterDecorEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "MinTemp": 373.15,
+        "MaxTemp": 523.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "oilfloaterhightempegg",
+        "Type": "temperature"
+      },
+      {
+        "MinTemp": 293.15,
+        "MaxTemp": 333.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "oilfloaterdecoregg",
+        "Type": "temperature"
+      }
+    ],
+    "Id": "oilfloater"
+  },
+  {
+    "Name": "Longhair Slickster",
+    "Species": "oilfloaterspecies",
+    "Description": "Longhair Slicksters are friendly critters that consume Oxygen and thrive in close contact with Duplicant companions.\n\nLonghairs have extremely beautiful and luxurious coats.",
+    "Baby": {
+      "Id": "oilfloaterdecorbaby",
+      "Name": "Longhair Larva"
+    },
+    "HatchesFromEgg": [
+      "oilfloaterdecoregg"
+    ],
+    "BaseIncubationRate": 0.00555555569,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 343.15,
+      "MinLiveable": 268.15,
+      "MaxLiveable": 363.15
+    },
+    "Diet": [
+      {
+        "Element": "oxygen",
+        "CaloriesPerKg": 4000,
+        "ConversionRatio": 0,
+        "ProducedElement": "0"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "HitPoints": 25,
+    "AgeMax": 150,
+    "CaloriesPerSecond": -200,
+    "CaloriesStomachSize": 600000,
+    "CaloriesFactor": -86721020,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 90,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "OilfloaterEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "OilfloaterHighTempEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "OilfloaterDecorEgg",
+            "IsValid": true
+          },
+          "weight": 0.66
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "MinTemp": 373.15,
+        "MaxTemp": 523.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "oilfloaterhightempegg",
+        "Type": "temperature"
+      },
+      {
+        "MinTemp": 293.15,
+        "MaxTemp": 333.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "oilfloaterdecoregg",
+        "Type": "temperature"
+      }
+    ],
+    "Id": "oilfloaterdecor"
+  },
+  {
+    "Name": "Molten Slickster",
+    "Species": "oilfloaterspecies",
+    "Description": "Molten Slicksters are slimy critters that consume Carbon Dioxide and exude Petroleum.",
+    "Baby": {
+      "Id": "oilfloaterhightempbaby",
+      "Name": "Molten Larva"
+    },
+    "HatchesFromEgg": [
+      "oilfloaterhightempegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 363.15,
+      "MaxComfort": 523.15,
+      "MinLiveable": 348.15,
+      "MaxLiveable": 543.15
+    },
+    "Diet": [
+      {
+        "Element": "carbondioxide",
+        "CaloriesPerKg": 6000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "petroleum"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 15,
+    "DecorRadius": 2,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -200,
+    "CaloriesStomachSize": 600000,
+    "CaloriesFactor": -1376086000,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "OilfloaterEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "OilfloaterHighTempEgg",
+            "IsValid": true
+          },
+          "weight": 0.66
+        },
+        {
+          "egg": {
+            "Name": "OilfloaterDecorEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "MinTemp": 373.15,
+        "MaxTemp": 523.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "oilfloaterhightempegg",
+        "Type": "temperature"
+      },
+      {
+        "MinTemp": 293.15,
+        "MaxTemp": 333.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "oilfloaterdecoregg",
+        "Type": "temperature"
+      }
+    ],
+    "Id": "oilfloaterhightemp"
+  },
+  {
+    "Name": "Puft Prince",
+    "Species": "puftspecies",
+    "Description": "The Puft Prince is a lazy critter that excretes little Solid lumps of whatever it has been breathing.",
+    "Baby": {
+      "Id": "puftalphababy",
+      "Name": "Puftlet Prince"
+    },
+    "HatchesFromEgg": [
+      "puftalphaegg"
+    ],
+    "BaseIncubationRate": 0.0111111114,
+    "IdealTemperature": {
+      "MinComfort": 258.15,
+      "MaxComfort": 338.15,
+      "MinLiveable": 213.15,
+      "MaxLiveable": 388.15
+    },
+    "Diet": [
+      {
+        "Element": "contaminatedoxygen",
+        "CaloriesPerKg": 6666.6665,
+        "ConversionRatio": 0.1,
+        "ProducedElement": "slimemold"
+      },
+      {
+        "Element": "chlorinegas",
+        "CaloriesPerKg": 6666.6665,
+        "ConversionRatio": 0.1,
+        "ProducedElement": "bleachstone"
+      },
+      {
+        "Element": "oxygen",
+        "CaloriesPerKg": 6666.6665,
+        "ConversionRatio": 0.1,
+        "ProducedElement": "oxyrock"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 75,
+    "CaloriesPerSecond": -333.333344,
+    "CaloriesStomachSize": 1200000,
+    "CaloriesFactor": 1629516290,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 45,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "PuftEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "PuftAlphaEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 16,
+    "BreedingModifier": [
+      {
+        "Creature": "puftalpha",
+        "Reverse": true,
+        "Rate": -0.00025,
+        "ModifyTo": "puftalphaegg",
+        "Type": "nearby"
+      }
+    ],
+    "Id": "puftalpha"
+  },
+  {
+    "Name": "Squeaky Puft",
+    "Species": "puftspecies",
+    "Description": "Squeaky Pufts are non-aggressive critters that excrete lumps of Bleachstone with each breath.",
+    "Baby": {
+      "Id": "puftbleachstonebaby",
+      "Name": "Squeaky Puftlet"
+    },
+    "HatchesFromEgg": [
+      "puftbleachstoneegg"
+    ],
+    "BaseIncubationRate": 0.0111111114,
+    "IdealTemperature": {
+      "MinComfort": 258.15,
+      "MaxComfort": 308.15,
+      "MinLiveable": 213.15,
+      "MaxLiveable": 358.15
+    },
+    "Diet": [
+      {
+        "Element": "chlorinegas",
+        "CaloriesPerKg": 6666.6665,
+        "ConversionRatio": 0.95,
+        "ProducedElement": "bleachstone"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 75,
+    "CaloriesPerSecond": -333.333344,
+    "CaloriesStomachSize": 1200000,
+    "CaloriesFactor": 340151300,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 45,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "PuftEgg",
+            "IsValid": true
+          },
+          "weight": 0.31
+        },
+        {
+          "egg": {
+            "Name": "PuftAlphaEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "PuftBleachstoneEgg",
+            "IsValid": true
+          },
+          "weight": 0.67
+        }
+      ]
+    },
+    "SpaceRequired": 16,
+    "BreedingModifier": [
+      {
+        "Creature": "puftalpha",
+        "Reverse": true,
+        "Rate": -0.00025,
+        "ModifyTo": "puftalphaegg",
+        "Type": "nearby"
+      },
+      {
+        "Creature": "puftalpha",
+        "Reverse": false,
+        "Rate": 0.00008333333,
+        "ModifyTo": "puftbleachstoneegg",
+        "Type": "nearby"
+      }
+    ],
+    "Id": "puftbleachstone"
+  },
+  {
+    "Name": "Puft",
+    "Species": "puftspecies",
+    "Description": "Pufts are non-aggressive critters that excrete lumps of Slime with each breath.",
+    "Baby": {
+      "Id": "puftbaby",
+      "Name": "Puftlet"
+    },
+    "HatchesFromEgg": [
+      "puftegg"
+    ],
+    "BaseIncubationRate": 0.0111111114,
+    "IdealTemperature": {
+      "MinComfort": 288.15,
+      "MaxComfort": 328.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 378.15
+    },
+    "Diet": [
+      {
+        "Element": "contaminatedoxygen",
+        "CaloriesPerKg": 4000,
+        "ConversionRatio": 0.95,
+        "ProducedElement": "slimemold"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 75,
+    "CaloriesPerSecond": -333.333344,
+    "CaloriesStomachSize": 1200000,
+    "CaloriesFactor": -949213700,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 45,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "PuftEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "PuftAlphaEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "PuftOxyliteEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "PuftBleachstoneEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 16,
+    "BreedingModifier": [
+      {
+        "Creature": "puftalpha",
+        "Reverse": true,
+        "Rate": -0.00025,
+        "ModifyTo": "puftalphaegg",
+        "Type": "nearby"
+      },
+      {
+        "Creature": "puftalpha",
+        "Reverse": false,
+        "Rate": 0.00008333333,
+        "ModifyTo": "puftoxyliteegg",
+        "Type": "nearby"
+      },
+      {
+        "Creature": "puftalpha",
+        "Reverse": false,
+        "Rate": 0.00008333333,
+        "ModifyTo": "puftbleachstoneegg",
+        "Type": "nearby"
+      }
+    ],
+    "Id": "puft"
+  },
+  {
+    "Name": "Dense Puft",
+    "Species": "puftspecies",
+    "Description": "Dense Pufts are non-aggressive critters that excrete condensed Oxylite with each breath.",
+    "Baby": {
+      "Id": "puftoxylitebaby",
+      "Name": "Dense Puftlet"
+    },
+    "HatchesFromEgg": [
+      "puftoxyliteegg"
+    ],
+    "BaseIncubationRate": 0.0111111114,
+    "IdealTemperature": {
+      "MinComfort": 303.15,
+      "MaxComfort": 338.15,
+      "MinLiveable": 258.15,
+      "MaxLiveable": 388.15
+    },
+    "Diet": [
+      {
+        "Element": "oxygen",
+        "CaloriesPerKg": 4000,
+        "ConversionRatio": 0.95,
+        "ProducedElement": "oxyrock"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 75,
+    "CaloriesPerSecond": -333.333344,
+    "CaloriesStomachSize": 1200000,
+    "CaloriesFactor": 2056388610,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 45,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "PuftEgg",
+            "IsValid": true
+          },
+          "weight": 0.31
+        },
+        {
+          "egg": {
+            "Name": "PuftAlphaEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "PuftOxyliteEgg",
+            "IsValid": true
+          },
+          "weight": 0.67
+        }
+      ]
+    },
+    "SpaceRequired": 16,
+    "BreedingModifier": [
+      {
+        "Creature": "puftalpha",
+        "Reverse": true,
+        "Rate": -0.00025,
+        "ModifyTo": "puftalphaegg",
+        "Type": "nearby"
+      },
+      {
+        "Creature": "puftalpha",
+        "Reverse": false,
+        "Rate": 0.00008333333,
+        "ModifyTo": "puftoxyliteegg",
+        "Type": "nearby"
+      }
+    ],
+    "Id": "puftoxylite"
+  },
+  {
+    "Name": "Rover",
+    "Species": "scoutrover",
+    "Description": "A curious bot that can remotely explore new Planetoid locations.",
+    "BaseIncubationRate": 0,
+    "CaloriesPerKg": 0,
+    "Decor": 0,
+    "DecorRadius": 0,
+    "HitPoints": 100,
+    "AgeMax": 0,
+    "CaloriesPerSecond": 0,
+    "CaloriesStomachSize": 0,
+    "CaloriesFactor": -345606144,
+    "SpaceRequired": 0,
+    "Id": "scoutrover"
+  },
+  {
+    "Name": "Pip",
+    "Species": "squirrelspecies",
+    "Description": "Pips are pesky, nonhostile critters that subsist on Thimble Reeds and Arbor Tree branches.\n\nThey are known to bury Seeds in the ground whenever they can find a suitable area with enough space.",
+    "Baby": {
+      "Id": "squirrelbaby",
+      "Name": "Pipsqueak"
+    },
+    "HatchesFromEgg": [
+      "squirrelegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "foresttree",
+        "CaloriesPerKg": 250000,
+        "ConversionRatio": 50,
+        "ProducedElement": "dirt"
+      },
+      {
+        "Element": "basicfabricplant",
+        "CaloriesPerKg": 250000,
+        "ConversionRatio": 50,
+        "ProducedElement": "dirt"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -166.666672,
+    "CaloriesStomachSize": 1000000,
+    "CaloriesFactor": -1634971140,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "SquirrelEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "SquirrelHugEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "Id": "squirrel"
+  },
+  {
+    "Name": "Cuddle Pip",
+    "Species": "squirrelspecies",
+    "Description": "Cuddle Pips are fluffy, affectionate critters who exhibit a strong snuggling instinct towards all types of eggs.\n\nThis is temporarily amplified when they are hugged by a passing Duplicant.",
+    "Baby": {
+      "Id": "squirrelhugbaby",
+      "Name": "Cuddle Pipsqueak"
+    },
+    "HatchesFromEgg": [
+      "squirrelhugegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "foresttree",
+        "CaloriesPerKg": 200000,
+        "ConversionRatio": 25,
+        "ProducedElement": "dirt"
+      },
+      {
+        "Element": "basicfabricplant",
+        "CaloriesPerKg": 200000,
+        "ConversionRatio": 25,
+        "ProducedElement": "dirt"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 25,
+    "DecorRadius": 4,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -166.666672,
+    "CaloriesStomachSize": 1000000,
+    "CaloriesFactor": 1370631170,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "SquirrelEgg",
+            "IsValid": true
+          },
+          "weight": 0.35
+        },
+        {
+          "egg": {
+            "Name": "SquirrelHugEgg",
+            "IsValid": true
+          },
+          "weight": 0.65
+        }
+      ]
+    },
+    "SpaceRequired": 4,
+    "Id": "squirrelhug"
+  },
+  {
+    "Name": "Sun Bug",
+    "Species": "lightbugspecies",
+    "Description": "Shine Bugs emit a soft Light in hopes of attracting more of their kind for company.\n\nThe light of the Sun morph has been turned orange through selective breeding.",
+    "Baby": {
+      "Id": "lightbugorangebaby",
+      "Name": "Sun Nymph"
+    },
+    "HatchesFromEgg": [
+      "lightbugorangeegg"
+    ],
+    "BaseIncubationRate": 0.0333333351,
+    "IdealTemperature": {
+      "MinComfort": 263,
+      "MaxComfort": 313,
+      "MinLiveable": 253,
+      "MaxLiveable": 323
+    },
+    "Diet": [
+      {
+        "Element": "mushroom",
+        "CaloriesPerKg": 160000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "friedmushroom",
+        "CaloriesPerKg": 160000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "grilledpricklefruit",
+        "CaloriesPerKg": 160000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "phosphorite",
+        "CaloriesPerKg": 160000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "LightEmitter": {
+      "Color": "RGBA(0.569, 0.482, 0.439, 1.000)",
+      "Range": 5,
+      "Lux": 1800
+    },
+    "HitPoints": 5,
+    "AgeMax": 25,
+    "CaloriesPerSecond": -66.6666641,
+    "CaloriesStomachSize": 320000,
+    "CaloriesFactor": 81266180,
+    "ReproductionInfo": {
+      "BaseFertileCycles": 15.000001,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "LightBugEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "LightBugOrangeEgg",
+            "IsValid": true
+          },
+          "weight": 0.66
+        },
+        {
+          "egg": {
+            "Name": "LightBugPurpleEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "grilledpricklefruit",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugorangeegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "friedmushroom",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugpurpleegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "lightbugorange"
+  },
+  {
+    "Name": "Radiant Bug",
+    "Species": "lightbugspecies",
+    "Description": "Shine Bugs emit a soft Light in hopes of attracting more of their kind for company.\n\nThe light of the Radiant morph has been amplified through selective breeding.",
+    "Baby": {
+      "Id": "lightbugcrystalbaby",
+      "Name": "Radiant Nymph"
+    },
+    "HatchesFromEgg": [
+      "lightbugcrystalegg"
+    ],
+    "BaseIncubationRate": 0.0111111114,
+    "IdealTemperature": {
+      "MinComfort": 263,
+      "MaxComfort": 313,
+      "MinLiveable": 253,
+      "MaxLiveable": 323
+    },
+    "Diet": [
+      {
+        "Element": "cookedmeat",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "diamond",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 200,
+    "DecorRadius": 8,
+    "LightEmitter": {
+      "Color": "RGBA(0.514, 0.667, 0.667, 1.000)",
+      "Range": 5,
+      "Lux": 1800
+    },
+    "HitPoints": 5,
+    "AgeMax": 75,
+    "CaloriesPerSecond": -66.6666641,
+    "CaloriesStomachSize": 320000,
+    "CaloriesFactor": -1208098820,
+    "ReproductionInfo": {
+      "BaseFertileCycles": 45,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "LightBugCrystalEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "LightBugEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "cookedmeat",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugcrystalegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "lightbugcrystal"
+  },
+  {
+    "Name": "Beeta Hive",
+    "Species": "beetaspecies",
+    "Description": "A moderately Radioactive nest made by Beetas.\n\nConverts Uranium into Enriched Uranium when worked by a Beeta.\nWill not function if ground below has been destroyed.",
+    "BaseIncubationRate": 0,
+    "IdealTemperature": {
+      "MinComfort": 183,
+      "MaxComfort": 263,
+      "MinLiveable": 173,
+      "MaxLiveable": 273
+    },
+    "CaloriesPerKg": 0,
+    "Decor": 5,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 0,
+    "CaloriesPerSecond": -2500,
+    "CaloriesStomachSize": 45000000,
+    "CaloriesFactor": 1797503490,
+    "SpaceRequired": 0,
+    "Id": "beehive"
+  },
+  {
+    "Name": "Beeta",
+    "Species": "beetaspecies",
+    "Description": "Beetas are hostile critters that thrive in Radioactive environments.\n\nThey commonly gather Uranium for their Beeta Hives to produce Enriched Uranium.",
+    "Baby": {
+      "Id": "beebaby",
+      "Name": "Beetiny"
+    },
+    "BaseIncubationRate": 0,
+    "IdealTemperature": {
+      "MinComfort": 183,
+      "MaxComfort": 263,
+      "MinLiveable": 173,
+      "MaxLiveable": 273
+    },
+    "CaloriesPerKg": 0,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "HitPoints": 5,
+    "AgeMax": 5,
+    "CaloriesPerSecond": 0,
+    "CaloriesStomachSize": 0,
+    "CaloriesFactor": 508138500,
+    "SpaceRequired": 4,
+    "Id": "bee"
+  },
+  {
+    "Name": "Pokeshell",
+    "Species": "crabspecies",
+    "Description": "Pokeshells are nonhostile critters that eat Polluted Dirt and Rot Piles.\n\nThe shells they leave behind after molting can be crushed into Lime.",
+    "Baby": {
+      "Id": "crabbaby",
+      "Name": "Pokeshell Spawn"
+    },
+    "HatchesFromEgg": [
+      "crabegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 288.15,
+      "MaxComfort": 343.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 373.15
+    },
+    "Diet": [
+      {
+        "Element": "toxicsand",
+        "CaloriesPerKg": 1428.57141,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "sand"
+      },
+      {
+        "Element": "rotpile",
+        "CaloriesPerKg": 1428.57141,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "sand"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -166.666672,
+    "CaloriesStomachSize": 1000000,
+    "CaloriesFactor": -781226500,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "crabshell"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "CrabEgg",
+            "IsValid": true
+          },
+          "weight": 0.97
+        },
+        {
+          "egg": {
+            "Name": "CrabWoodEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "CrabFreshWaterEgg",
+            "IsValid": true
+          },
+          "weight": 0.01
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "Id": "crab"
+  },
+  {
+    "Name": "Sanishell",
+    "Species": "crabspecies",
+    "Description": "Sanishells are nonhostile critters that thrive in  Water and eliminates Germs from any liquid it inhabits.\n\nThey eat Polluted Dirt, Slime and Rot Piles.",
+    "Baby": {
+      "Id": "crabfreshwaterbaby",
+      "Name": "Sanishell Spawn"
+    },
+    "HatchesFromEgg": [
+      "crabfreshwateregg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 288.15,
+      "MaxComfort": 343.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 373.15
+    },
+    "Diet": [
+      {
+        "Element": "toxicsand",
+        "CaloriesPerKg": 1428.57141,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "sand"
+      },
+      {
+        "Element": "rotpile",
+        "CaloriesPerKg": 1428.57141,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "sand"
+      },
+      {
+        "Element": "slimemold",
+        "CaloriesPerKg": 1428.57141,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "sand"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -166.666672,
+    "CaloriesStomachSize": 1000000,
+    "CaloriesFactor": -2070591490,
+    "ButcheredProduced": {
+      "Amount": 4,
+      "MaterialId": "shellfishmeat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "CrabEgg",
+            "IsValid": true
+          },
+          "weight": 0.32
+        },
+        {
+          "egg": {
+            "Name": "CrabWoodEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "CrabFreshWaterEgg",
+            "IsValid": true
+          },
+          "weight": 0.65
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "Id": "crabfreshwater"
+  },
+  {
+    "Name": "Oakshelll",
+    "Species": "crabspecies",
+    "Description": "Oakshells are nonhostile critters that eat Polluted Dirt, Slime and Rot Piles.\n\nThe shells they leave behind after molting can be crushed into Lumber.\n\nOakshells thrive in Ethanol.",
+    "Baby": {
+      "Id": "crabwoodbaby",
+      "Name": "Oakshell Spawn"
+    },
+    "HatchesFromEgg": [
+      "crabwoodegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 288.15,
+      "MaxComfort": 343.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 373.15
+    },
+    "Diet": [
+      {
+        "Element": "toxicsand",
+        "CaloriesPerKg": 1428.57141,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "sand"
+      },
+      {
+        "Element": "rotpile",
+        "CaloriesPerKg": 1428.57141,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "sand"
+      },
+      {
+        "Element": "slimemold",
+        "CaloriesPerKg": 1428.57141,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "sand"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -166.666672,
+    "CaloriesStomachSize": 1000000,
+    "CaloriesFactor": 935010800,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "crabwoodshell"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "CrabEgg",
+            "IsValid": true
+          },
+          "weight": 0.32
+        },
+        {
+          "egg": {
+            "Name": "CrabWoodEgg",
+            "IsValid": true
+          },
+          "weight": 0.65
+        },
+        {
+          "egg": {
+            "Name": "CrabFreshWaterEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "Id": "crabwood"
+  },
+  {
+    "Name": "Sweetle",
+    "Species": "divergentspecies",
+    "Description": "Sweetles are nonhostile critters that excrete large amounts of solid Sucrose.\n\nThey are closely related to the Grubgrub and exhibit similar, albeit less effective farming behaviors.",
+    "Baby": {
+      "Id": "divergentbeetlebaby",
+      "Name": "Sweetle Larva"
+    },
+    "HatchesFromEgg": [
+      "divergentbeetleegg"
+    ],
+    "BaseIncubationRate": 0.0111111114,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "sulfur",
+        "CaloriesPerKg": 35000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "sucrose"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 75,
+    "CaloriesPerSecond": -1166.66663,
+    "CaloriesStomachSize": 7000000,
+    "CaloriesFactor": -354354176,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 45,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "DivergentBeetleEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "DivergentWormEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "Id": "divergentbeetle"
+  },
+  {
+    "Name": "Grubgrub",
+    "Species": "divergentspecies",
+    "Description": "Grubgrubs form symbiotic relationships with plants, especially Grubfruit Plants, and instinctually tend to them.\n\nGrubgrubs are closely related to Sweetles.",
+    "Baby": {
+      "Id": "divergentwormbaby",
+      "Name": "Grubgrub Wormling"
+    },
+    "HatchesFromEgg": [
+      "divergentwormegg"
+    ],
+    "BaseIncubationRate": 0.00555555569,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "sulfur",
+        "CaloriesPerKg": 14000,
+        "ConversionRatio": 0.1,
+        "ProducedElement": "mud"
+      },
+      {
+        "Element": "sucrose",
+        "CaloriesPerKg": 23333.334,
+        "ConversionRatio": 1,
+        "ProducedElement": "mud"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 150,
+    "CaloriesPerSecond": -1166.66663,
+    "CaloriesStomachSize": 7000000,
+    "CaloriesFactor": -1643719170,
+    "ButcheredProduced": {
+      "Amount": 3,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 90,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "DivergentBeetleEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "DivergentWormEgg",
+            "IsValid": true
+          },
+          "weight": 0.67
+        }
+      ]
+    },
+    "SpaceRequired": 16,
+    "Id": "divergentworm"
+  },
+  {
+    "Name": "Drecko",
+    "Species": "dreckospecies",
+    "Description": "Dreckos are nonhostile critters that graze on Pincha Pepperplants, Balm Lily or Mealwood Plants.\n\nTheir backsides are covered in thick woolly fibers that only grow in Hydrogen climates.",
+    "Baby": {
+      "Id": "dreckobaby",
+      "Name": "Drecklet"
+    },
+    "HatchesFromEgg": [
+      "dreckoegg"
+    ],
+    "BaseIncubationRate": 0.00555555569,
+    "IdealTemperature": {
+      "MinComfort": 308.15,
+      "MaxComfort": 363.15,
+      "MinLiveable": 288.15,
+      "MaxLiveable": 383.15
+    },
+    "Diet": [
+      {
+        "Element": "spicevine",
+        "CaloriesPerKg": 2666666.75,
+        "ConversionRatio": 13.33,
+        "ProducedElement": "phosphorite"
+      },
+      {
+        "Element": "swamplily",
+        "CaloriesPerKg": 2666666.75,
+        "ConversionRatio": 13.33,
+        "ProducedElement": "phosphorite"
+      },
+      {
+        "Element": "basicsingleharvestplant",
+        "CaloriesPerKg": 2666666.75,
+        "ConversionRatio": 13.33,
+        "ProducedElement": "phosphorite"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "ScaleGrowth": {
+      "GrowthRate": 0.000208333338,
+      "DropMass": 2,
+      "ItemDroppedOnShear": "basicfabric",
+      "RequiredAtmosphere": "hydrogen"
+    },
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 150,
+    "CaloriesPerSecond": -3333.33325,
+    "CaloriesStomachSize": 10000000,
+    "CaloriesFactor": 1361883140,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 90,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "DreckoEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "DreckoPlasticEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "basicsingleharvestplant",
+        "Rate": 0.025,
+        "ModifyTo": "dreckoplasticegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "drecko"
+  },
+  {
+    "Name": "Glossy Drecko",
+    "Species": "dreckospecies",
+    "Description": "Glossy Dreckos are nonhostile critters that graze on live Mealwood Plants and Bristle Blossoms.\n\nTheir backsides are covered in bioplastic scales that only grow in Hydrogen climates.",
+    "Baby": {
+      "Id": "dreckoplasticbaby",
+      "Name": "Glossy Drecklet"
+    },
+    "HatchesFromEgg": [
+      "dreckoplasticegg"
+    ],
+    "BaseIncubationRate": 0.00555555569,
+    "IdealTemperature": {
+      "MinComfort": 298.15,
+      "MaxComfort": 333.15,
+      "MinLiveable": 278.15,
+      "MaxLiveable": 353.15
+    },
+    "Diet": [
+      {
+        "Element": "basicsingleharvestplant",
+        "CaloriesPerKg": 2000000,
+        "ConversionRatio": 9,
+        "ProducedElement": "phosphorite"
+      },
+      {
+        "Element": "prickleflower",
+        "CaloriesPerKg": 2000000,
+        "ConversionRatio": 9,
+        "ProducedElement": "phosphorite"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "ScaleGrowth": {
+      "GrowthRate": 0.000555555569,
+      "DropMass": 150,
+      "ItemDroppedOnShear": "polypropylene",
+      "RequiredAtmosphere": "hydrogen"
+    },
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 150,
+    "CaloriesPerSecond": -3333.33325,
+    "CaloriesStomachSize": 10000000,
+    "CaloriesFactor": 72518140,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 90,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "DreckoEgg",
+            "IsValid": true
+          },
+          "weight": 0.35
+        },
+        {
+          "egg": {
+            "Name": "DreckoPlasticEgg",
+            "IsValid": true
+          },
+          "weight": 0.65
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "basicsingleharvestplant",
+        "Rate": 0.025,
+        "ModifyTo": "dreckoplasticegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "dreckoplastic"
+  },
+  {
+    "Name": "Morb",
+    "Species": "glomspecies",
+    "Description": "Morbs are attracted to unhygienic conditions and frequently excrete bursts of Polluted Oxygen.",
+    "BaseIncubationRate": 0,
+    "IdealTemperature": {
+      "MinComfort": 293.15,
+      "MaxComfort": 393.15,
+      "MinLiveable": 273.15,
+      "MaxLiveable": 423.15
+    },
+    "CaloriesPerKg": 0,
+    "ElementDropper": {
+      "Element": "contaminatedoxygen",
+      "Mass": 0.2,
+      "Probability": 25
+    },
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 0,
+    "CaloriesPerSecond": 0,
+    "CaloriesStomachSize": 0,
+    "CaloriesFactor": -1216846850,
+    "SpaceRequired": 0,
+    "Id": "glom"
+  },
+  {
+    "Name": "Hatch",
+    "Species": "hatchspecies",
+    "Description": "Hatches excrete solid Coal as waste and may be uncovered by digging up Buried Objects.",
+    "Baby": {
+      "Id": "hatchbaby",
+      "Name": "Hatchling"
+    },
+    "HatchesFromEgg": [
+      "hatchegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "sand",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "sandstone",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "clay",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "crushedrock",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "dirt",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "sedimentaryrock",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "fieldration",
+        "CaloriesPerKg": 800000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "mushbar",
+        "CaloriesPerKg": 800000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "basicplantfood",
+        "CaloriesPerKg": 600000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "basicforageplant",
+        "CaloriesPerKg": 800000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "forestforageplant",
+        "CaloriesPerKg": 6400000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "swampforageplant",
+        "CaloriesPerKg": 2400000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "mushroom",
+        "CaloriesPerKg": 2400000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "lettuce",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "meat",
+        "CaloriesPerKg": 1600000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "plantmeat",
+        "CaloriesPerKg": 1200000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "pricklefruit",
+        "CaloriesPerKg": 1600000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "swampfruit",
+        "CaloriesPerKg": 1840000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "fishmeat",
+        "CaloriesPerKg": 1000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "shellfishmeat",
+        "CaloriesPerKg": 1000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wormbasicfruit",
+        "CaloriesPerKg": 800000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wormsuperfruit",
+        "CaloriesPerKg": 250000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "pickledmeal",
+        "CaloriesPerKg": 1800000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "basicplantbar",
+        "CaloriesPerKg": 1700000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "friedmushbar",
+        "CaloriesPerKg": 1050000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "gammamush",
+        "CaloriesPerKg": 1050000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "grilledpricklefruit",
+        "CaloriesPerKg": 2000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "swampdelights",
+        "CaloriesPerKg": 2240000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "friedmushroom",
+        "CaloriesPerKg": 2800000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "coldwheatbread",
+        "CaloriesPerKg": 1200000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "cookedegg",
+        "CaloriesPerKg": 2800000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "cookedfish",
+        "CaloriesPerKg": 1600000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "cookedmeat",
+        "CaloriesPerKg": 4000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wormbasicfood",
+        "CaloriesPerKg": 1200000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wormsuperfood",
+        "CaloriesPerKg": 2400000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "fruitcake",
+        "CaloriesPerKg": 4000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "salsa",
+        "CaloriesPerKg": 4400000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "surfandturf",
+        "CaloriesPerKg": 6000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "mushroomwrap",
+        "CaloriesPerKg": 4800000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "tofu",
+        "CaloriesPerKg": 3600000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "spicebread",
+        "CaloriesPerKg": 4000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "spicytofu",
+        "CaloriesPerKg": 4000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "curry",
+        "CaloriesPerKg": 5000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "berrypie",
+        "CaloriesPerKg": 4200000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "burger",
+        "CaloriesPerKg": 6000000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "carbon"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -1166.66663,
+    "CaloriesStomachSize": 7000000,
+    "CaloriesFactor": 1788755460,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "HatchEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "HatchHardEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "HatchVeggieEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "sedimentaryrock",
+        "Rate": 0.05,
+        "ModifyTo": "hatchhardegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "dirt",
+        "Rate": 0.05,
+        "ModifyTo": "hatchveggieegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "hatch"
+  },
+  {
+    "Name": "Stone Hatch",
+    "Species": "hatchspecies",
+    "Description": "Stone Hatches excrete solid Coal as waste and enjoy burrowing into the ground.",
+    "Baby": {
+      "Id": "hatchhardbaby",
+      "Name": "Stone Hatchling"
+    },
+    "HatchesFromEgg": [
+      "hatchhardegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "sedimentaryrock",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "igneousrock",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "obsidian",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "granite",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "cuprite",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "goldamalgam",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "ironore",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wolframite",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "aluminumore",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "cobaltite",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 0.25,
+        "ProducedElement": "carbon"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 200,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -1166.66663,
+    "CaloriesStomachSize": 7000000,
+    "CaloriesFactor": 499390464,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "HatchEgg",
+            "IsValid": true
+          },
+          "weight": 0.32
+        },
+        {
+          "egg": {
+            "Name": "HatchHardEgg",
+            "IsValid": true
+          },
+          "weight": 0.65
+        },
+        {
+          "egg": {
+            "Name": "HatchMetalEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "sedimentaryrock",
+        "Rate": 0.05,
+        "ModifyTo": "hatchhardegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "cuprite",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "goldamalgam",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "ironore",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "wolframite",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "hatchhard"
+  },
+  {
+    "Name": "Smooth Hatch",
+    "Species": "hatchspecies",
+    "Description": "Smooth Hatches enjoy burrowing into the ground and excrete Refined Metal when fed Metal Ore.",
+    "Baby": {
+      "Id": "hatchmetalbaby",
+      "Name": "Smooth Hatchling"
+    },
+    "HatchesFromEgg": [
+      "hatchmetalegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "cuprite",
+        "CaloriesPerKg": 7000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "copper"
+      },
+      {
+        "Element": "goldamalgam",
+        "CaloriesPerKg": 7000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "gold"
+      },
+      {
+        "Element": "ironore",
+        "CaloriesPerKg": 7000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "iron"
+      },
+      {
+        "Element": "wolframite",
+        "CaloriesPerKg": 7000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "tungsten"
+      },
+      {
+        "Element": "aluminumore",
+        "CaloriesPerKg": 7000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "aluminum"
+      },
+      {
+        "Element": "cobaltite",
+        "CaloriesPerKg": 7000,
+        "ConversionRatio": 0.75,
+        "ProducedElement": "cobalt"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 400,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -1166.66663,
+    "CaloriesStomachSize": 7000000,
+    "CaloriesFactor": -789974500,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "HatchEgg",
+            "IsValid": true
+          },
+          "weight": 0.11
+        },
+        {
+          "egg": {
+            "Name": "HatchHardEgg",
+            "IsValid": true
+          },
+          "weight": 0.22
+        },
+        {
+          "egg": {
+            "Name": "HatchMetalEgg",
+            "IsValid": true
+          },
+          "weight": 0.67
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "sedimentaryrock",
+        "Rate": 0.05,
+        "ModifyTo": "hatchhardegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "cuprite",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "goldamalgam",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "ironore",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "wolframite",
+        "Rate": 0.05,
+        "ModifyTo": "hatchmetalegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "hatchmetal"
+  },
+  {
+    "Name": "Sage Hatch",
+    "Species": "hatchspecies",
+    "Description": "Sage Hatches excrete solid Coal as waste and enjoy burrowing into the ground.",
+    "Baby": {
+      "Id": "hatchveggiebaby",
+      "Name": "Sage Hatchling"
+    },
+    "HatchesFromEgg": [
+      "hatchveggieegg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "dirt",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "slimemold",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "algae",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "fertilizer",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "toxicsand",
+        "CaloriesPerKg": 5000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "fieldration",
+        "CaloriesPerKg": 800000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "mushbar",
+        "CaloriesPerKg": 800000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "basicplantfood",
+        "CaloriesPerKg": 600000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "basicforageplant",
+        "CaloriesPerKg": 800000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "forestforageplant",
+        "CaloriesPerKg": 6400000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "swampforageplant",
+        "CaloriesPerKg": 2400000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "mushroom",
+        "CaloriesPerKg": 2400000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "lettuce",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "meat",
+        "CaloriesPerKg": 1600000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "plantmeat",
+        "CaloriesPerKg": 1200000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "pricklefruit",
+        "CaloriesPerKg": 1600000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "swampfruit",
+        "CaloriesPerKg": 1840000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "fishmeat",
+        "CaloriesPerKg": 1000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "shellfishmeat",
+        "CaloriesPerKg": 1000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wormbasicfruit",
+        "CaloriesPerKg": 800000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wormsuperfruit",
+        "CaloriesPerKg": 250000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "pickledmeal",
+        "CaloriesPerKg": 1800000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "basicplantbar",
+        "CaloriesPerKg": 1700000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "friedmushbar",
+        "CaloriesPerKg": 1050000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "gammamush",
+        "CaloriesPerKg": 1050000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "grilledpricklefruit",
+        "CaloriesPerKg": 2000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "swampdelights",
+        "CaloriesPerKg": 2240000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "friedmushroom",
+        "CaloriesPerKg": 2800000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "coldwheatbread",
+        "CaloriesPerKg": 1200000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "cookedegg",
+        "CaloriesPerKg": 2800000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "cookedfish",
+        "CaloriesPerKg": 1600000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "cookedmeat",
+        "CaloriesPerKg": 4000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wormbasicfood",
+        "CaloriesPerKg": 1200000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "wormsuperfood",
+        "CaloriesPerKg": 2400000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "fruitcake",
+        "CaloriesPerKg": 4000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "salsa",
+        "CaloriesPerKg": 4400000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "surfandturf",
+        "CaloriesPerKg": 6000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "mushroomwrap",
+        "CaloriesPerKg": 4800000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "tofu",
+        "CaloriesPerKg": 3600000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "spicebread",
+        "CaloriesPerKg": 4000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "spicytofu",
+        "CaloriesPerKg": 4000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "curry",
+        "CaloriesPerKg": 5000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "berrypie",
+        "CaloriesPerKg": 4200000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      },
+      {
+        "Element": "burger",
+        "CaloriesPerKg": 6000000,
+        "ConversionRatio": 1,
+        "ProducedElement": "carbon"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -1166.66663,
+    "CaloriesStomachSize": 7000000,
+    "CaloriesFactor": -2079339520,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "HatchEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "HatchVeggieEgg",
+            "IsValid": true
+          },
+          "weight": 0.67
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "dirt",
+        "Rate": 0.05,
+        "ModifyTo": "hatchveggieegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "hatchveggie"
+  },
+  {
+    "Name": "Abyss Bug",
+    "Species": "lightbugspecies",
+    "Description": "This Shine Bug emits no Light, but it makes up for it by having an excellent personality.",
+    "Baby": {
+      "Id": "lightbugblackbaby",
+      "Name": "Abyss Nymph"
+    },
+    "HatchesFromEgg": [
+      "lightbugblackegg"
+    ],
+    "BaseIncubationRate": 0.0111111114,
+    "IdealTemperature": {
+      "MinComfort": 263,
+      "MaxComfort": 313,
+      "MinLiveable": 253,
+      "MaxLiveable": 323
+    },
+    "Diet": [
+      {
+        "Element": "salsa",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "meat",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "cookedmeat",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "katairite",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "phosphorus",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 80,
+    "DecorRadius": 7,
+    "HitPoints": 5,
+    "AgeMax": 75,
+    "CaloriesPerSecond": -66.6666641,
+    "CaloriesStomachSize": 320000,
+    "CaloriesFactor": 926262800,
+    "ReproductionInfo": {
+      "BaseFertileCycles": 45,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "LightBugBlueEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "LightBugBlackEgg",
+            "IsValid": true
+          },
+          "weight": 0.66
+        },
+        {
+          "egg": {
+            "Name": "LightBugCrystalEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "salsa",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugblueegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "phosphorus",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugblackegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "cookedmeat",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugcrystalegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "lightbugblack"
+  },
+  {
+    "Name": "Azure Bug",
+    "Species": "lightbugspecies",
+    "Description": "Shine Bugs emit a soft Light in hopes of attracting more of their kind for company.\n\nThe light of the Azure morph has been turned blue through selective breeding.",
+    "Baby": {
+      "Id": "lightbugbluebaby",
+      "Name": "Azure Nymph"
+    },
+    "HatchesFromEgg": [
+      "lightbugblueegg"
+    ],
+    "BaseIncubationRate": 0.0333333351,
+    "IdealTemperature": {
+      "MinComfort": 263,
+      "MaxComfort": 313,
+      "MinLiveable": 253,
+      "MaxLiveable": 323
+    },
+    "Diet": [
+      {
+        "Element": "spicebread",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "salsa",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "phosphorite",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "phosphorus",
+        "CaloriesPerKg": 40000,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "LightEmitter": {
+      "Color": "RGBA(0.439, 0.486, 0.569, 1.000)",
+      "Range": 5,
+      "Lux": 1800
+    },
+    "HitPoints": 5,
+    "AgeMax": 25,
+    "CaloriesPerSecond": -66.6666641,
+    "CaloriesStomachSize": 320000,
+    "CaloriesFactor": -363102200,
+    "ReproductionInfo": {
+      "BaseFertileCycles": 15.000001,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "LightBugPinkEgg",
+            "IsValid": true
+          },
+          "weight": 0.33
+        },
+        {
+          "egg": {
+            "Name": "LightBugBlueEgg",
+            "IsValid": true
+          },
+          "weight": 0.66
+        },
+        {
+          "egg": {
+            "Name": "LightBugBlackEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "spicebread",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugpinkegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "salsa",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugblueegg",
+        "Type": "diet"
+      },
+      {
+        "Element": "phosphorus",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugblackegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "lightbugblue"
+  },
+  {
+    "Name": "Shine Bug",
+    "Species": "lightbugspecies",
+    "Description": "Shine Bugs emit a soft Light in hopes of attracting more of their kind for company.",
+    "Baby": {
+      "Id": "lightbugbaby",
+      "Name": "Shine Nymph"
+    },
+    "HatchesFromEgg": [
+      "lightbugegg"
+    ],
+    "BaseIncubationRate": 0.0333333351,
+    "IdealTemperature": {
+      "MinComfort": 263,
+      "MaxComfort": 313,
+      "MinLiveable": 253,
+      "MaxLiveable": 323
+    },
+    "Diet": [
+      {
+        "Element": "pricklefruit",
+        "CaloriesPerKg": 240963.859,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "grilledpricklefruit",
+        "CaloriesPerKg": 240963.859,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      },
+      {
+        "Element": "phosphorite",
+        "CaloriesPerKg": 240963.859,
+        "ConversionRatio": 1,
+        "ProducedElement": "0"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "LightEmitter": {
+      "Color": "RGBA(0.570, 0.550, 0.440, 1.000)",
+      "Range": 5,
+      "Lux": 1800
+    },
+    "HitPoints": 5,
+    "AgeMax": 25,
+    "CaloriesPerSecond": -66.6666641,
+    "CaloriesStomachSize": 320000,
+    "CaloriesFactor": 690878464,
+    "ReproductionInfo": {
+      "BaseFertileCycles": 15.000001,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "LightBugEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "LightBugOrangeEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "BreedingModifier": [
+      {
+        "Element": "grilledpricklefruit",
+        "Rate": 0.00125,
+        "ModifyTo": "lightbugorangeegg",
+        "Type": "diet"
+      }
+    ],
+    "Id": "lightbug"
+  },
+  {
+    "Name": "Plug Slug",
+    "Species": "staterpillarspecies",
+    "Description": "Plug Slugs are dynamic creatures that generate electrical Power during the night.\n\nTheir power can be harnessed by leaving an exposed wire near areas where they like to sleep.",
+    "Baby": {
+      "Id": "staterpillarbaby",
+      "Name": "Plug Sluglet"
+    },
+    "HatchesFromEgg": [
+      "staterpillaregg"
+    ],
+    "BaseIncubationRate": 0.008333334,
+    "IdealTemperature": {
+      "MinComfort": 283.15,
+      "MaxComfort": 293.15,
+      "MinLiveable": 243.15,
+      "MaxLiveable": 343.15
+    },
+    "Diet": [
+      {
+        "Element": "cuprite",
+        "CaloriesPerKg": 33333.332,
+        "ConversionRatio": 0.05,
+        "ProducedElement": "hydrogen"
+      },
+      {
+        "Element": "ironore",
+        "CaloriesPerKg": 33333.332,
+        "ConversionRatio": 0.05,
+        "ProducedElement": "hydrogen"
+      },
+      {
+        "Element": "goldamalgam",
+        "CaloriesPerKg": 33333.332,
+        "ConversionRatio": 0.05,
+        "ProducedElement": "hydrogen"
+      },
+      {
+        "Element": "wolframite",
+        "CaloriesPerKg": 33333.332,
+        "ConversionRatio": 0.05,
+        "ProducedElement": "hydrogen"
+      },
+      {
+        "Element": "aluminumore",
+        "CaloriesPerKg": 33333.332,
+        "ConversionRatio": 0.05,
+        "ProducedElement": "hydrogen"
+      },
+      {
+        "Element": "electrum",
+        "CaloriesPerKg": 33333.332,
+        "ConversionRatio": 0.05,
+        "ProducedElement": "hydrogen"
+      },
+      {
+        "Element": "cobaltite",
+        "CaloriesPerKg": 33333.332,
+        "ConversionRatio": 0.05,
+        "ProducedElement": "hydrogen"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 100,
+    "CaloriesPerSecond": -3333.33325,
+    "CaloriesStomachSize": 10000000,
+    "CaloriesFactor": -598486500,
+    "ButcheredProduced": {
+      "Amount": 2,
+      "MaterialId": "meat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 60.0000038,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "StaterpillarEgg",
+            "IsValid": true
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "SpaceRequired": 12,
+    "Id": "staterpillar"
+  },
+  {
+    "Name": "Gulp Fish",
+    "Species": "pacuspecies",
+    "Description": "Every organism in the known universe finds the Pacu extremely delicious.",
+    "Baby": {
+      "Id": "pacucleanerbaby",
+      "Name": "Gulp Fry"
+    },
+    "HatchesFromEgg": [
+      "pacucleaneregg"
+    ],
+    "BaseIncubationRate": 0.0333333351,
+    "IdealTemperature": {
+      "MinComfort": 243.15,
+      "MaxComfort": 278.15,
+      "MinLiveable": 223.15,
+      "MaxLiveable": 298.15
+    },
+    "Diet": [
+      {
+        "Element": "algae",
+        "CaloriesPerKg": 714.2857,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "oxyfernseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "prickleflowerseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "saltplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "sealettuceseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "spicevineseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "swampharvestplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "swamplilyseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "toeplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "winecupsseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "wormplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "pricklegrassseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "basicfabricmaterialplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "basicsingleharvestplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "bulbplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "cactusplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "coldbreatherseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "crittertrapplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "cylindricaseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "mushroomseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "leafyplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "gasgrassseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "foresttreeseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "evilflowerseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "filterplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Consumed": [
+      {
+        "Rate": 0.2,
+        "MinTemp": 0,
+        "MaterialId": "dirtywater"
+      }
+    ],
+    "Produced": [
+      {
+        "Rate": 0.2,
+        "MinTemp": 0,
+        "MaterialId": "water"
+      }
+    ],
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 25,
+    "CaloriesPerSecond": -166.666672,
+    "CaloriesStomachSize": 500000,
+    "CaloriesFactor": -1887851520,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "fishmeat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 15.000001,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "PacuEgg",
+            "IsValid": true
+          },
+          "weight": 0.32
+        },
+        {
+          "egg": {
+            "Name": "PacuCleanerEgg",
+            "IsValid": true
+          },
+          "weight": 0.65
+        },
+        {
+          "egg": {
+            "Name": "PacuTropicalEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 8,
+    "BreedingModifier": [
+      {
+        "MinTemp": 308.15,
+        "MaxTemp": 353.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "pacutropicalegg",
+        "Type": "temperature"
+      },
+      {
+        "MinTemp": 243.15,
+        "MaxTemp": 278.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "pacucleaneregg",
+        "Type": "temperature"
+      }
+    ],
+    "Id": "pacucleaner"
+  },
+  {
+    "Name": "Tropical Pacu",
+    "Species": "pacuspecies",
+    "Description": "Every organism in the known universe finds the Pacu extremely delicious.",
+    "Baby": {
+      "Id": "pacutropicalbaby",
+      "Name": "Tropical Fry"
+    },
+    "HatchesFromEgg": [
+      "pacutropicalegg"
+    ],
+    "BaseIncubationRate": 0.0333333351,
+    "IdealTemperature": {
+      "MinComfort": 303.15,
+      "MaxComfort": 353.15,
+      "MinLiveable": 283.15,
+      "MaxLiveable": 373.15
+    },
+    "Diet": [
+      {
+        "Element": "algae",
+        "CaloriesPerKg": 714.2857,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "oxyfernseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "prickleflowerseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "saltplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "sealettuceseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "spicevineseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "swampharvestplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "swamplilyseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "toeplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "winecupsseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "wormplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "pricklegrassseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "basicfabricmaterialplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "basicsingleharvestplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "bulbplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "cactusplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "coldbreatherseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "crittertrapplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "cylindricaseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "mushroomseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "leafyplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "gasgrassseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "foresttreeseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "evilflowerseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "filterplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 25,
+    "DecorRadius": 5,
+    "HitPoints": 25,
+    "AgeMax": 25,
+    "CaloriesPerSecond": -166.666672,
+    "CaloriesStomachSize": 500000,
+    "CaloriesFactor": 1117750780,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "fishmeat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 15.000001,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "PacuEgg",
+            "IsValid": true
+          },
+          "weight": 0.32
+        },
+        {
+          "egg": {
+            "Name": "PacuTropicalEgg",
+            "IsValid": true
+          },
+          "weight": 0.65
+        },
+        {
+          "egg": {
+            "Name": "PacuCleanerEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 8,
+    "BreedingModifier": [
+      {
+        "MinTemp": 308.15,
+        "MaxTemp": 353.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "pacutropicalegg",
+        "Type": "temperature"
+      },
+      {
+        "MinTemp": 243.15,
+        "MaxTemp": 278.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "pacucleaneregg",
+        "Type": "temperature"
+      }
+    ],
+    "Id": "pacutropical"
+  },
+  {
+    "Name": "Pacu",
+    "Species": "pacuspecies",
+    "Description": "Pacus are aquatic creatures that can live in any liquid, such as Water or Contaminated Water.\n\nEvery organism in the known universe finds the Pacu extremely delicious.",
+    "Baby": {
+      "Id": "pacubaby",
+      "Name": "Pacu Fry"
+    },
+    "HatchesFromEgg": [
+      "pacuegg"
+    ],
+    "BaseIncubationRate": 0.0333333351,
+    "IdealTemperature": {
+      "MinComfort": 273.15,
+      "MaxComfort": 333.15,
+      "MinLiveable": 253.15,
+      "MaxLiveable": 353.15
+    },
+    "Diet": [
+      {
+        "Element": "algae",
+        "CaloriesPerKg": 714.2857,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "oxyfernseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "prickleflowerseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "saltplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "sealettuceseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "spicevineseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "swampharvestplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "swamplilyseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "toeplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "winecupsseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "wormplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "pricklegrassseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "basicfabricmaterialplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "basicsingleharvestplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "bulbplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "cactusplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "coldbreatherseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "crittertrapplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "cylindricaseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "mushroomseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "leafyplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "gasgrassseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "foresttreeseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "evilflowerseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      },
+      {
+        "Element": "filterplantseed",
+        "CaloriesPerKg": 400000,
+        "ConversionRatio": 0.5,
+        "ProducedElement": "toxicsand"
+      }
+    ],
+    "CaloriesPerKg": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "HitPoints": 25,
+    "AgeMax": 25,
+    "CaloriesPerSecond": -166.666672,
+    "CaloriesStomachSize": 500000,
+    "CaloriesFactor": -171614200,
+    "ButcheredProduced": {
+      "Amount": 1,
+      "MaterialId": "fishmeat"
+    },
+    "ReproductionInfo": {
+      "BaseFertileCycles": 15.000001,
+      "BreedingChances": [
+        {
+          "egg": {
+            "Name": "PacuEgg",
+            "IsValid": true
+          },
+          "weight": 0.98
+        },
+        {
+          "egg": {
+            "Name": "PacuTropicalEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        },
+        {
+          "egg": {
+            "Name": "PacuCleanerEgg",
+            "IsValid": true
+          },
+          "weight": 0.02
+        }
+      ]
+    },
+    "SpaceRequired": 8,
+    "BreedingModifier": [
+      {
+        "MinTemp": 308.15,
+        "MaxTemp": 353.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "pacutropicalegg",
+        "Type": "temperature"
+      },
+      {
+        "MinTemp": 243.15,
+        "MaxTemp": 278.15,
+        "Rate": 0.00008333333,
+        "ModifyTo": "pacucleaneregg",
+        "Type": "temperature"
+      }
+    ],
+    "Id": "pacu"
+  }
+]

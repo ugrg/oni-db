@@ -1,0 +1,2062 @@
+[
+  {
+    "Name": "Sandstone",
+    "Description": "A beautiful rock composed of multiple layers of sediment.",
+    "Tier": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      }
+    ],
+    "Id": "artifact_sandstone"
+  },
+  {
+    "Name": "Sink",
+    "Description": "No collection is complete without it.",
+    "Tier": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      }
+    ],
+    "Id": "artifact_sink"
+  },
+  {
+    "Name": "Rubik's Cube",
+    "Description": "This mystery of the universe has already been solved.",
+    "Tier": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      }
+    ],
+    "Id": "artifact_rubikscube"
+  },
+  {
+    "Name": "Office Mug",
+    "Description": "An intermediary place to store espresso before you move it to your mouth.",
+    "Tier": 0,
+    "Decor": 10,
+    "DecorRadius": 1,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      }
+    ],
+    "Id": "artifact_officemug"
+  },
+  {
+    "Name": "Small Obelisk",
+    "Description": "A rectangular stone piece.\n\nIts function is unclear.",
+    "Tier": 1,
+    "Decor": 20,
+    "DecorRadius": 3,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      }
+    ],
+    "Id": "artifact_obelisk"
+  },
+  {
+    "Name": "Old X-Ray",
+    "Description": "Ew, weird. It has five fingers!",
+    "Tier": 1,
+    "Decor": 20,
+    "DecorRadius": 3,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      }
+    ],
+    "Id": "artifact_okayxray"
+  },
+  {
+    "Name": "Blender",
+    "Description": "Equipment used to conduct experiments answering the age-old question, \"Could that blend\"?",
+    "Tier": 1,
+    "Decor": 20,
+    "DecorRadius": 3,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      }
+    ],
+    "Id": "artifact_blender"
+  },
+  {
+    "Name": "Moldavite",
+    "Description": "A unique green stone formed from the impact of a meteorite.",
+    "Tier": 1,
+    "Decor": 20,
+    "DecorRadius": 3,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      }
+    ],
+    "Id": "artifact_moldavite"
+  },
+  {
+    "Name": "Archaic Tech",
+    "Description": "Be kind when you handle it. It's very fragile.",
+    "Tier": 1,
+    "Decor": 20,
+    "DecorRadius": 3,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      }
+    ],
+    "Id": "artifact_vhs"
+  },
+  {
+    "Name": "Mangled Saxophone",
+    "Description": "The name \"Pesquet\" is barely legible on the inside.",
+    "Tier": 1,
+    "Decor": 20,
+    "DecorRadius": 3,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      }
+    ],
+    "Id": "artifact_saxophone"
+  },
+  {
+    "Name": "Modern Art",
+    "Description": "I don't get it.",
+    "Tier": 1,
+    "Decor": 20,
+    "DecorRadius": 3,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      }
+    ],
+    "Id": "artifact_modernart"
+  },
+  {
+    "Name": "Honey Jar",
+    "Description": "Sweet golden liquid with just a touch of uranium.",
+    "Tier": 1,
+    "Decor": 20,
+    "DecorRadius": 3,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.03125,
+        "ArchaeologistDiscoverChance": 0.0625
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.01875,
+        "ArchaeologistDiscoverChance": 0.0375
+      }
+    ],
+    "Id": "artifact_honeyjar"
+  },
+  {
+    "Name": "Wrist Watch",
+    "Description": "It was discovered in a package labeled \"To be entrusted to Dr. Walker\".",
+    "Tier": 2,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      }
+    ],
+    "Id": "artifact_ameliaswatch"
+  },
+  {
+    "Name": "Encrusted Teapot",
+    "Description": "A teapot from the depths of space, coated in a thick layer of Neutronium.",
+    "Tier": 2,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      }
+    ],
+    "Id": "artifact_teapot"
+  },
+  {
+    "Name": "Strange Brick",
+    "Description": "It still works.",
+    "Tier": 2,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      }
+    ],
+    "Id": "artifact_brickphone"
+  },
+  {
+    "Name": "Robot Arm",
+    "Description": "It's not functional. Just cool.",
+    "Tier": 2,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      }
+    ],
+    "Id": "artifact_robotarm"
+  },
+  {
+    "Name": "Shield Generator",
+    "Description": "A mechanical prototype capable of producing a small section of shielding.",
+    "Tier": 2,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      }
+    ],
+    "Id": "artifact_shieldgenerator"
+  },
+  {
+    "Name": "Bioluminescent Rock",
+    "Description": "A thriving colony of tiny, microscopic organisms is responsible for giving it its bluish glow.",
+    "Tier": 2,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      }
+    ],
+    "Id": "artifact_bioluminescentrock"
+  },
+  {
+    "Name": "Grubgrub Statue",
+    "Description": "A moving tribute to a tiny plant hugger.",
+    "Tier": 2,
+    "Decor": 30,
+    "DecorRadius": 5,
+    "DiscoverChances": [
+      {
+        "PlanetId": "satellite",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "saltdwarf",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "goldasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "chlorineplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "saltdesertplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      }
+    ],
+    "Id": "artifact_grubstatue"
+  },
+  {
+    "Name": "Stethoscope",
+    "Description": "Listens to Duplicant heartbeats, or gurgly tummies.",
+    "Tier": 3,
+    "Decor": 35,
+    "DecorRadius": 6,
+    "DiscoverChances": [
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      }
+    ],
+    "Id": "artifact_stethoscope"
+  },
+  {
+    "Name": "Egg-Shaped Rock",
+    "Description": "It's unclear whether this is its naturally occurring shape, or if its appearance as been sculpted.",
+    "Tier": 3,
+    "Decor": 35,
+    "DecorRadius": 6,
+    "DiscoverChances": [
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      }
+    ],
+    "Id": "artifact_eggrock"
+  },
+  {
+    "Name": "Pristine Fossil",
+    "Description": "The preserved bones of an early species of Hatch.",
+    "Tier": 3,
+    "Decor": 35,
+    "DecorRadius": 6,
+    "DiscoverChances": [
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      }
+    ],
+    "Id": "artifact_hatchfossil"
+  },
+  {
+    "Name": "Tornado Rock",
+    "Description": "It's unclear how it formed, although I'm glad it did.",
+    "Tier": 3,
+    "Decor": 35,
+    "DecorRadius": 6,
+    "DiscoverChances": [
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      }
+    ],
+    "Id": "artifact_rocktornado"
+  },
+  {
+    "Name": "Percolator",
+    "Description": "Don't drink from it! There was a pacu... IN the percolator!",
+    "Tier": 3,
+    "Decor": 35,
+    "DecorRadius": 6,
+    "DiscoverChances": [
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      }
+    ],
+    "Id": "artifact_pacupercolator"
+  },
+  {
+    "Name": "Magma Lamp",
+    "Description": "The sequel to \"Lava Lamp\".",
+    "Tier": 3,
+    "Decor": 35,
+    "DecorRadius": 6,
+    "DiscoverChances": [
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      }
+    ],
+    "Id": "artifact_magmalamp"
+  },
+  {
+    "Name": "Useless Machine",
+    "Description": "What does it do?",
+    "Tier": 3,
+    "Decor": 35,
+    "DecorRadius": 6,
+    "DiscoverChances": [
+      {
+        "PlanetId": "metallicasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "carbonaceousasteroid",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0357142873,
+        "ArchaeologistDiscoverChance": 0.0714285746
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "forestplanet",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      },
+      {
+        "PlanetId": "heliumgiant",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "oilyasteriod",
+        "BaseDiscoverChance": 0.0142857144,
+        "ArchaeologistDiscoverChance": 0.0285714287
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.021428572,
+        "ArchaeologistDiscoverChance": 0.042857144
+      }
+    ],
+    "Id": "artifact_oracle"
+  },
+  {
+    "Name": "Double Helix Model",
+    "Description": "An educational model of genetic information.",
+    "Tier": 4,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "DiscoverChances": [
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.025,
+        "ArchaeologistDiscoverChance": 0.05
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0375,
+        "ArchaeologistDiscoverChance": 0.075
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0375,
+        "ArchaeologistDiscoverChance": 0.075
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "gasgiant",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "icegiant",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "rustplanet",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.025,
+        "ArchaeologistDiscoverChance": 0.05
+      }
+    ],
+    "Id": "artifact_dnamodel"
+  },
+  {
+    "Name": "Egg-Shaped Rock",
+    "Description": "It's unclear whether this is its naturally occurring shape, or if its appearance as been sculpted.\n\nThis one is rainbow colored.",
+    "Tier": 4,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "DiscoverChances": [
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.025,
+        "ArchaeologistDiscoverChance": 0.05
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0375,
+        "ArchaeologistDiscoverChance": 0.075
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0375,
+        "ArchaeologistDiscoverChance": 0.075
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "gasgiant",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "icegiant",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "rustplanet",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.025,
+        "ArchaeologistDiscoverChance": 0.05
+      }
+    ],
+    "Id": "artifact_rainboweggrock"
+  },
+  {
+    "Name": "Plasma Lamp",
+    "Description": "No space colony is complete without one.",
+    "Tier": 4,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "DiscoverChances": [
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.025,
+        "ArchaeologistDiscoverChance": 0.05
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0375,
+        "ArchaeologistDiscoverChance": 0.075
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0375,
+        "ArchaeologistDiscoverChance": 0.075
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "gasgiant",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "icegiant",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "rustplanet",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.025,
+        "ArchaeologistDiscoverChance": 0.05
+      }
+    ],
+    "Id": "artifact_plasmalamp"
+  },
+  {
+    "Name": "Radiation Mood Ring",
+    "Description": "How radioactive are you feeling?",
+    "Tier": 4,
+    "Decor": 50,
+    "DecorRadius": 7,
+    "DiscoverChances": [
+      {
+        "PlanetId": "rockyasteroid",
+        "BaseDiscoverChance": 0.025,
+        "ArchaeologistDiscoverChance": 0.05
+      },
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0375,
+        "ArchaeologistDiscoverChance": 0.075
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0375,
+        "ArchaeologistDiscoverChance": 0.075
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "gasgiant",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "icegiant",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "rustplanet",
+        "BaseDiscoverChance": 0.075,
+        "ArchaeologistDiscoverChance": 0.15
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.0625,
+        "ArchaeologistDiscoverChance": 0.125
+      },
+      {
+        "PlanetId": "shinyplanet",
+        "BaseDiscoverChance": 0.025,
+        "ArchaeologistDiscoverChance": 0.05
+      }
+    ],
+    "Id": "artifact_moodring"
+  },
+  {
+    "Name": "Self-Contained System",
+    "Description": "A marvel of the cosmos, inside this display is an entirely self-contained solar system.",
+    "Tier": 5,
+    "Decor": 80,
+    "DecorRadius": 7,
+    "DiscoverChances": [
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "gasgiant",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "icegiant",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "rustplanet",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      }
+    ],
+    "Id": "artifact_solarsystem"
+  },
+  {
+    "Name": "Moonmoonmoon",
+    "Description": "A moon's moon's moon. It's very small.",
+    "Tier": 5,
+    "Decor": 80,
+    "DecorRadius": 7,
+    "DiscoverChances": [
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "gasgiant",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "icegiant",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "rustplanet",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      }
+    ],
+    "Id": "artifact_moonmoonmoon"
+  },
+  {
+    "Name": "Model Nuclear Power Plant",
+    "Description": "It's pronounced nu-clear.",
+    "Tier": 5,
+    "Decor": 80,
+    "DecorRadius": 7,
+    "DiscoverChances": [
+      {
+        "PlanetId": "icydwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "organicdwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "dustymoon",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "terraplanet",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "volcanoplanet",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      },
+      {
+        "PlanetId": "gasgiant",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "icegiant",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "rustplanet",
+        "BaseDiscoverChance": 0.06666667,
+        "ArchaeologistDiscoverChance": 0.13333334
+      },
+      {
+        "PlanetId": "reddwarf",
+        "BaseDiscoverChance": 0.0333333351,
+        "ArchaeologistDiscoverChance": 0.06666667
+      }
+    ],
+    "Id": "artifact_reactormodel"
+  }
+]
