@@ -7,6 +7,7 @@
   "license": "MIT",
   "scripts": {
     "decode": "node --experimental-modules src/decode.mjs",
+    "po": "node --experimental-modules src/PO.mjs",
     "run": "node --experimental-modules",
     "start": "serve -s -l 80"
   },

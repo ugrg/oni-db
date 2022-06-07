@@ -32,27 +32,27 @@ const zh = fs.readFileSync("src/strings_preinstalled_zh_klei.po", "utf-8").match
 
 fs.writeFileSync("src/zh.json", JSON.stringify(zh, null, 2), "utf-8");
 
-function decode (l, N) {
+function decode(l, N) {
   return N ^ (l >> 2 ^ 79) % 256;
 }
 
 [
-  "a.9c5b0c8a.json",
-  "b.a462e53c.json",
-  "c.094cc45c.json",
-  "cm.f0758bb1.json",
-  "d.ef2dc283.json",
-  "e.0a2ec153.json",
-  "f.2aba1b4b.json",
-  "g.012a2283.json",
-  "gg.6fd425e4.json",
-  "m.2ca3601c.json",
-  "md.29bde605.json",
-  "p.b7c51da7.json",
-  "pn.53009f6b.json",
-  "pt.92184ee0.json",
-  "r.f2146cdd.json",
-  "s.c153b0a5.json"
+  "a.01b82a63.json",
+  "b.9c3be190.json",
+  "c.ead745a1.json",
+  "cm.e1525380.json",
+  "e.928f34f0.json",
+  "f.78ea7fc3.json",
+  "g.f024c4a6.json",
+  "gg.6ced3eec.json",
+  "m.ee745326.json",
+  "p.b797bfb5.json",
+  "pn.66e3d0fb.json",
+  "r.616f37e9.json",
+  "s.0122b271.json",
+  "d.dfc6bca4.json",
+  "md.ca4df15c.json",
+  "pt.92184ee0.json"
 ].forEach((filename) => {
   const db = JSON.parse(fs.readFileSync(PATH.join("dist", filename), "utf-8"), (key, value) => {
     if (keys.has(key)) {

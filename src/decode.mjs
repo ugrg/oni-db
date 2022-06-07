@@ -10,22 +10,22 @@ function decode (l, N) {
 }
 
 const files = [
-  "a.9c5b0c8a.b",
-  "b.a462e53c.b",
-  "c.094cc45c.b",
-  "cm.f0758bb1.b",
-  "d.ef2dc283.b",
-  "e.0a2ec153.b",
-  "f.2aba1b4b.b",
-  "g.012a2283.b",
-  "gg.6fd425e4.b",
-  "m.2ca3601c.b",
-  "md.29bde605.b",
-  "p.b7c51da7.b",
-  "pn.53009f6b.b",
-  "pt.92184ee0.b",
-  "r.f2146cdd.b",
-  "s.c153b0a5.b"
+  "a.01b82a63.b",
+  "b.9c3be190.b",
+  "c.ead745a1.b",
+  "cm.e1525380.b",
+  "e.928f34f0.b",
+  "f.78ea7fc3.b",
+  "g.f024c4a6.b",
+  "gg.6ced3eec.b",
+  "m.ee745326.b",
+  "p.b797bfb5.b",
+  "pn.66e3d0fb.b",
+  "r.616f37e9.b",
+  "s.0122b271.b",
+  "d.dfc6bca4.b",
+  "md.ca4df15c.b",
+  "pt.92184ee0.b"
 ].map(file => {
   const ub = new Uint8Array(fs.readFileSync(`static/media/${file}`));
   for (let l = 0; l < ub.length; l++) {
