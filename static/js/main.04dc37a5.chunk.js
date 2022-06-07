@@ -6558,13 +6558,17 @@
         t.setState({ type: A });
       }, t.handleChangeSelect = function (e) {
         t.setState({ type: e.target.value });
-      }, t.pages = [{ id: "elements", name: "元素" }, { id: "buildings", name: "建筑" }, { id: "critters", name: "生物与蛋" }, {
-        id: "plants",
-        name: "植物与种子"
-      }, { id: "food", name: "食物" }, { id: "space", name: "太空" }, { id: "geysers", name: "间歇泉和火山" }, { id: "medicine", name: "医学" }, {
-        id: "other",
-        name: "其他"
-      }], t.handleCard = function (e) {
+      }, t.pages = [
+        { id: "elements", name: "元素" },
+        { id: "buildings", name: "建筑" },
+        { id: "critters", name: "生物与蛋" },
+        { id: "plants", name: "植物与种子" },
+        { id: "food", name: "食物" },
+        { id: "space", name: "太空" },
+        { id: "geysers", name: "间歇泉和火山" },
+        { id: "medicine", name: "医学" },
+        { id: "other", name: "其他" }
+      ], t.handleCard = function (e) {
         t.setState({ view: "card" }), -1 !== document.location.hostname.search("oni-db.com") && (f.a.initialize("UA-130939203-1"), f.a.event({
           category: "Explore.View",
           action: "Card"

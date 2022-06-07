@@ -6491,22 +6491,22 @@
             return n.a.createElement(it.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
           }), n.a.createElement(Pe, { rows: jt(t) }), n.a.createElement(tt, {
             variant: "main",
-            title: "Growth"
+            title: "生长"
           }, n.a.createElement(Va, { values: Aa(t) })), "GrowthRequirement" in t && "RequiredElement" in t.GrowthRequirement && n.a.createElement(tt, {
             variant: "main",
-            title: "Atmosphere"
+            title: "气体要求"
           }, n.a.createElement(je, { effects: qt(t) })), "Require" in t && n.a.createElement(tt, {
             variant: "main",
-            title: "Require"
+            title: "需要"
           }, n.a.createElement(je, { effects: _t(t), useArrow: !0 })), 0 !== t.DeltaEmitTemperature && n.a.createElement(tt, {
             variant: "main",
-            title: "Effects"
+            title: "效果"
           }, n.a.createElement(je, {
             effects: $t(t),
             useArrow: !0
           })), "coldbreather" === t.Id && n.a.createElement(Mn, { wheezewort: t }), "PathogenDropper" in t && n.a.createElement(tt, {
             variant: "main",
-            title: "Drops Pathogens"
+            title: "制造病毒"
           }, n.a.createElement(je, {
             effects: [{
               Name: ae.getElem(t.PathogenDropper.PathogenId).Name,
@@ -6674,19 +6674,19 @@
     }(a.Component), tg = Object(C.withStyles)(function (A) {
       return { image: { "max-height": "28px", width: "28px", "vertical-align": "middle", "text-align": "center" } }
     }, { withTheme: !0 })(eg), ag = [{
-      Key: "Tier", Name: "Tier", Display: function (A) {
+      Key: "Tier", Name: "级别", Display: function (A) {
         return A.Tier
       }, Value: function (A) {
         return A.Tier
       }
     }, {
-      Key: "Decor", Name: "Decor", Display: function (A) {
+      Key: "Decor", Name: "装饰度", Display: function (A) {
         return A.Decor
       }, Value: function (A) {
         return A.Decor
       }
     }, {
-      Key: "DiscoverChances", Name: "Discover Chances", Display: function (A) {
+      Key: "DiscoverChances", Name: "发现于", Display: function (A) {
         return n.a.createElement("div", null, A.DiscoverChances.map(function (A) {
           return n.a.createElement(tg, { element: ct(A.PlanetId) })
         }))
@@ -6694,49 +6694,49 @@
         return A.DiscoverChances.length
       }
     }], ng = [{
-      Key: "Category", Name: "Category", Display: function (A) {
+      Key: "Category", Name: "类别", Display: function (A) {
         return A.Category
       }, Value: function (A) {
         return A.Category
       }
     }, {
-      Key: "BaseDecor", Name: "Decor", Display: function (A) {
+      Key: "BaseDecor", Name: "装饰度", Display: function (A) {
         return A.BaseDecor
       }, Value: function (A) {
         return A.BaseDecor
       }
     }, {
-      Key: "Power", Name: "Power", Display: function (A) {
+      Key: "Power", Name: "需要电力", Display: function (A) {
         return 0 === A.EnergyConsumptionWhenActive && 0 === A.GeneratorWattageRating ? we(0) : A.EnergyConsumptionWhenActive > 0 ? de(A.EnergyConsumptionWhenActive) : Be(A.GeneratorWattageRating)
       }, Value: function (A) {
         return A.EnergyConsumptionWhenActive > 0 ? -A.EnergyConsumptionWhenActive : A.GeneratorWattageRating
       }
     }, {
-      Key: "HeatKilowatt", Name: "Heat", Display: function (A) {
+      Key: "HeatKilowatt", Name: "发热量", Display: function (A) {
         return me(A.HeatKilowatt)
       }, Value: function (A) {
         return A.HeatKilowatt
       }
     }, {
-      Key: "OverheatTemperature", Name: "Overheat Temp.", Display: function (A) {
+      Key: "OverheatTemperature", Name: "过热温度", Display: function (A) {
         return A.Overheatable ? oe(A.OverheatTemperature) : "-"
       }, Value: function (A) {
         return A.OverheatTemperature
       }
     }, {
-      Key: "ThermalConductivity", Name: "Thermal Cond.", Display: function (A) {
+      Key: "ThermalConductivity", Name: "热传导倍率", Display: function (A) {
         return A.ThermalConductivity
       }, Value: function (A) {
         return A.ThermalConductivity
       }
     }], gg = [{
-      Key: "Decor", Name: "Decor", Display: function (A) {
+      Key: "Decor", Name: "提供装饰度", Display: function (A) {
         return se(A.Decor)
       }, Value: function (A) {
         return A.Decor
       }
     }, {
-      Key: "CaloriesPerSecond", Name: "Calories", Display: function (A) {
+      Key: "CaloriesPerSecond", Name: "卡路里消耗", Display: function (A) {
         return ke(A.CaloriesPerSecond)
       }, Value: function (A) {
         return A.CaloriesPerSecond
@@ -6748,25 +6748,25 @@
         return A.HitPoints
       }
     }, {
-      Key: "Meat", Name: "Meat", Display: function (A) {
+      Key: "Meat", Name: "出肉量", Display: function (A) {
         return "ButcheredProduced" in A ? A.ButcheredProduced.Amount : "-"
       }, Value: function (A) {
         return "ButcheredProduced" in A ? A.ButcheredProduced.Amount : 0
       }
     }, {
-      Key: "AgeMax", Name: "Max Age", Display: function (A) {
+      Key: "AgeMax", Name: "寿命", Display: function (A) {
         return 0 === A.AgeMax ? "-" : pe(600 * A.AgeMax)
       }, Value: function (A) {
         return 0 === A.AgeMax ? 0 : 600 * A.AgeMax
       }
     }], ig = [{
-      Key: "BaseIncubationRate", Name: "Incubation", Display: function (A) {
+      Key: "BaseIncubationRate", Name: "孵化速度", Display: function (A) {
         return 0 === A.BaseIncubationRate ? "-" : pe(100 / A.BaseIncubationRate)
       }, Value: function (A) {
         return 0 === A.BaseIncubationRate ? 0 : 100 / A.BaseIncubationRate
       }
     }, {
-      Key: "EggShell", Name: "Egg Shell", Display: function (A) {
+      Key: "EggShell", Name: "蛋壳质量", Display: function (A) {
         return console.log(A.Id), fe(ae.gr(A.Id).RequiredInRecipe.find(function (A) {
           return A.Recipe.Id.includes("eggshell")
         }).Recipe.Produce.find(function (A) {
@@ -6780,7 +6780,7 @@
         }).Amount
       }
     }, {
-      Key: "RawEgg", Name: "Raw Egg", Display: function (A) {
+      Key: "RawEgg", Name: "生蛋质量", Display: function (A) {
         return fe(ae.gr(A.Id).RequiredInRecipe.find(function (A) {
           return A.Recipe.Id.includes("eggshell")
         }).Recipe.Produce.find(function (A) {
@@ -6794,43 +6794,43 @@
         }).Amount
       }
     }], lg = [{
-      Key: "ThermalConductivity", Name: "Thermal Conductivity", Display: function (A) {
+      Key: "ThermalConductivity", Name: "导热系数", Display: function (A) {
         return A.ThermalConductivity
       }, Value: function (A) {
         return A.ThermalConductivity
       }
     }, {
-      Key: "SpecificHeatCapacity", Name: "Specific Heat Capacity", Display: function (A) {
+      Key: "SpecificHeatCapacity", Name: "比热容", Display: function (A) {
         return A.SpecificHeatCapacity
       }, Value: function (A) {
         return A.SpecificHeatCapacity
       }
     }, {
-      Key: "MolarMass", Name: "Molar Mass", Display: function (A) {
+      Key: "MolarMass", Name: "摩尔质量", Display: function (A) {
         return A.MolarMass
       }, Value: function (A) {
         return A.MolarMass
       }
     }, {
-      Key: "Hardness", Name: "Hardness", Display: function (A) {
+      Key: "Hardness", Name: "硬度", Display: function (A) {
         return A.Hardness
       }, Value: function (A) {
         return A.Hardness
       }
     }, {
-      Key: "LightAbsorptionFactor", Name: "Light Absorption", Display: function (A) {
+      Key: "LightAbsorptionFactor", Name: "光吸收率", Display: function (A) {
         return be(A.LightAbsorptionFactor)
       }, Value: function (A) {
         return A.LightAbsorptionFactor
       }
     }, {
-      Key: "DecorModifier", Name: "Decor Mod.", Display: function (A) {
+      Key: "DecorModifier", Name: "装饰度调整", Display: function (A) {
         return "AttributeModifiers" in A && "Decor" === A.AttributeModifiers[0].Id ? be(A.AttributeModifiers[0].Value) : "-"
       }, Value: function (A) {
         return "AttributeModifiers" in A && "Decor" === A.AttributeModifiers[0].Id ? A.AttributeModifiers[0].Value : 0
       }
     }, {
-      Key: "OverheatTemperature", Name: "Overheat Mod.", Display: function (A) {
+      Key: "OverheatTemperature", Name: "过热调整", Display: function (A) {
         var e = rg(A);
         return "undefined" !== typeof e ? e.Value + Ne() : "-"
       }, Value: function (A) {
@@ -6846,55 +6846,55 @@
   }
 
   var cg = [{
-    Key: "Quality", Name: "Quality", Display: function (A) {
+    Key: "Quality", Name: "品质", Display: function (A) {
       return A.Quality
     }, Value: function (A) {
       return A.Quality
     }
   }, {
-    Key: "CaloriesPerUnit", Name: "Calories", Display: function (A) {
+    Key: "CaloriesPerUnit", Name: "卡路里", Display: function (A) {
       return Me(A.CaloriesPerUnit)
     }, Value: function (A) {
       return A.CaloriesPerUnit
     }
   }, {
-    Key: "SpoilTime", Name: "Spoil Time", Display: function (A) {
+    Key: "SpoilTime", Name: "腐烂时间", Display: function (A) {
       return pe(A.SpoilTime)
     }, Value: function (A) {
       return A.SpoilTime
     }
   }], pg = [{
-    Key: "ProducedElement", Name: "Produced Element", Display: function (A) {
+    Key: "ProducedElement", Name: "排放元素", Display: function (A) {
       return n.a.createElement("div", null, n.a.createElement(tg, { element: ct(A.ProducedElement) }))
     }, Value: function (A) {
       return A.ProducedElement
     }
   }, {
-    Key: "Temperature", Name: "Temperature", Display: function (A) {
+    Key: "Temperature", Name: "温度", Display: function (A) {
       return oe(A.Temperature)
     }, Value: function (A) {
       return A.Temperature
     }
   }, {
-    Key: "DiseaseName", Name: "Disease", Display: function (A) {
+    Key: "DiseaseName", Name: "疾病", Display: function (A) {
       return A.DiseaseName
     }, Value: function (A) {
       return "DiseaseName" in A ? A.DiseaseName : ""
     }
   }, {
-    Key: "MinRatePerCycle", Name: "Min .Rate", Display: function (A) {
+    Key: "MinRatePerCycle", Name: "最小速率", Display: function (A) {
       return Ce(A.MinRatePerCycle / 1e3)
     }, Value: function (A) {
       return A.MinRatePerCycle
     }
   }, {
-    Key: "MaxRatePerCycle", Name: "Max .Rate", Display: function (A) {
+    Key: "MaxRatePerCycle", Name: "最大速率", Display: function (A) {
       return Ce(A.MaxRatePerCycle / 1e3)
     }, Value: function (A) {
       return A.MaxRatePerCycle
     }
   }], og = [{
-    Key: "Composition", Name: "Composition", Display: function (A) {
+    Key: "Composition", Name: "组成", Display: function (A) {
       return n.a.createElement("div", null, A.Composition.map(function (A) {
         return n.a.createElement(tg, { element: ct(A) })
       }))
@@ -6902,7 +6902,7 @@
       return A.Composition.length
     }
   }, {
-    Key: "Resources", Name: "Resources", Display: function (A) {
+    Key: "Resources", Name: "资源", Display: function (A) {
       if ("Resources" in A) return n.a.createElement("div", null, A.Resources.map(function (A) {
         return n.a.createElement(tg, { element: ot(A) })
       }))
@@ -6917,25 +6917,25 @@
   }
 
   var mg = [{
-    Key: "TempMin", Name: "Min. Temp.", Display: function (A) {
+    Key: "TempMin", Name: "最低温度", Display: function (A) {
       return "GrowthRequirement" in A ? oe(A.GrowthRequirement.MinTemp) : "-"
     }, Value: function (A) {
       return "GrowthRequirement" in A ? A.GrowthRequirement.MinTemp : "-"
     }
   }, {
-    Key: "TempMax", Name: "Max. Temp.", Display: function (A) {
+    Key: "TempMax", Name: "最高温度", Display: function (A) {
       return "GrowthRequirement" in A ? oe(A.GrowthRequirement.MaxTemp) : "-"
     }, Value: function (A) {
       return "GrowthRequirement" in A ? A.GrowthRequirement.MaxTemp : "-"
     }
   }, {
-    Key: "Decor", Name: "Decor", Display: function (A) {
+    Key: "Decor", Name: "装饰度", Display: function (A) {
       return se(sg(A))
     }, Value: function (A) {
       return sg(A)
     }
   }, {
-    Key: "Require", Name: "Require", Display: function (A) {
+    Key: "Require", Name: "种植要求", Display: function (A) {
       if ("Require" in A) return n.a.createElement("div", null, A.Require.map(function (A) {
         return n.a.createElement(tg, { element: pt(A) })
       }))
@@ -6943,13 +6943,13 @@
       return "Require" in A ? A.Require.length : 0
     }
   }, {
-    Key: "LifeCycle", Name: "Growth Time", Display: function (A) {
+    Key: "LifeCycle", Name: "生长周期", Display: function (A) {
       return pe(A.LifeCycle)
     }, Value: function (A) {
       return A.LifeCycle
     }
   }, {
-    Key: "ProducedCrop", Name: "Crop", Display: function (A) {
+    Key: "ProducedCrop", Name: "作物", Display: function (A) {
       if ("ProducedCrop" in A) return n.a.createElement("div", null, A.NumProduced, "x", n.a.createElement(tg, { element: ct(A.ProducedCrop) }))
     }, Value: function (A) {
       return "ProducedCrop" in A ? ae.getElem(A.ProducedCrop).Name : "zzz"
@@ -7044,19 +7044,23 @@
         t.setState({ type: e })
       }, t.handleChangeSelect = function (A) {
         t.setState({ type: A.target.value })
-      }, t.pages = [{ id: "elements", name: "Elements" }, { id: "buildings", name: "Buildings" }, {
-        id: "critters",
-        name: "Critters & Eggs"
-      }, { id: "plants", name: "Plants & Seeds" }, { id: "food", name: "Food" }, { id: "space", name: "Space" }, {
-        id: "geysers",
-        name: "Geysers & Volcanoes"
-      }, { id: "medicine", name: "Medicine" }, { id: "other", name: "Others" }], t.handleCard = function (A) {
-        t.setState({ view: "card" }), -1 !== document.location.hostname.search("oni-db.com") && (b.a.initialize("UA-130939203-1"), b.a.event({
+      }, t.pages = [
+        { id: "elements", name: "元素" },
+        { id: "buildings", name: "建筑" },
+        { id: "critters", name: "生物与蛋" },
+        { id: "plants", name: "植物与种子" },
+        { id: "food", name: "食物" },
+        { id: "space", name: "太空" },
+        { id: "geysers", name: "间歇泉和火山" },
+        { id: "medicine", name: "医学" },
+        { id: "other", name: "其他" }
+      ], t.handleCard = function (A) {
+        t.setState({ view: "card" }), (b.a.initialize("G-EDZEKMEYHP"), b.a.event({
           category: "Explore.View",
           action: "Card"
         }))
       }, t.handleTable = function (A) {
-        t.setState({ view: "table" }), -1 !== document.location.hostname.search("oni-db.com") && (b.a.initialize("UA-130939203-1"), b.a.event({
+        t.setState({ view: "table" }), (b.a.initialize("G-EDZEKMEYHP"), b.a.event({
           category: "Explore.View",
           action: "Table"
         }))
@@ -7113,7 +7117,7 @@
           case"elements":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(bg, {
               items: ae.getElementsOfType("element"),
-              title: "Elements",
+              title: "元素",
               sort: "Name",
               filter: this.state.filter
             }), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(f.a, {
@@ -7121,12 +7125,12 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Elements"), n.a.createElement(yt, { rows: ae.getElementsOfType("element"), fields: lg })));
+            }, "元素"), n.a.createElement(yt, { rows: ae.getElementsOfType("element"), fields: lg })));
             break;
           case"buildings":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(bg, {
               items: ae.getElementsOfType("building"),
-              title: "Buildings",
+              title: "建筑",
               sort: "Category",
               filter: this.state.filter
             }), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(f.a, {
@@ -7134,17 +7138,17 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Buildings"), n.a.createElement(yt, { rows: ae.getElementsOfType("building"), fields: ng })));
+            }, "建筑"), n.a.createElement(yt, { rows: ae.getElementsOfType("building"), fields: ng })));
             break;
           case"critters":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(bg, {
               items: ae.getElementsOfType("creature"),
-              title: "Critters",
+              title: "生物",
               sort: "Species",
               filter: this.state.filter
             }), n.a.createElement(bg, {
               items: ae.getElementsOfType("egg"),
-              title: "Eggs",
+              title: "蛋",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(f.a, {
@@ -7152,7 +7156,7 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Critters"), n.a.createElement(yt, {
+            }, "生物"), n.a.createElement(yt, {
               rows: ae.getElementsOfType("creature"),
               fields: gg
             }), n.a.createElement("br", null), n.a.createElement(f.a, {
@@ -7160,17 +7164,17 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Eggs"), n.a.createElement(yt, { rows: ae.getElementsOfType("egg"), fields: ig })));
+            }, "蛋"), n.a.createElement(yt, { rows: ae.getElementsOfType("egg"), fields: ig })));
             break;
           case"plants":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(bg, {
               items: ae.getElementsOfType("plant"),
-              title: "Plants",
+              title: "植物",
               sort: "Name",
               filter: this.state.filter
             }), n.a.createElement(bg, {
               items: ae.getElementsOfType("seed"),
-              title: "Seeds",
+              title: "种子",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(f.a, {
@@ -7178,12 +7182,12 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Plants"), n.a.createElement(yt, { rows: ae.getElementsOfType("plant"), fields: mg })));
+            }, "植物"), n.a.createElement(yt, { rows: ae.getElementsOfType("plant"), fields: mg })));
             break;
           case"food":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(bg, {
               items: ae.getElementsOfType("food"),
-              title: "Food",
+              title: "食物",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(f.a, {
@@ -7191,12 +7195,12 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Food"), n.a.createElement(yt, { rows: ae.getElementsOfType("food"), fields: cg })));
+            }, "食物"), n.a.createElement(yt, { rows: ae.getElementsOfType("food"), fields: cg })));
             break;
           case"other":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(bg, {
               items: ae.getElementsOfType("misc"),
-              title: "Misc",
+              title: "杂项",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement("br", null), n.a.createElement(f.a, {
@@ -7208,17 +7212,17 @@
           case"space":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(bg, {
               items: ae.getElementsOfType("planet"),
-              title: "Planets",
+              title: "行星",
               sort: "Name",
               filter: this.state.filter
             }), n.a.createElement(bg, {
               items: ae.getElementsOfType("artifact"),
-              title: "Artifacts",
+              title: "工艺品",
               sort: "Tier",
               filter: this.state.filter
             }), n.a.createElement(bg, {
               items: ae.getElementsOfType("comet"),
-              title: "Comets",
+              title: "彗星",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(f.a, {
@@ -7226,17 +7230,17 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Planets"), n.a.createElement(yt, { rows: ae.getElementsOfType("planet"), fields: og }), n.a.createElement(f.a, {
+            }, "行星"), n.a.createElement(yt, { rows: ae.getElementsOfType("planet"), fields: og }), n.a.createElement(f.a, {
               variant: "h5",
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Artifacs"), n.a.createElement(yt, { rows: ae.getElementsOfType("artifact"), fields: ag })));
+            }, "工艺品"), n.a.createElement(yt, { rows: ae.getElementsOfType("artifact"), fields: ag })));
             break;
           case"geysers":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(bg, {
               items: ae.getElementsOfType("geyser"),
-              title: "Geyser",
+              title: "间歇泉",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(f.a, {
@@ -7244,22 +7248,22 @@
               color: "inherit",
               noWrap: !0,
               className: this.props.classes.title
-            }, "Geyser"), n.a.createElement(yt, { rows: ae.getElementsOfType("geyser"), fields: pg })));
+            }, "间歇泉"), n.a.createElement(yt, { rows: ae.getElementsOfType("geyser"), fields: pg })));
             break;
           case"medicine":
             e = n.a.createElement(n.a.Fragment, null, "card" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement(bg, {
               items: ae.getElementsOfType("medicine"),
-              title: "Medicine",
+              title: "医学",
               sort: "Name",
               filter: this.state.filter
             }), n.a.createElement(bg, {
               items: ae.getElementsOfType("disease"),
-              title: "Diseases",
+              title: "疾病",
               sort: "Name",
               filter: this.state.filter
             }), n.a.createElement(bg, {
               items: ae.getElementsOfType("pathogen"),
-              title: "Pathogens",
+              title: "病毒",
               sort: "Name",
               filter: this.state.filter
             })), "table" === this.state.view && n.a.createElement(n.a.Fragment, null, n.a.createElement("br", null), n.a.createElement(f.a, {
@@ -7315,7 +7319,7 @@
                 gutterBottom: !0,
                 align: "center",
                 className: A.titleDescription
-              }, "Buildings Info"), n.a.createElement(f.a, {
+              }, "建筑物信息"), n.a.createElement(f.a, {
                 variant: "body1",
                 gutterBottom: !0,
                 align: "justify",
@@ -7349,7 +7353,7 @@
                 gutterBottom: !0,
                 align: "center",
                 className: A.titleDescription
-              }, "Critters & Eggs Info"), n.a.createElement(f.a, {
+              }, "生物和蛋信息"), n.a.createElement(f.a, {
                 variant: "body1",
                 gutterBottom: !0,
                 align: "justify",
@@ -7380,7 +7384,7 @@
                 gutterBottom: !0,
                 align: "center",
                 className: A.titleDescription
-              }, "Plants & Seed Info"), n.a.createElement(f.a, {
+              }, "植物和种子信息"), n.a.createElement(f.a, {
                 variant: "body1",
                 gutterBottom: !0,
                 align: "justify",
@@ -7408,7 +7412,7 @@
                 gutterBottom: !0,
                 align: "center",
                 className: A.titleDescription
-              }, "Foods Info"), n.a.createElement(f.a, {
+              }, "食品信息"), n.a.createElement(f.a, {
                 variant: "body1",
                 gutterBottom: !0,
                 align: "justify",
