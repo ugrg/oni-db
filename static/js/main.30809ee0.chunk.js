@@ -2837,6 +2837,7 @@
     "./家具.png": 1364,
     "./heatDelete.png": 1365,
     "./horizontalFlow.png": 1366,
+    "./辐射.png": 1366,
     "./hot.png": 1367,
     "./hp.png": 1368,
     "./ice.png": 1369,
@@ -2861,6 +2862,7 @@
     "./pickaxe.png": 1386,
     "./pickled.png": 1387,
     "./plumbing.png": 1388,
+    "./水管.png": 1388,
     "./plumbing_mini.png": 1389,
     "./power.png": 1390,
     "./电力.png": 1390,
@@ -3123,7 +3125,7 @@
         key: "render", value: function () {
           var A = this.props.classes;
           return n.a.createElement("div", null, n.a.createElement(T.a, {
-            title: "Settings",
+            title: "设置",
             placement: "bottom"
           }, n.a.createElement(Y.a, {
             "aria-label": "Settings",
@@ -3132,23 +3134,25 @@
             open: this.state.open,
             onClose: this.handleClose,
             "aria-labelledby": "form-dialog-title"
-          }, n.a.createElement(P.a, { id: "form-dialog-title" }, "Settings"), n.a.createElement(F.a, null, n.a.createElement("form", {
-            className: A.root,
-            autoComplete: "off"
-          }, n.a.createElement(K.a, { className: A.formControl }, n.a.createElement(j.a, { htmlFor: "temperature" }, "Temp. Scale"), n.a.createElement(AA.a, {
-            value: this.state.temperature,
-            onChange: this.handleChange,
-            inputProps: { name: "temperature", id: "temperature" }
-          }, n.a.createElement(_.a, { value: "K" }, "Kelvin [K]"), n.a.createElement(_.a, { value: "C" }, "Celsius [\xb0C]"), n.a.createElement(_.a, { value: "F" }, "Fahrenheit [\xb0F]"))), n.a.createElement(K.a, { className: A.formControl }, n.a.createElement(j.a, { htmlFor: "time" }, "Time"), n.a.createElement(AA.a, {
-            value: this.state.time,
-            onChange: this.handleChange,
-            inputProps: { name: "time", id: "time" }
-          }, n.a.createElement(_.a, { value: "second" }, "second"), n.a.createElement(_.a, { value: "cycle" }, "cycle"))))), "OniDbClient" === window.navigator.userAgent && n.a.createElement(Z.a, {
+          }, n.a.createElement(P.a, { id: "form-dialog-title" }, "设置"), n.a.createElement(F.a, null, n.a.createElement("form", {
+              className: A.root,
+              autoComplete: "off"
+            }, n.a.createElement(K.a, { className: A.formControl }, n.a.createElement(j.a, { htmlFor: "temperature" }, "温标"), n.a.createElement(AA.a, {
+                value: this.state.temperature,
+                onChange: this.handleChange,
+                inputProps: { name: "temperature", id: "temperature" }
+              }, n.a.createElement(_.a, { value: "K" }, "开氏温标 [K]"),
+              n.a.createElement(_.a, { value: "C" }, "摄氏温标 [\xb0C]"),
+              n.a.createElement(_.a, { value: "F" }, "华氏温标 [\xb0F]"))),
+            n.a.createElement(K.a, { className: A.formControl },
+              n.a.createElement(j.a, { htmlFor: "time" }, "时间"),
+              n.a.createElement(AA.a, { value: this.state.time, onChange: this.handleChange, inputProps: { name: "time", id: "time" } },
+                n.a.createElement(_.a, { value: "second" }, "秒"), n.a.createElement(_.a, { value: "cycle" }, "周期"))))), "OniDbClient" === window.navigator.userAgent && n.a.createElement(Z.a, {
             type: "button",
             id: "privacy",
             color: "primary",
             href: "settings://go"
-          }, "Privacy settings"), n.a.createElement(X.a, null, n.a.createElement(Z.a, { onClick: this.handleClose, color: "primary" }, "Close"))))
+          }, "Privacy settings"), n.a.createElement(X.a, null, n.a.createElement(Z.a, { onClick: this.handleClose, color: "primary" }, "关闭"))))
         }
       }]), e
     }(n.a.Component), lA = tA()(function (A) {
@@ -3198,11 +3202,11 @@
         geysers: ["geyser"],
         medicine: ["disease", "medicine", "pathogen"]
       }, this.pageToName = {
-        elements: "Elements",
-        buildings: "Buildings",
-        critters: "Creatures & Eggs",
-        plants: "Plants & Seeds",
-        food: "Food",
+        elements: "元素",
+        buildings: "建筑",
+        critters: "动物 & 蛋s",
+        plants: "植物 & 种子",
+        food: "食物",
         other: "Misc",
         space: "Planets, Artifacts & Comets",
         geysers: "Geysers",
@@ -3512,14 +3516,14 @@
 
   function Je(A) {
     var e = [];
-    return e.push({ Name: "Tier", Id: "tier", Value: A.Tier, Image: ne("tier"), Type: "Normal", Input: !1 }), e.push({
-      Name: "Decor",
+    return e.push({ Name: "等级", Id: "tier", Value: A.Tier, Image: ne("tier"), Type: "Normal", Input: !1 }), e.push({
+      Name: "装饰度",
       Id: "decor",
       Value: se(A.Decor),
       Image: ne("decor"),
       Type: "Produced",
       Input: !1
-    }), e.push({ Name: "Decor Radius", Id: "decorRadius", Value: A.DecorRadius, Image: ne("decor"), Type: "Produced", Input: !1 }), e
+    }), e.push({ Name: "装饰度范围", Id: "decorRadius", Value: A.DecorRadius, Image: ne("decor"), Type: "Produced", Input: !1 }), e
   }
 
   function Ve(A, e) {
@@ -3759,7 +3763,7 @@
           }), "undefined" !== typeof e.Description && e.Description.split("\n").map(function (A, e) {
             return n.a.createElement(f.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
           }), n.a.createElement(Pe, { rows: Je(e) }), n.a.createElement(tt, {
-            title: "Discover Chance",
+            title: "发现于",
             variant: "main"
           }, n.a.createElement(je, { effects: Ve(e, this.state.archaeologist) })))
         }
@@ -3823,28 +3827,28 @@
   function ut(A) {
     var e = [], t = "Normmal";
     e.push({
-      Name: "Category",
+      Name: "类型",
       Id: "Category",
       Value: A.Category,
       Image: ne(A.Category.toLowerCase()),
       Type: "Normal",
       Input: !1
     }), e.push({
-      Name: "Size",
+      Name: "尺寸",
       Id: "Size",
       Value: A.WidthInCells + "x" + A.HeightInCells,
       Image: ne("size"),
       Type: "Normal",
       Input: !1
     }), 0 !== A.StorageCapacity && e.push({
-      Name: "Storage Capacity",
+      Name: "存储容量",
       Id: "StorageCapacity",
       Value: 0 !== A.StorageCapacity ? fe(A.StorageCapacity) : "-",
       Image: ne("capacity"),
       Type: "Normal",
       Input: !1
-    }), t = "Normal", 0 !== A.BaseDecor && (t = A.BaseDecor > 0 ? "Produced" : "Consumed"), 0 !== A.BaseDecor && e.push({
-      Name: "Decor (Radius: " + A.BaseDecorRadius + ")",
+    }), t = "Normal", 0 !== A.BaseDecor && (t = A.BaseDecor > 0 ? "制造" : "消耗"), 0 !== A.BaseDecor && e.push({
+      Name: "装饰度 (覆盖半径: " + A.BaseDecorRadius + ")",
       Id: "Decor",
       Value: 0 !== A.BaseDecor ? se(A.BaseDecor) : "-",
       Image: ne("decor"),
@@ -3852,29 +3856,29 @@
       Input: !1
     });
     var a = "-";
-    return 0 !== A.EnergyConsumptionWhenActive ? (a = de(A.EnergyConsumptionWhenActive), t = "Consumed") : 0 !== A.GeneratorWattageRating && (a = Be(A.GeneratorWattageRating), t = "Produced"), "-" !== a && e.push({
-      Name: "Power",
+    return 0 !== A.EnergyConsumptionWhenActive ? (a = de(A.EnergyConsumptionWhenActive), t = "消耗") : 0 !== A.GeneratorWattageRating && (a = Be(A.GeneratorWattageRating), t = "Produced"), "-" !== a && e.push({
+      Name: "电力消耗",
       Id: "Power",
       Value: a,
       Image: ne("power"),
       Type: t,
       Input: !1
-    }), t = "Normal", 0 !== A.HeatKilowatt && (t = A.HeatKilowatt < 0 ? "Produced" : "Consumed"), 0 !== A.HeatKilowatt && e.push({
-      Name: "Heat",
+    }), t = "Normal", 0 !== A.HeatKilowatt && (t = A.HeatKilowatt < 0 ? "制造" : "消耗"), 0 !== A.HeatKilowatt && e.push({
+      Name: "发热量",
       Id: "Heat",
       Value: 0 !== A.HeatKilowatt ? me(A.HeatKilowatt) : "-",
       Image: ne("hot"),
       Type: t,
       Input: !1
     }), 0 !== A.OverheatTemperature && e.push({
-      Name: "Overheat Temperature",
+      Name: "过热温度",
       Id: "overheattemp",
       Value: oe(A.OverheatTemperature),
       Image: ne("fire"),
       Type: "Normal",
       Input: !1
     }), 1 !== A.ThermalConductivity && 0 !== A.ThermalConductivity && e.push({
-      Name: "Thermal Conductivity",
+      Name: "导热系数倍率",
       Id: "thermalCond",
       Value: A.ThermalConductivity,
       Image: ne("thermalconductivity"),
@@ -3906,7 +3910,7 @@
     var e = [];
     return A.ProducedRate.forEach(function (A) {
       e.push({
-        Name: 0 === A.MinTemp ? ae.getElem(A.MaterialId).Name : "".concat(ae.getElem(A.MaterialId).Name, " at least ").concat(oe(A.MinTemp)),
+        Name: 0 === A.MinTemp ? ae.getElem(A.MaterialId).Name : "".concat(ae.getElem(A.MaterialId).Name, " 最低 ").concat(oe(A.MinTemp)),
         Id: A.MaterialId,
         Value: "+" + Ce(A.Rate),
         Image: ae.getImage(A.MaterialId),
@@ -3978,10 +3982,10 @@
           component: "th",
           scope: "column",
           className: e.cell
-        }, "Element"), n.a.createElement(Xe.a, { align: "right", className: e.cell }, "Req. Cycle"), n.a.createElement(Xe.a, {
+        }, "物品"), n.a.createElement(Xe.a, { align: "right", className: e.cell }, "最早可发现周期"), n.a.createElement(Xe.a, {
           align: "right",
           className: e.cell
-        }, "Amount"))), n.a.createElement(he.a, null, this.props.rows.map(function (t) {
+        }, "数量"))), n.a.createElement(he.a, null, this.props.rows.map(function (t) {
           return n.a.createElement(Fe.a, { hover: !0, key: t.Id, className: e.row }, n.a.createElement(Xe.a, {
             component: "th",
             scope: "row",
@@ -4063,7 +4067,7 @@
               return A.Name
             }
           })
-        }, "Name")), this.props.fields.map(function (t) {
+        }, "名称")), this.props.fields.map(function (t) {
           return n.a.createElement(Xe.a, {
             component: "th",
             scope: "col",
@@ -4150,7 +4154,7 @@
     }
   }, { withTheme: !0 })(Nt), Tt = function (A, e) {
     return [{
-      Key: "SpecificHeatCapacity", Name: "Heat Generated", Display: function (t) {
+      Key: "SpecificHeatCapacity", Name: "发热量", Display: function (t) {
         return me(Ue(e, t.SpecificHeatCapacity, 275, 275 + A) / 1e3)
       }, Value: function (t) {
         return Ue(-e, t.SpecificHeatCapacity, 275, 275 + A) / 1e3
@@ -4165,10 +4169,11 @@
     return Object(o.a)(e, A), Object(r.a)(e, [{
       key: "render", value: function () {
         var A = this.props, e = A.classes, t = A.state, a = A.packet;
-        return n.a.createElement(tt, { title: "Heat generation overview", variant: "main" }, n.a.createElement(k.m, {
-          variant: "body1",
-          className: e.padding
-        }, "It removes -14 \xb0C from a ", t, " packet and transfer the heat to itself. Here a table of the heat generated based on the material cooled."), n.a.createElement(yt, {
+        return n.a.createElement(tt, { title: "发热概述", variant: "main" }, n.a.createElement(k.m, {
+            variant: "body1",
+            className: e.padding
+          }, "设备从", { Liquid: "液体", Gas: "气体" }[t] || t,
+          "中吸收热量，从而将低其温度降低14 \xb0C。此处是根据冷却的物料产生的热量的表格。"), n.a.createElement(yt, {
           rows: ae.getElementsOfType("element").filter(function (A) {
             return A.State === t && A.LowTemp <= 1248.15
           }), fields: Tt(-14, a), cellStyle: e.cell, dense: !0
@@ -4192,42 +4197,42 @@
       return (t = Object(c.a)(this, (A = Object(p.a)(e)).call.apply(A, [this].concat(n)))).generateFeatures = function (A) {
         var e = [];
         return e.push({
-          Name: A.Floodable ? "Doesn't work while flooded" : "Works while flooded",
+          Name: A.Floodable ? "不可淹没" : "可淹没",
           Id: "Floodable",
           Value: "Floodable",
           Image: A.Floodable ? ne("floodable_no") : ne("floodable"),
           Type: "Normal",
           Input: !1
         }), e.push({
-          Name: A.Entombable ? "Doesn't work while entombed" : "Works while entombed",
+          Name: A.Entombable ? "不可掩埋" : "可掩埋",
           Id: "Entombable",
           Value: "Entombable",
           Image: A.Entombable ? ne("entombable_no") : ne("entombable"),
           Type: "Normal",
           Input: !1
         }), "InputConduitType" in A && e.push({
-          Name: "".concat(A.InputConduitType.charAt(0).toUpperCase() + A.InputConduitType.slice(1), " Input Conduit"),
+          Name: "".concat({ gas: "气体", solid: "固体", liquid: "液体" }[A.InputConduitType], " 输入"),
           Id: "input conduit",
           Value: A.InputConduitType,
           Image: ne("input_".concat(A.InputConduitType)),
           Type: "Normal",
           Input: !1
         }), "OutputConduitType" in A && e.push({
-          Name: "".concat(A.OutputConduitType.charAt(0).toUpperCase() + A.OutputConduitType.slice(1), " Output Conduit"),
+          Name: "".concat({ gas: "气体", solid: "固体", liquid: "液体" }[A.OutputConduitType], "输出"),
           Id: "output conduit",
           Value: A.OutputConduitType,
           Image: ne("output_".concat(A.OutputConduitType)),
           Type: "Normal",
           Input: !1
         }), "LogicalInputPort" in A && 1 === A.LogicalInputPort && e.push({
-          Name: "Logical Input",
+          Name: "信号输入",
           Id: "Logical Input",
           Value: A.LogicalInputPort,
           Image: ne("logical_input"),
           Type: "Normal",
           Input: !1
         }), "LogicalOutputPort" in A && 1 === A.LogicalOutputPort && e.push({
-          Name: "Logical Output",
+          Name: "信号输出",
           Id: "Logical Output",
           Value: A.LogicalOutputPort,
           Image: ne("logical_output"),
@@ -4241,7 +4246,7 @@
       key: "render", value: function () {
         var A = this.props.classes, e = this.props.building;
         return n.a.createElement(tt, {
-          title: "Additional Features",
+          title: "附加功能",
           variant: "main"
         }, n.a.createElement("div", { className: A.materialContainer }, this.generateFeatures(e).map(function (A) {
           return n.a.createElement(Ke, { hideName: !0, element: A })
@@ -4261,18 +4266,18 @@
     var t = [];
     if ("IdealTemperature" in A) {
       var a = Te(Ie(A.IdealTemperature.MinLiveable)) + " to " + Te(Ie(A.IdealTemperature.MaxLiveable)) + " " + Ne();
-      t.push({ Name: "Temp. Livable Range", Id: "Temp. Livable Range", Value: a, Image: ne("thermometer"), Type: "Normal", Input: !1 })
+      t.push({ Name: "宜居温度范围", Id: "Temp. Livable Range", Value: a, Image: ne("thermometer"), Type: "Normal", Input: !1 })
     }
     var n = A.Decor > 0 ? "Produced" : "Consumed";
     if (0 === A.Decor && (n = "Normal"), t.push({
-      Name: "Decor (Radius: " + A.DecorRadius + ")",
+      Name: "装饰度 (范围: " + A.DecorRadius + ")",
       Id: "Decor",
       Value: se(A.Decor),
       Image: ne("decor"),
       Type: n,
       Input: !1
     }), t.push({
-      Name: "Calories Needed",
+      Name: "食量",
       Id: "Calories per Cycle",
       Value: ke(A.CaloriesPerSecond * e.Metabolism),
       Image: ne("food"),
@@ -4286,7 +4291,7 @@
       Type: "Normal",
       Input: !1
     }), 0 !== A.SpaceRequired && t.push({
-      Name: "Space Required",
+      Name: "居住空间",
       Id: "SpaceRequired",
       Value: A.SpaceRequired,
       Image: ne("size"),
@@ -4294,10 +4299,10 @@
       Input: !1
     }), "ReproductionInfo" in A) {
       var g = 1 / A.ReproductionInfo.BaseFertileCycles * (1 + e.ReproductionRate);
-      t.push({ Name: "Lay an egg every", Id: "ReproductionInfo", Value: pe(1 / g * 600), Image: ne("fertility"), Type: "Normal", Input: !1 })
+      t.push({ Name: "下蛋周期", Id: "ReproductionInfo", Value: pe(1 / g * 600), Image: ne("fertility"), Type: "Normal", Input: !1 })
     }
     return "ButcheredProduced" in A && t.push(ot(A.ButcheredProduced)), "undefined" !== typeof A.LightEmitter && t.push({
-      Name: "Light Emitter (range: " + A.LightEmitter.Range + ")",
+      Name: "发光量 (范围: " + A.LightEmitter.Range + ")",
       Id: "LightEmitter",
       Value: "+" + A.LightEmitter.Lux + " lux",
       Image: ne("light"),
@@ -4465,7 +4470,7 @@
   function jt(A) {
     var e = [], t = "-";
     A.GrowthRequirement.PressureSensitive && (t = fe(A.GrowthRequirement.PressureWarningLow) + " to " + fe(A.GrowthRequirement.PressureWarningHigh)), "-" !== t && e.push({
-      Name: "Air Pressure Required",
+      Name: "气压要求",
       Id: "Air Pressure",
       Value: t,
       Image: ne("pressure"),
@@ -4473,10 +4478,10 @@
       Input: !1
     });
     var a = Te(Ie(A.GrowthRequirement.MinTemp)) + " to " + Te(Ie(A.GrowthRequirement.MaxTemp)) + " " + Ne();
-    e.push({ Name: "Temp. Required", Id: "Temp. Required", Value: a, Image: ne("thermometer"), Type: "Normal", Input: !1 });
+    e.push({ Name: "生长温度范围", Id: "Temp. Required", Value: a, Image: ne("thermometer"), Type: "Normal", Input: !1 });
     var n = "-";
     "undefined" !== typeof A.GrowthRequirement.Light && (n = A.GrowthRequirement.Light), isNaN(n) || (n = "".concat(n, " lux")), "-" !== n && e.push({
-      Name: "Require",
+      Name: "生长需要",
       Id: "Require Light",
       Value: n,
       Image: ne("light"),
@@ -4485,22 +4490,22 @@
     });
     var g = A.Decor > 0 ? "Produced" : "Consumed";
     return 0 === A.Decor && (g = "Normal"), e.push({
-      Name: "Base Decor",
+      Name: "基础装饰度",
       Id: "Decor",
       Value: se(A.Decor),
       Image: ne("decor"),
       Type: g,
       Input: !1
     }), "DecorModifiers" in A && A.DecorModifiers.forEach(function (A) {
-      "GrowthBonus" === A.Id ? (g = A.Value > 0 ? "Produced" : "Consumed", e.push({
-        Name: "Growth Bonus",
+      "GrowthBonus" === A.Id ? (g = A.Value > 0 ? "制造" : "消耗", e.push({
+        Name: "生长奖励",
         Id: "GrowthBonus",
         Value: se(A.Value),
         Image: ne("decor"),
         Type: g,
         Input: !1
-      })) : "WiltPenalty" === A.Id && (g = A.Value > 0 ? "Produced" : "Consumed", e.push({
-        Name: "Wilt Penalty",
+      })) : "WiltPenalty" === A.Id && (g = A.Value > 0 ? "制造" : "消耗", e.push({
+        Name: "枯萎惩罚",
         Id: "WiltPenalty",
         Value: se(A.Value),
         Image: ne("decor"),
@@ -4532,21 +4537,21 @@
   function $t(A) {
     var e = [];
     return e.push({
-      Name: "Absorbs " + Ce(1) + " of any gas",
+      Name: "吸收" + Ce(1) + "气体",
       Id: "gas",
       Value: "- " + Ce(1),
       Image: ae.getImage("oxygen"),
       Type: "Consumed",
       Input: !1
     }), e.push({
-      Name: "Cool the absorbed gas of " + A.DeltaEmitTemperature + Ne(),
+      Name: "将气体温度降低" + A.DeltaEmitTemperature + Ne(),
       Id: "gas",
       Value: A.DeltaEmitTemperature + Ne(),
       Image: ae.getImage(A.Id),
       Type: "Normal",
       Input: !1
     }), e.push({
-      Name: "Emits " + Ce(1) + " of the cooled gas",
+      Name: "释放出" + Ce(1) + "低温气体",
       Id: "gas",
       Value: "+ " + Ce(1),
       Image: ae.getImage("oxygen"),
@@ -4583,45 +4588,16 @@
 
   function ta(A) {
     var e = [];
-    return e.push({
-      Name: "Thermal Conductivity",
-      Id: "ThermalConductivity",
-      Value: A.ThermalConductivity,
-      Image: ne("thermalconductivity"),
-      Type: "Normal",
-      Input: !1
-    }), e.push({
-      Name: "Specific Heat Capacity",
-      Id: "SpecificHeatCapacity",
-      Value: A.SpecificHeatCapacity,
-      Image: ne("thermometer"),
-      Type: "Normal",
-      Input: !1
-    }), e.push({
-      Name: "Molar Mass",
-      Id: "MolarMass",
-      Value: A.MolarMass,
-      Image: ne("cloud"),
-      Type: "Normal",
-      Input: !1
-    }), "Solid" === A.State && e.push({
-      Name: "Hardness",
-      Id: "Hardness",
-      Value: A.Hardness,
-      Image: ne("pickaxe"),
-      Type: "Normal",
-      Input: !1
-    }), e.push({
-      Name: "Light Absorption Factor",
-      Id: "LightAbsorptionFactor",
-      Value: be(A.LightAbsorptionFactor),
-      Image: ne("light"),
-      Type: "Normal",
-      Input: !1
-    }), "AttributeModifiers" in A && A.AttributeModifiers.forEach(function (A) {
+    e.push({ Name: "导热系数", Id: "ThermalConductivity", Value: A.ThermalConductivity, Image: ne("thermalconductivity"), Type: "Normal", Input: !1 });
+    e.push({ Name: "比热容", Id: "SpecificHeatCapacity", Value: A.SpecificHeatCapacity, Image: ne("thermometer"), Type: "Normal", Input: !1 });
+    e.push({ Name: "摩尔质量", Id: "MolarMass", Value: A.MolarMass, Image: ne("cloud"), Type: "Normal", Input: !1 });
+    "Solid" === A.State && e.push({ Name: "硬度", Id: "Hardness", Value: A.Hardness, Image: ne("pickaxe"), Type: "Normal", Input: !1 });
+    "Liquid" === A.State && e.push({ Name: "热容积", Id:"热容积", Value:Math.round((A.HighTemp*100 - A.LowTemp*100) * (1000*A.SpecificHeatCapacity))/100000,Image: ne("hot"),Type: "Normal", Input: !1})
+    e.push({ Name: "光吸收率", Id: "LightAbsorptionFactor", Value: be(A.LightAbsorptionFactor), Image: ne("light"), Type: "Normal", Input: !1 });
+    "AttributeModifiers" in A && A.AttributeModifiers.forEach(function (A) {
       return e.push(function (A) {
         if ("Decor" === A.Id) return {
-          Name: "Decor Modifier",
+          Name: "装饰修正",
           Id: "DecorMod",
           Value: (A.Value > 0 ? "+" : "") + be(A.Value),
           Image: ne("decor"),
@@ -4629,7 +4605,7 @@
           Input: !1
         };
         if ("OverheatTemperature" === A.Id) return {
-          Name: "Overheat Temp. Modifier",
+          Name: "过热修正",
           Id: "OverHeatMod",
           Value: (A.Value > 0 ? "+" : "") + A.Value + " " + Ne(),
           Image: ne("fire"),
@@ -4637,20 +4613,20 @@
           Input: !1
         }
       }(A))
-    }), e
+    });
+    return e;
   }
 
   function aa(A) {
     var e = [];
-    return [{ Id: "MaxMass", Name: "Max Mass", Image: "cloudMax" }, {
-      Id: "MaxCompression",
-      Name: "Max Compression",
-      Image: "compression"
-    }, { Id: "Viscosity", Name: "Viscosity", Image: "viscosity" }, { Id: "Flow", Name: "Flow", Image: "flow" }, {
-      Id: "MinVerticalFlow",
-      Name: "Min. Vertical Flow",
-      Image: "verticalFlow"
-    }, { Id: "MinHorizontalFlow", Name: "Min. Horizontal Flow", Image: "horizontalFlow" }].forEach(function (t) {
+    return [
+      { Id: "MaxMass", Name: "最大质量", Image: "cloudMax" },
+      { Id: "MaxCompression", Name: "超压质量", Image: "compression" },
+      { Id: "Viscosity", Name: "黏度", Image: "viscosity" },
+      { Id: "Flow", Name: "流动", Image: "flow" },
+      { Id: "MinVerticalFlow", Name: "最小垂直流", Image: "verticalFlow" },
+      { Id: "MinHorizontalFlow", Name: "最小水平流", Image: "horizontalFlow" }
+    ].forEach(function (t) {
       0 !== A[t.Id] && e.push({ Name: t.Name, Id: t.Id, Value: A[t.Id], Image: ne(t.Image), Type: "Normal", Input: !1 })
     }), e
   }
@@ -4774,13 +4750,13 @@
 
   var sa = function (A) {
     return [{
-      Key: "DecorModifier", Name: "Decor", Display: function (e) {
+      Key: "DecorModifier", Name: "装饰度", Display: function (e) {
         return "AttributeModifiers" in e && "Decor" === e.AttributeModifiers[0].Id ? se(A.BaseDecor + Math.abs(A.BaseDecor * e.AttributeModifiers[0].Value)) : se(A.BaseDecor)
       }, Value: function (e) {
         return "AttributeModifiers" in e && "Decor" === e.AttributeModifiers[0].Id ? A.BaseDecor + Math.abs(A.BaseDecor * e.AttributeModifiers[0].Value) : A.BaseDecor
       }
     }, {
-      Key: "OverheatTemperature", Name: "Overheat", Display: function (e) {
+      Key: "OverheatTemperature", Name: "过热", Display: function (e) {
         var t = ma(e);
         return A.Overheatable ? "undefined" !== typeof t ? Ie(A.OverheatTemperature) + t.Value + Ne() : Ie(A.OverheatTemperature) + Ne() : "-"
       }, Value: function (e) {
@@ -4788,7 +4764,7 @@
         return "undefined" !== typeof t ? A.OverheatTemperature + t.Value : A.OverheatTemperature
       }
     }, {
-      Key: "ThermalConductivity", Name: "Thermal Cond.", Display: function (e) {
+      Key: "ThermalConductivity", Name: "热传导效率", Display: function (e) {
         return A.ThermalConductivity * e.ThermalConductivity
       }, Value: function (e) {
         return A.ThermalConductivity * e.ThermalConductivity
@@ -4844,7 +4820,7 @@
     return Object(o.a)(e, A), Object(r.a)(e, [{
       key: "render", value: function () {
         var A = this.props.classes, e = this.props.building;
-        return n.a.createElement(tt, { title: "Build With", variant: "main" }, n.a.createElement(Zt.a, {
+        return n.a.createElement(tt, { title: "建造", variant: "main" }, n.a.createElement(Zt.a, {
           value: this.state.tabValue,
           onChange: this.handleChange,
           indicatorColor: "primary",
@@ -4852,12 +4828,12 @@
           className: A.tabs,
           centered: !0
         }, n.a.createElement(Rt.a, {
-          label: "Overview",
+          label: "概述",
           value: "overview",
           key: "overview",
           className: A.tab
         }), n.a.createElement(Rt.a, {
-          label: "Details",
+          label: "详情",
           value: "details",
           key: "details",
           className: A.tab
@@ -4889,28 +4865,12 @@
           a = Ue(30, e.SpecificHeatCapacity, A, e.LowTemp) / 1e3 + Ue(30, t.SpecificHeatCapacity, e.LowTemp, 253.15) / 1e3, n = a / 20,
           g = -44 / (30 * e.SpecificHeatCapacity), i = -44 / (30 * t.SpecificHeatCapacity), l = -(A - e.LowTemp) / g, r = -(e.LowTemp - 253.15) / i,
           c = 16 * n;
-        return [{ Name: "Time to freeze", Id: "time", Value: pe(n), Image: ne("time"), Type: "Normal", Input: !1 }, {
-          Name: "Heat Produced",
-          Id: "heat",
-          Value: ue(c),
-          Image: ne("hot"),
-          Type: "Normal",
-          Input: !1
-        }, {
-          Name: "Water Heat Removed",
-          Id: "waterheat",
-          Value: ue(-a),
-          Image: ne("heatDelete"),
-          Type: "Normal",
-          Input: !1
-        }, {
-          Name: "Net Heat Removed",
-          Id: "netheat",
-          Value: ue(c - a),
-          Image: ne("heatDelete"),
-          Type: "Produced",
-          Input: !1
-        }, { Name: "Heat Removed/sec", Id: "heatremovedsec", Value: me((c - a) / (l + r)), Image: ne("heatDelete"), Type: "Produced", Input: !1 }]
+        return [
+          { Name: "制冰时间", Id: "time", Value: pe(n), Image: ne("time"), Type: "Normal", Input: !1 },
+          { Name: "总发热量", Id: "heat", Value: ue(c), Image: ne("hot"), Type: "Normal", Input: !1 },
+          { Name: "水热量变化", Id: "waterheat", Value: ue(-a), Image: ne("heatDelete"), Type: "Normal", Input: !1 },
+          { Name: "空间热量变化", Id: "netheat", Value: ue(c - a), Image: ne("heatDelete"), Type: "Produced", Input: !1 },
+          { Name: "每秒热量变化", Id: "heatremovedsec", Value: me((c - a) / (l + r)), Image: ne("heatDelete"), Type: "Produced", Input: !1 }]
       }, t.state = { waterTemp: 298.15, displayWaterTemp: Ie(298.15), error: !1 }, t
     }
 
@@ -4918,7 +4878,7 @@
       key: "render", value: function () {
         var A = this.props.classes;
         return n.a.createElement(tt, {
-          title: "Calculate",
+          title: "蒸汽机计算器",
           variant: "main"
         }, n.a.createElement("div", { className: A.row }, n.a.createElement("img", {
           className: A.imageElem,
@@ -4927,7 +4887,7 @@
         }), n.a.createElement(k.k, {
           className: A.textInput,
           endAdornment: n.a.createElement(k.g, { position: "end" }, "Kg"),
-          label: "From ".concat(Ne()),
+          label: "从 ".concat(Ne()),
           value: this.state.displayWaterTemp,
           onChange: this.handleTextChange,
           error: this.state.error
@@ -4964,56 +4924,47 @@
         var e = t.state.pumpRate, a = ae.getElem("steam"), n = ka * ((A - fa) / (ba - fa));
         n = Math.min(n * (e / 2), ka);
         var g = Ue(e, a.SpecificHeatCapacity, A, fa) / 1e3;
-        return [{ Name: "Power Generated", Id: "power", Value: Be(n), Image: ne("power"), Type: "Produced", Input: !1 }, {
-          Name: "Steam Heat Removed",
-          Id: "steamheatremoved",
-          Value: me(-g),
-          Image: ne("heatDelete"),
-          Type: "Produced",
-          Input: !1
-        }, {
-          Name: "Heat Produced",
-          Id: "heatProduced",
-          Value: me(.1 * g + 4),
-          Image: ne("hot"),
-          Type: "Consumed",
-          Input: !1
-        }, { Name: "Net Heat Removed", Id: "netHeatProduced", Value: me(.1 * g - g), Image: ne("heatDelete"), Type: "Produced", Input: !1 }]
+        return [
+          { Name: "发电量", Id: "power", Value: Be(n), Image: ne("power"), Type: "Produced", Input: !1 },
+          { Name: "吸受热量", Id: "steamheatremoved", Value: me(-g), Image: ne("heatDelete"), Type: "Produced", Input: !1 },
+          { Name: "机身发热量", Id: "heatProduced", Value: me(.1 * g + 4), Image: ne("hot"), Type: "Consumed", Input: !1 },
+          { Name: "净吸热量", Id: "netHeatProduced", Value: me(.1 * g - g), Image: ne("heatDelete"), Type: "Produced", Input: !1 }]
       }, t.state = { steamTemp: 473.15, displayTemp: Ie(473.15), error: !1, pumpRate: 2 }, t
     }
 
     return Object(o.a)(e, A), Object(r.a)(e, [{
       key: "render", value: function () {
         var A = this.props.classes;
-        return n.a.createElement(tt, {
-          title: "Calculate",
-          variant: "main"
-        }, n.a.createElement("div", { className: A.row }, n.a.createElement("img", {
-          className: A.imageElem,
-          src: ae.getImage("steam"),
-          alt: "Steam"
-        }), n.a.createElement(k.k, {
-          className: A.textInput,
-          endAdornment: n.a.createElement(k.g, { position: "end" }, "Kg"),
-          label: "From ".concat(Ne()),
-          value: this.state.displayTemp,
-          onChange: this.handleTextChange,
-          error: this.state.error
-        }), n.a.createElement(Ye, { direction: "right" }), n.a.createElement("img", {
-          className: A.imageElem,
-          src: ae.getImage("water"),
-          alt: "Water"
-        }), n.a.createElement(k.m, {
-          variant: "body1",
-          gutterBottom: !0
-        }, oe(fa))), n.a.createElement("div", { className: A.row }, n.a.createElement("div", { className: A.padding }, n.a.createElement(Ea.a, {
-          value: this.state.pumpRate,
-          onChange: this.handlePump,
-          inputProps: { name: "pump", id: "pump" }
-        }, n.a.createElement(_.a, { value: .4 }, "1 Pump - 0.4 Kg/s"), n.a.createElement(_.a, { value: .8 }, "2 Pump - 0.8 Kg/s"), n.a.createElement(_.a, { value: 1.2 }, "3 Pump - 1.2 Kg/s"), n.a.createElement(_.a, { value: 1.6 }, "4 Pump - 1.6 Kg/s"), n.a.createElement(_.a, { value: 2 }, "5 Pump - 2 Kg/s")))), !this.state.error && n.a.createElement(Pe, { rows: this.steamTurbineRows(this.state.steamTemp) }), this.state.error && n.a.createElement(k.m, {
-          variant: "body1",
-          gutterBottom: !0
-        }, "Steam Input temperature should be between", " ", n.a.createElement("b", null, oe(398.15)), " and", " ", n.a.createElement("b", null, oe(1e4))))
+        return n.a.createElement(tt, { title: "Calculate", variant: "main" },
+          n.a.createElement("div", { className: A.row },
+            n.a.createElement("img", { className: A.imageElem, src: ae.getImage("steam"), alt: "Steam" }),
+            n.a.createElement(k.k, {
+              className: A.textInput,
+              endAdornment: n.a.createElement(k.g, { position: "end" }, "Kg"),
+              label: "From ".concat(Ne()),
+              value: this.state.displayTemp,
+              onChange: this.handleTextChange,
+              error: this.state.error
+            }),
+            n.a.createElement(Ye, { direction: "right" }),
+            n.a.createElement("img", { className: A.imageElem, src: ae.getImage("water"), alt: "Water" }),
+            n.a.createElement(k.m, { variant: "body1", gutterBottom: !0 }, oe(fa))),
+          n.a.createElement("div", { className: A.row },
+            n.a.createElement("div", { className: A.padding },
+              n.a.createElement(Ea.a, { value: this.state.pumpRate, onChange: this.handlePump, inputProps: { name: "pump", id: "pump" } },
+                n.a.createElement(_.a, { value: .4 }, "1 Pump - 0.4 Kg/s"),
+                n.a.createElement(_.a, { value: .8 }, "2 Pump - 0.8 Kg/s"),
+                n.a.createElement(_.a, { value: 1.2 }, "3 Pump - 1.2 Kg/s"),
+                n.a.createElement(_.a, { value: 1.6 }, "4 Pump - 1.6 Kg/s"),
+                n.a.createElement(_.a, { value: 2 }, "5 Pump - 2 Kg/s")))),
+          !this.state.error && n.a.createElement(Pe, { rows: this.steamTurbineRows(this.state.steamTemp) }),
+          this.state.error && n.a.createElement(k.m, { variant: "body1", gutterBottom: !0 },
+            "蒸汽温度需要在",
+            n.a.createElement("b", null, oe(398.15)),
+            "到",
+            n.a.createElement("b", null, oe(1e4)),
+            "之间"
+          ))
       }
     }]), e
   }(a.Component), Ia = Object(C.withStyles)(function (A) {
@@ -5046,74 +4997,68 @@
             Type: "Normal",
             Input: !1
           }]
-        }), "icemachine" === e.Id && n.a.createElement(wa, null), "steamturbine2" === e.Id && n.a.createElement(Ia, null), "liquidconditioner" === e.Id && n.a.createElement(Ut, {
-          state: "Liquid",
-          packet: 10
-        }), "airconditioner" === e.Id && n.a.createElement(Ut, {
-          state: "Gas",
-          packet: 1
-        }), "Require" in e && n.a.createElement(tt, {
-          variant: "main",
-          title: "Require"
-        }, n.a.createElement(je, { effects: lt(e.Require) })), "Fuel" in e && n.a.createElement(tt, {
-          variant: "main",
-          title: "Fuel"
-        }, n.a.createElement(je, { effects: lt(e.Fuel) })), ("ConsumedRate" in e || "ProducedRate" in e) && n.a.createElement(tt, {
-          title: "Effects",
-          variant: "main"
-        }, n.a.createElement(je, {
-          effects: dt(e),
-          useArrow: !0
-        })), ("ConsumedOnUse" in e || "ProducedOnUse" in e) && n.a.createElement(tt, {
-          title: "Effects on use",
-          variant: "main"
-        }, n.a.createElement(je, { effects: Ct(e), useArrow: !0 })), "Recipes" in e && n.a.createElement(tt, {
-          title: "Recipes",
-          variant: "main"
-        }, function (A) {
-          var e = [];
-          return A.Recipes.forEach(function (A) {
-            var t = [];
-            A.Require.forEach(function (A) {
-              t.push({
-                Name: ae.getElem(A.MaterialId).Name,
-                Id: A.MaterialId,
-                Value: "-" + Ee(A.MaterialId, A.Amount),
-                Image: ae.getImage(A.MaterialId),
-                Type: "Consumed",
-                Input: !0
-              })
-            }), A.Produce.forEach(function (A) {
-              t.push({
-                Name: ae.getElem(A.MaterialId).Name,
-                Id: A.MaterialId,
-                Value: "+" + Ee(A.MaterialId, A.Amount),
-                Image: ae.getImage(A.MaterialId),
-                Type: "Produced",
-                Input: !0
-              })
-            }), e.push(t)
-          }), e
-        }(e).map(function (A) {
-          return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, { key: A, effects: A, useArrow: !0 }), n.a.createElement(wA.a, null))
-        })), "CureDisease" in e && n.a.createElement(tt, {
-          title: "Cure",
+        }),
+          "icemachine" === e.Id && n.a.createElement(wa, null),
+          "steamturbine2" === e.Id && n.a.createElement(Ia, null),
+          "liquidconditioner" === e.Id && n.a.createElement(Ut, { state: "Liquid", packet: 10 }),
+          "airconditioner" === e.Id && n.a.createElement(Ut, { state: "Gas", packet: 1 }),
+          "Require" in e && n.a.createElement(tt, { variant: "main", title: "需要" },
+            n.a.createElement(je, { effects: lt(e.Require) })),
+          "Fuel" in e && n.a.createElement(tt, { variant: "main", title: "燃料" },
+            n.a.createElement(je, { effects: lt(e.Fuel) })),
+          ("ConsumedRate" in e || "ProducedRate" in e) && n.a.createElement(tt, { title: "配方", variant: "main" },
+            n.a.createElement(je, { effects: dt(e), useArrow: !0 })),
+          ("ConsumedOnUse" in e || "ProducedOnUse" in e) && n.a.createElement(tt, { title: "使用物品", variant: "main" },
+            n.a.createElement(je, { effects: Ct(e), useArrow: !0 })),
+          "Recipes" in e && n.a.createElement(tt, { title: "配方", variant: "main" }, function (A) {
+            var e = [];
+            return A.Recipes.forEach(function (A) {
+              var t = [];
+              A.Require.forEach(function (A) {
+                t.push({
+                  Name: ae.getElem(A.MaterialId).Name,
+                  Id: A.MaterialId,
+                  Value: "-" + Ee(A.MaterialId, A.Amount),
+                  Image: ae.getImage(A.MaterialId),
+                  Type: "Consumed",
+                  Input: !0
+                })
+              }), A.Produce.forEach(function (A) {
+                t.push({
+                  Name: ae.getElem(A.MaterialId).Name,
+                  Id: A.MaterialId,
+                  Value: "+" + Ee(A.MaterialId, A.Amount),
+                  Image: ae.getImage(A.MaterialId),
+                  Type: "Produced",
+                  Input: !0
+                })
+              }), e.push(t)
+            }), e
+          }(e).map(function (A) {
+            return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, { key: A, effects: A, useArrow: !0 }), n.a.createElement(wA.a, null))
+          })), "CureDisease" in e && n.a.createElement(tt, {
+          title: "治疗",
           variant: "main"
         }, n.a.createElement(je, {
           effects: e.CureDisease.map(function (A) {
             return rt(A)
           })
         })), "BuildWith" in e && "Others" !== e.Category && n.a.createElement(da, { building: e }), "CarePackages" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement("br", null), n.a.createElement(it.a, {
-          variant: "body1",
-          gutterBottom: !0
-        }, "Each 3 Cycle the Printing Pod can produce a new duplicant or a random care package.", n.a.createElement("br", null), "Here You can find a list of all possible care packages. The elements with the ", n.a.createElement("b", null, "*"), " must first be discovered in order do be produced."), n.a.createElement(tt, {
-          title: "Care Packages",
-          variant: "main"
-        }, n.a.createElement(Dt, {
-          rows: bt(e.CarePackages).sort(function (A, e) {
-            return A.Cycle < e.Cycle ? -1 : A.Cycle > e.Cycle ? 1 : A.Name < e.Name ? -1 : A.Name > e.Name ? 1 : 0
-          })
-        })), n.a.createElement(it.a, { variant: "body1", gutterBottom: !0 }, "* Require Discovery")))
+              variant: "body1",
+              gutterBottom: !0
+            }, "每三个周期，地球就会传送一批物资过来，这批物资可能是复制人或某些材料食物动物以及种子。",
+            n.a.createElement("br", null),
+            "以下列表你可以找到所有可能的物资，带",
+            n.a.createElement("b", null, "*"),
+            "必须是在发现之后才会出现。"),
+          n.a.createElement(tt, {
+            title: "资源包",
+            variant: "main"
+          }, n.a.createElement(Dt, {
+            rows: bt(e.CarePackages).sort(function (A, e) {
+              return A.Cycle < e.Cycle ? -1 : A.Cycle > e.Cycle ? 1 : A.Name < e.Name ? -1 : A.Name > e.Name ? 1 : 0
+            })
+          })), n.a.createElement(it.a, { variant: "body1", gutterBottom: !0 }, "* Require Discovery")))
       }
     }]), e
   }(a.Component), Na = Object(C.withStyles)(function (A) {
@@ -5280,20 +5225,20 @@
           r = "undefined" !== typeof e && ("RequiredInRecipe" in e || "ConsumedRateIn" in e || "ConsumedOnUse" in e || "EatenByCreature" in e),
           c = "undefined" !== typeof e && ("RequiredToPlantGrowth" in e || "RequiredBy" in e || "UsedAsFuelBy" in e);
         return n.a.createElement("div", null, null !== a && n.a.createElement(tt, {
-          title: "Growth",
+          title: "生长",
           variant: "main"
         }, n.a.createElement(Va, { values: Aa(a) })), t.length > 0 && n.a.createElement(tt, {
           variant: "main",
-          title: "Additional state transition"
+          title: "附加状态转换"
         }, n.a.createElement(je, { effects: la(t) })), "undefined" !== typeof e && "SublimatedBy" in e && n.a.createElement(tt, {
           variant: "main",
-          title: "Sublimates from"
+          title: "升华自"
         }, n.a.createElement(je, { effects: (i = e.SublimatedBy, i.map(st)) })), l && n.a.createElement(tt, {
-          title: "Produced",
+          title: "制造",
           variant: "main"
         }, "ProducedRateBy" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Continuous"
+          text: "工业制造"
         }), e.ProducedRateBy.map(function (A) {
           return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, {
             effects: na(A),
@@ -5302,7 +5247,7 @@
           }), n.a.createElement(wA.a, null))
         })), "ProducedOnUse" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "On use"
+          text: "使用中"
         }), e.ProducedOnUse.map(function (A) {
           return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, {
             effects: ga(A),
@@ -5311,7 +5256,7 @@
           }), n.a.createElement(wA.a, null))
         })), "ProducedInRecipe" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "With recipe"
+          text: "工业制造"
         }), e.ProducedInRecipe.map(function (A) {
           return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, {
             effects: ia(A),
@@ -5320,62 +5265,62 @@
           }), n.a.createElement(wA.a, null))
         })), "ProducedByCreature" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Produced by creatures"
+          text: "生物制造"
         }), Object.keys(e.ProducedByCreature).map(function (A) {
           return n.a.createElement(n.a.Fragment, null, e.ProducedByCreature[A].map(function (e) {
             return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, { effects: va(A, e), useArrow: !0 }), n.a.createElement(wA.a, null))
           }))
         })), "ProducedByButchering" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Killing creatures"
+          text: "死亡掉落"
         }), n.a.createElement(je, {
           effects: e.ProducedByButchering.map(function (A) {
             return ot({ MaterialId: A.Object, Amount: A.Amount })
           })
         })), "ProducedByScale" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Shearing creatures"
+          text: "剪毛站"
         }), Object.keys(e.ProducedByScale).map(function (A) {
           return n.a.createElement(je, { effects: Qa(A, e.ProducedByScale[A][0]), useArrow: !0 })
         })), "DroppedByCreature" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Dropped by"
+          text: "掉落自"
         }), Object.keys(e.DroppedByCreature).map(function (A) {
           return n.a.createElement(je, { effects: Ra(A, e.DroppedByCreature[A][0]), useArrow: !0 })
         })), "ComposePlanet" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Composes planets"
+          text: "航天工业"
         }), n.a.createElement(je, {
           effects: e.ComposePlanet.map(function (A) {
             return rt(A)
           })
         })), "ResourceOfPlanet" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Resource of planets"
+          text: "可发现于行星"
         }), n.a.createElement(je, {
           effects: e.ResourceOfPlanet.map(function (A) {
             return ot(A)
           })
         })), "ComposeComet" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Composes comets"
+          text: "流星"
         }), n.a.createElement(je, {
           effects: e.ComposeComet.map(function (A) {
             return rt(A)
           })
         })), "ProducedByGeyser" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Erupts from"
+          text: "水气泉"
         }), n.a.createElement(je, {
           effects: e.ProducedByGeyser.map(function (A) {
             return rt(A)
           })
         }))), r && n.a.createElement(tt, {
-          title: "Consumed",
+          title: "消耗",
           variant: "main"
         }, "ConsumedRateIn" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Continuous"
+          text: "工业消耗"
         }), e.ConsumedRateIn.map(function (A) {
           return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, {
             effects: na(A),
@@ -5384,7 +5329,7 @@
           }), n.a.createElement(wA.a, null))
         })), "ConsumedOnUse" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "On use"
+          text: "使用消耗"
         }), e.ConsumedOnUse.map(function (A) {
           return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, {
             effects: ga(A),
@@ -5393,7 +5338,7 @@
           }), n.a.createElement(wA.a, null))
         })), "RequiredInRecipe" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "In recipe"
+          text: "工业配方"
         }), e.RequiredInRecipe.map(function (A) {
           return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, {
             effects: ia(A),
@@ -5402,23 +5347,23 @@
           }), n.a.createElement(wA.a, null))
         })), "EatenByCreature" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Eaten by creatures"
+          text: "生物消耗"
         }), Object.keys(e.EatenByCreature).map(function (A) {
           return n.a.createElement(n.a.Fragment, null, e.EatenByCreature[A].map(function (e) {
             return n.a.createElement(n.a.Fragment, null, n.a.createElement(je, { effects: va(A, e), useArrow: !0 }), n.a.createElement(wA.a, null))
           }))
         }))), c && n.a.createElement(tt, {
-          title: "Required",
+          title: "需要",
           variant: "main"
         }, "RequiredToPlantGrowth" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Atmosphere for"
+          text: "空气环境"
         }), n.a.createElement(je, { effects: (g = e, lt(g.RequiredToPlantGrowth)) })), "RequiredBy" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Required by"
+          text: "要求者"
         }), n.a.createElement(je, { effects: lt(e.RequiredBy) })), "UsedAsFuelBy" in e && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Used as fuel by"
+          text: "作为燃料消耗"
         }), n.a.createElement(je, { effects: lt(e.UsedAsFuelBy) }))))
       }
     }]), e
@@ -5442,27 +5387,29 @@
     return Object(o.a)(e, A), Object(r.a)(e, [{
       key: "render", value: function () {
         var A = this.props.classes;
-        return n.a.createElement("div", { className: A.root }, n.a.createElement(k.d, { component: "fieldset" }, n.a.createElement(k.i, {
-          "aria-label": "Wildness",
-          name: "wildness",
-          className: A.group,
-          value: this.state.wildness,
-          onChange: this.handleChange("wildness")
-        }, n.a.createElement(k.e, { value: "wild", control: n.a.createElement(k.h, null), label: "Wild" }), n.a.createElement(k.e, {
-          value: "tame",
-          control: n.a.createElement(k.h, null),
-          label: "Tame"
-        })), n.a.createElement(k.i, {
-          "aria-label": "Happiness",
-          name: "happiness",
-          className: A.group,
-          value: this.state.happiness,
-          onChange: this.handleChange("happiness")
-        }, n.a.createElement(k.e, { value: "glum", control: n.a.createElement(k.h, null), label: "Glum" }), n.a.createElement(k.e, {
-          value: "happy",
-          control: n.a.createElement(k.h, null),
-          label: "Happy"
-        }))))
+        return n.a.createElement("div", { className: A.root },
+          n.a.createElement(k.d, { component: "fieldset" },
+            n.a.createElement(k.i, {
+                "aria-label": "Wildness",
+                name: "wildness",
+                className: A.group,
+                value: this.state.wildness,
+                onChange: this.handleChange("wildness")
+              },
+              n.a.createElement(k.e, { value: "wild", control: n.a.createElement(k.h, null), label: "野生" }),
+              n.a.createElement(k.e, { value: "tame", control: n.a.createElement(k.h, null), label: "驯养" })),
+            n.a.createElement(k.i, {
+                "aria-label": "Happiness",
+                name: "happiness",
+                className: A.group,
+                value: this.state.happiness,
+                onChange: this.handleChange("happiness")
+              },
+              n.a.createElement(k.e, { value: "glum", control: n.a.createElement(k.h, null), label: "闷闷不乐" }),
+              n.a.createElement(k.e, { value: "happy", control: n.a.createElement(k.h, null), label: "快乐" })
+            )
+          )
+        )
       }
     }]), e
   }(a.Component), Ga = Object(C.withStyles)(function (A) {
@@ -5516,28 +5463,28 @@
             return A.setState(Object(Ua.a)({}, e))
           }
         }), 0 !== a.AgeMax && n.a.createElement(tt, {
-          title: "Life Cycle",
+          title: "生命周期",
           variant: "main"
         }, n.a.createElement(Va, { values: Xt(a) })), "ReproductionInfo" in a && n.a.createElement(tt, {
           variant: "main",
-          title: "Breeding Chance"
+          title: "繁殖变异"
         }, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Base"
+          text: "基础"
         }), n.a.createElement(je, { effects: Lt(a) }), "BreedingModifier" in a && n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
           variant: "secondary",
-          text: "Modifiers"
+          text: "变异方案"
         }), a.BreedingModifier.map(function (e) {
           return n.a.createElement(je, { useArrow: !0, effects: A.generateBreedingModifier(a, e) })
         }))), "ScaleGrowth" in a && n.a.createElement(tt, {
           variant: "main",
-          title: "Scale"
+          title: "剥皮"
         }, n.a.createElement(Va, { values: Wt(a, t) })), "Consumed" in a && n.a.createElement(tt, {
           variant: "main",
-          title: "Effects"
+          title: "效果"
         }, n.a.createElement(je, { effects: Ft(a) })), "Diet" in a && n.a.createElement(tt, {
           variant: "main",
-          title: "Diet"
+          title: "食物"
         }, a.Diet.every(function (A) {
           return "0" !== A.ProducedElement
         }) && a.Diet.map(function (A) {
@@ -5546,7 +5493,7 @@
           return "0" === A.ProducedElement
         }) && n.a.createElement(je, { effects: Ht(a, t) })), "ElementDropper" in a && n.a.createElement(tt, {
           variant: "main",
-          title: "Effects"
+          title: "效果"
         }, n.a.createElement(je, { effects: Kt(a) })), n.a.createElement(Oa, { element: a }))
       }
     }]), e
@@ -5572,7 +5519,7 @@
   function La(A) {
     var e = [];
     return A.Duration > 0 && e.push({
-      Name: "Duration",
+      Name: "持续时间",
       Id: "duration",
       Value: pe(A.Duration),
       Image: ne("time"),
@@ -5581,7 +5528,7 @@
     }), "Modifiers" in A && A.Modifiers.forEach(function (A) {
       return e.push(function (A) {
         if ("GermResistance" === A.Id) return {
-          Name: "Germ Resistance",
+          Name: "细菌抗性",
           Id: "GermResistance",
           Value: "+" + A.Value,
           Image: ne("desease"),
@@ -5589,7 +5536,7 @@
           Input: !1
         };
         if ("Tracking Effect" === A.Id) return {
-          Name: "Antihistamines",
+          Name: "抗组胺药",
           Id: "Antihistamines",
           Value: be(A.Value),
           Image: ne("leaf"),
@@ -5597,7 +5544,7 @@
           Input: !1
         };
         if ("RadiationRecovery" === A.Id) return {
-          Name: "Radiation Recovery",
+          Name: "辐射恢复",
           Id: "RadiationRecovery",
           Value: be(A.Value),
           Image: ne("radiation"),
@@ -5611,27 +5558,42 @@
   function Pa(A) {
     var e = [];
     return e.push({
-      Name: "Duration",
+      Name: "持续时间",
       Id: "duration",
       Value: pe(A.SicknessDuration),
       Image: ne("time"),
       Type: "Normal",
       Input: !1
-    }), e.push({ Name: "Severity", Id: "severity", Value: A.Severity, Image: ne("sick"), Type: "Normal", Input: !1 }), e.push({
-      Name: "Type",
-      Id: "type",
-      Value: A.Type,
-      Image: ne("medicine"),
+    }), e.push({
+      Name: "严重程度",
+      Id: "severity",
+      Value: { "Minor": "普通", "Major": "严重" }[A.Severity],
+      Image: ne("sick"),
       Type: "Normal",
       Input: !1
-    }), A.InfectionVectors.forEach(function (A) {
-      e.push({ Name: "Caused by", Id: "causedBy" + A, Value: A, Image: ne("desease"), Type: "Normal", Input: !1 })
+    }),
+      e.push({
+        Name: "类型",
+        Id: "type",
+        Value: { "Ailment": "小病", "Pathogen": "疾病" }[A.Type],
+        Image: ne("medicine"),
+        Type: "Normal",
+        Input: !1
+      }), A.InfectionVectors.forEach(function (A) {
+      e.push({
+        Name: "感染方式",
+        Id: "causedBy" + A,
+        Value: { "Inhalation": "吸入", "Contact": "接触", "Exposure": "暴露", "Digestion": "进食" }[A] || A,
+        Image: ne("desease"),
+        Type: "Normal",
+        Input: !1
+      })
     }), e
   }
 
   function Ha(A) {
     var e = [], t = Te(Ie(A.MinTemp)) + " to " + Te(Ie(A.MaxTemp)) + " " + Ne();
-    return e.push({ Name: "Survive in Temp.", Id: "Temp. Required", Value: t, Image: ne("thermometer"), Type: "Normal", Input: !1 }), e
+    return e.push({ Name: "生存温度", Id: "Temp. Required", Value: t, Image: ne("thermometer"), Type: "Normal", Input: !1 }), e
   }
 
   var Ka = function (A) {
@@ -5670,48 +5632,56 @@
     }, {
       key: "render", value: function () {
         var A = this.props, e = A.classes, t = A.pathogen;
-        return n.a.createElement(tt, {
-          title: "Chance to get sick",
-          variant: "main"
-        }, n.a.createElement("div", { className: e.row }, n.a.createElement(Ke, {
-          hideName: !0,
-          element: rt(t.Id)
-        }), n.a.createElement(Ye, { direction: "right" }), n.a.createElement(k.m, {
-          variant: "h5",
-          gutterBottom: !0,
-          className: e.padding
-        }, this.getPercentage(t)), n.a.createElement(Ye, { direction: "right" }), n.a.createElement(Ke, {
-          hideName: !0,
-          element: rt(t.CanCauseDisease)
-        })), n.a.createElement("div", { className: e.row }, "pollengerms" !== t.Id && n.a.createElement(Ea.a, {
-          value: this.state.duplicantModifier,
-          onChange: this.handleDuplicantModifierChange,
-          inputProps: { name: "duplicantModifier", id: "duplicantModifier" }
-        }, n.a.createElement(_.a, { value: "Biohazardous" }, "Biohazardous [-0.5]"), n.a.createElement(_.a, { value: "Normal" }, "No Trait"), n.a.createElement(_.a, { value: "Resistant" }, "Germ Resistant [+0.5]"), "foodpoisoning" === t.Id && n.a.createElement(_.a, { value: "IronGut" }, "Iron Gut")), "pollengerms" === t.Id && n.a.createElement(Ea.a, {
-          value: this.state.duplicantModifier,
-          onChange: this.handleDuplicantModifierChange,
-          inputProps: { name: "duplicantModifier", id: "duplicantModifier" }
-        }, n.a.createElement(_.a, { value: "Allergies" }, "Allergies"), n.a.createElement(_.a, { value: "Normal" }, "No Trait")), n.a.createElement("img", {
-          className: e.imageElem,
-          src: ae.getImage("duplicant"),
-          alt: "Duplicant"
-        })), n.a.createElement("div", { className: e.row }, n.a.createElement(Ea.a, {
-          value: this.state.booster,
-          onChange: this.handleBoosterModifierChange,
-          inputProps: { name: "booster", id: "booster" }
-        }, n.a.createElement(_.a, { value: "None" }, "No Booster"), ae.getElementsOfType("medicine").filter(function (A) {
-          return "Modifiers" in A && "GermResistance" === A.Modifiers[0].Id
-        }).map(function (A) {
-          return n.a.createElement(_.a, { value: A.Id }, " ", n.a.createElement("img", {
-            className: e.imageElem,
-            src: ae.getImage(A.Id),
-            alt: "Duplicant"
-          }), " ", "".concat(A.Name, " [+").concat(A.Modifiers[0].Value, "]"))
-        }))), n.a.createElement("div", { className: e.row }, n.a.createElement("div", { className: e.padding }, n.a.createElement(Ea.a, {
-          value: this.state.difficulty,
-          onChange: this.handleDifficulty,
-          inputProps: { name: "difficulty", id: "difficulty" }
-        }, n.a.createElement(_.a, { value: "Miserable" }, "Miserable"), n.a.createElement(_.a, { value: "Weak" }, "Weak"), n.a.createElement(_.a, { value: "Regular" }, "Regular Difficulty"), n.a.createElement(_.a, { value: "Strong" }, "Strong"), n.a.createElement(_.a, { value: "Perfect" }, "Perfect")))))
+        return n.a.createElement(tt, { title: "发病几率", variant: "main" },
+          n.a.createElement("div", { className: e.row }, n.a.createElement(Ke, {
+            hideName: !0,
+            element: rt(t.Id)
+          }), n.a.createElement(Ye, { direction: "right" }), n.a.createElement(k.m, {
+            variant: "h5",
+            gutterBottom: !0,
+            className: e.padding
+          }, this.getPercentage(t)), n.a.createElement(Ye, { direction: "right" }), n.a.createElement(Ke, {
+            hideName: !0,
+            element: rt(t.CanCauseDisease)
+          })), n.a.createElement("div", { className: e.row }, "pollengerms" !== t.Id && n.a.createElement(Ea.a, {
+              value: this.state.duplicantModifier,
+              onChange: this.handleDuplicantModifierChange,
+              inputProps: { name: "duplicantModifier", id: "duplicantModifier" }
+            }, n.a.createElement(_.a, { value: "Biohazardous" }, "生物危害 [-0.5]"),
+            n.a.createElement(_.a, { value: "Normal" }, "没有特征"),
+            n.a.createElement(_.a, { value: "Resistant" }, "病菌抗性 [+0.5]"),
+            "foodpoisoning" === t.Id && n.a.createElement(_.a, { value: "IronGut" }, "铁石胃肠")),
+            "pollengerms" === t.Id && n.a.createElement(Ea.a, {
+                value: this.state.duplicantModifier,
+                onChange: this.handleDuplicantModifierChange,
+                inputProps: { name: "duplicantModifier", id: "duplicantModifier" }
+              }, n.a.createElement(_.a, { value: "Allergies" }, "过敏症"),
+              n.a.createElement(_.a, { value: "Normal" }, "没有特征")), n.a.createElement("img", {
+              className: e.imageElem,
+              src: ae.getImage("duplicant"),
+              alt: "Duplicant"
+            })), n.a.createElement("div", { className: e.row }, n.a.createElement(Ea.a, {
+              value: this.state.booster,
+              onChange: this.handleBoosterModifierChange,
+              inputProps: { name: "booster", id: "booster" }
+            }, n.a.createElement(_.a, { value: "None" }, "没有吃药"),
+            ae.getElementsOfType("medicine").filter(function (A) {
+              return "Modifiers" in A && "GermResistance" === A.Modifiers[0].Id
+            }).map(function (A) {
+              return n.a.createElement(_.a, { value: A.Id }, " ", n.a.createElement("img", {
+                className: e.imageElem,
+                src: ae.getImage(A.Id),
+                alt: "Duplicant"
+              }), " ", "".concat(A.Name, " [+").concat(A.Modifiers[0].Value, "]"))
+            }))), n.a.createElement("div", { className: e.row }, n.a.createElement("div", { className: e.padding }, n.a.createElement(Ea.a, {
+              value: this.state.difficulty,
+              onChange: this.handleDifficulty,
+              inputProps: { name: "difficulty", id: "difficulty" }
+            }, n.a.createElement(_.a, { value: "Miserable" }, "不堪一击"),
+            n.a.createElement(_.a, { value: "Weak" }, "脆弱"),
+            n.a.createElement(_.a, { value: "Regular" }, "正常"),
+            n.a.createElement(_.a, { value: "Strong" }, "强壮"),
+            n.a.createElement(_.a, { value: "Perfect" }, "完美无缺")))))
       }
     }]), e
   }(a.Component), za = Object(C.withStyles)(function (A) {
@@ -5736,11 +5706,11 @@
         }), "undefined" !== typeof e.Description && e.Description.split("\n").map(function (A, e) {
           return n.a.createElement(f.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
         }), n.a.createElement(Pe, { rows: Pa(e) }), "CausedByPathogen" in e && n.a.createElement(za, { pathogen: ae.getElem(e.CausedByPathogen) }), "allergies" === e.Id && n.a.createElement(tt, {
-          title: "Effects (Not Allergic)",
+          title: "效果（非过敏）",
           variant: "main"
         }, n.a.createElement(Pe, {
           rows: [{
-            Name: "Stress Change",
+            Name: "压力变化",
             Id: "Stress Change",
             Value: "-5%/cycle",
             Image: ne("thumb-up"),
@@ -5749,17 +5719,38 @@
           }]
         })), n.a.createElement(tt, { title: "Symptoms", variant: "main" }, n.a.createElement(Pe, {
           rows: e.Symptoms.map(function (A) {
-            return { Name: A.first, Id: A.first, Value: A.second, Image: ne("thumb-down"), Type: "Consumed", Input: !1 }
+            return {
+              Name: {
+                "Athletics": "运动",
+                "Science": "科学",
+                "Machinery": "机械",
+                "Construction": "建造",
+                "Cuisine": "烹饪",
+                "Sneeziness": "喷嚏",
+                "Strength": "力量",
+                "Excavation": "挖掘",
+                "Creativity": "创作",
+                "Medicine": "医疗",
+                "Agriculture": "农业",
+                "Husbandry": "畜牧",
+                "Stress": "压力",
+                "Breath": "呼吸",
+                "Coughing": "咳嗽",
+                "Bladder": "膀胱",
+                "Bathroom Use Speed": "浴室使用速度",
+                "Stamina": "体力"
+              }[A.first] || A.first, Id: A.first, Value: A.second, Image: ne("thumb-down"), Type: "Consumed", Input: !1
+            }
           })
         })), n.a.createElement(Oa, { element: e }), "CuredByMedicine" in e && n.a.createElement(tt, {
-          title: "Cured By",
+          title: "治疗方案",
           variant: "main"
         }, n.a.createElement(je, {
           effects: e.CuredByMedicine.map(function (A) {
             return rt(A)
           })
         })), "CausedByPathogen" in e && n.a.createElement(tt, {
-          title: "Caused by",
+          title: "病因",
           variant: "main"
         }, n.a.createElement(je, { effects: [].concat(rt(e.CausedByPathogen)) })))
       }
@@ -5808,10 +5799,10 @@
           alt: t.Name
         }), n.a.createElement(tt, {
           variant: "main",
-          title: "Life Cycle"
+          title: "生命周期"
         }, n.a.createElement(Va, { values: Xt(a) })), n.a.createElement(tt, {
           variant: "main",
-          title: "Can be layed by"
+          title: "生产自"
         }, n.a.createElement(je, {
           effects: ae.getElementsOfType("creature").filter(function (A) {
             return "ReproductionInfo" in A && A.ReproductionInfo.BreedingChances.some(function (A) {
@@ -5905,17 +5896,18 @@
         }), n.a.createElement("div", { className: e.tagLayout }, t.OreTag.map(function (A) {
           return n.a.createElement($a.a, { color: "secondary", label: ae.getElem(A.toLowerCase()).Name, key: A, className: e.chip })
         })), n.a.createElement(Pe, { rows: ta(t) }), n.a.createElement(k.a, null, n.a.createElement(k.c, {
-          expandIcon: n.a.createElement(en.a, null),
-          "aria-controls": "panel1a-content",
-          id: "panel1a-header"
-        }, n.a.createElement(it.a, { className: e.heading }, "Additional info")), n.a.createElement(k.b, { className: e.expansionDetail }, n.a.createElement(Pe, {
-          rows: aa(t),
-          classes: { root: e.additionaInfo }
-        }))), n.a.createElement(tt, {
-          title: "State Transitions",
+            expandIcon: n.a.createElement(en.a, null),
+            "aria-controls": "panel1a-content",
+            id: "panel1a-header"
+          }, n.a.createElement(it.a, { className: e.heading }, "附加信息")),
+          n.a.createElement(k.b, { className: e.expansionDetail }, n.a.createElement(Pe, {
+            rows: aa(t),
+            classes: { root: e.additionaInfo }
+          }))), n.a.createElement(tt, {
+          title: "状态转换",
           variant: "main"
         }, n.a.createElement(an, { element: t })), "undefined" !== typeof t.Sublimate && n.a.createElement(tt, {
-          title: "Sublimate in",
+          title: "挥发",
           variant: "main"
         }, n.a.createElement(je, { effects: (A = [t.Sublimate], A.map(pt)) })), n.a.createElement(Oa, { element: t }))
       }
@@ -5943,26 +5935,26 @@
   function cn(A) {
     var e = [], t = "Normal", a = "";
     return A.Quality > 0 && (t = "Produce", a = "+ "), A.Quality < 0 && (t = "Consumed"), e.push({
-      Name: "Quality",
+      Name: "品质",
       Id: "Quality",
       Value: a + A.Quality,
       Image: ne("quality"),
       Type: t,
       Input: !1
     }), e.push({
-      Name: "Calories",
+      Name: "卡路里",
       Id: "Calories",
       Value: 0 !== A.CaloriesPerUnit ? Me(A.CaloriesPerUnit) : "-",
       Image: ne("food"),
       Type: "Normal",
       Input: !1
-    }), e.push({ Name: "Spoil Time", Id: "Spoil Time", Value: pe(A.SpoilTime), Image: ne("spoil"), Type: "Normal", Input: !1 }), e
+    }), e.push({ Name: "腐烂时间", Id: "Spoil Time", Value: pe(A.SpoilTime), Image: ne("spoil"), Type: "Normal", Input: !1 }), e
   }
 
   function pn(A, e) {
     var t = [];
     return t.push(mt(A, e)), t.push({
-      Name: "Duplicant",
+      Name: "复制人",
       Id: "duplicant",
       Value: "Duplicant",
       Image: ae.getImage("duplicant"),
@@ -6002,20 +5994,22 @@
         }), a.Description.split("\n").map(function (A, e) {
           return n.a.createElement(it.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
         }), n.a.createElement(Pe, { rows: cn(a) }), n.a.createElement(Oa, { element: a }), a.CaloriesPerUnit > 0 && n.a.createElement(tt, {
-          title: "Duplicant Diet",
-          variant: "main"
-        }, n.a.createElement("div", { className: A.center }, n.a.createElement(rn.a, {
-          checked: this.state.bottomless,
-          onChange: this.handleChange("checkedb"),
-          value: "bottomless"
-        }), n.a.createElement(it.a, { variant: "body1" }, "Bottomless Stomach")), n.a.createElement("div", { className: A.center }, n.a.createElement(Ea.a, {
-          value: this.state.hungerRate,
-          onChange: this.handleHungerRateChange,
-          inputProps: { name: "hunger", id: "hunger" }
-        }, n.a.createElement(_.a, { value: "VeryHard" }, "Ravaging Hunger"), n.a.createElement(_.a, { value: "Hard" }, "Hungry"), n.a.createElement(_.a, { value: "Normal" }, "Regular"), n.a.createElement(_.a, { value: "Easy" }, "Fasting")), n.a.createElement(it.a, { variant: "body1" }, "Hunger Rate")), n.a.createElement(je, {
-          effects: pn(a, t),
-          useArrow: !0
-        })))
+            title: "餐饮计算器",
+            variant: "main"
+          }, n.a.createElement("div", { className: A.center }, n.a.createElement(rn.a, {
+            checked: this.state.bottomless,
+            onChange: this.handleChange("checkedb"),
+            value: "bottomless"
+          }), n.a.createElement(it.a, { variant: "body1" }, "无底洞之胃")), n.a.createElement("div", { className: A.center }, n.a.createElement(Ea.a, {
+                value: this.state.hungerRate,
+                onChange: this.handleHungerRateChange,
+                inputProps: { name: "hunger", id: "hunger" }
+              }, n.a.createElement(_.a, { value: "VeryHard" }, "毁灭性饥饿"),
+              n.a.createElement(_.a, { value: "Hard" }, "饥饿"),
+              n.a.createElement(_.a, { value: "Normal" }, "正常"),
+              n.a.createElement(_.a, { value: "Easy" }, "节食")),
+            n.a.createElement(it.a, { variant: "body1" }, "饥饿速度")),
+          n.a.createElement(je, { effects: pn(a, t), useArrow: !0 })))
       }
     }]), e
   }(a.Component), mn = Object(C.withStyles)(function (A) {
@@ -6044,49 +6038,49 @@
   function dn(A) {
     var e = [];
     return e.push({
-      Name: "Max Pressure",
+      Name: "超压范围",
       Id: "maxPressure",
       Value: fe(A.MaxPressure),
       Image: ne("pressure"),
       Type: "Normal",
       Input: !1
     }), "DiseaseName" in A && e.push({
-      Name: A.DiseaseName,
+      Name: { "Slimelung": "黏液肺", "Food Poisoning": "食物中毒" }[A.DiseaseName],
       Id: "disease",
       Value: A.DiseaseAmount,
       Image: ne("desease"),
       Type: "Normal",
       Input: !1
     }), e.push({
-      Name: "Avg. Emission Rate",
+      Name: "平均排放率",
       Id: "emissionRate",
       Value: Ce(A.MinRatePerCycle / 1e3) + " - " + Ce(A.MaxRatePerCycle / 1e3),
       Image: ne("out"),
       Type: "Normal",
       Input: !1
     }), e.push({
-      Name: "Total Eruption Period",
+      Name: "总喷发期",
       Id: "eruptionPeriod",
       Value: pe(A.MinIterationLength) + " - " + pe(A.MaxIterationLength),
       Image: ne("time"),
       Type: "Normal",
       Input: !1
     }), e.push({
-      Name: "% Active of Eruption Period",
+      Name: "喷发活跃期%",
       Id: "eruptionPercPeriod",
       Value: be(A.MinIterationPercent) + " - " + be(A.MaxIterationPercent),
       Image: ne("time"),
       Type: "Normal",
       Input: !1
     }), e.push({
-      Name: "Total Period",
+      Name: "总周期",
       Id: "totalPeriod",
       Value: pe(A.MinYearLength) + " - " + pe(A.MaxYearLength),
       Image: ne("time"),
       Type: "Normal",
       Input: !1
     }), e.push({
-      Name: "Active Period",
+      Name: "活跃期",
       Id: "activePeriod",
       Value: be(A.MinYearPercent) + " - " + be(A.MaxYearPercent),
       Image: ne("time"),
@@ -6105,14 +6099,14 @@
         }, t.rows = function (A) {
           var e = t.state.rate * (t.state.eruptionActive / t.state.eruptionTotal) * 600;
           return e = e * t.state.activeActive / t.state.activeTotal, [{
-            Name: "Avg. rate",
+            Name: "平均排放速率",
             Id: "time",
             Value: Ce(e /= 6e5),
             Image: ae.getImage(t.props.geyser.ProducedElement),
             Type: "Normal",
             Input: !1
           }, {
-            Name: "Tot. amount per period",
+            Name: "活跃期总排放量",
             Id: "time",
             Value: fe(e * t.state.activeTotal * 600),
             Image: ae.getImage(t.props.geyser.ProducedElement),
@@ -6125,57 +6119,59 @@
       return Object(o.a)(e, A), Object(r.a)(e, [{
         key: "render", value: function () {
           var A = this.props, e = A.classes, t = A.geyser;
-          return n.a.createElement(tt, {
-            title: "Average Output Calculator",
-            variant: "main"
-          }, n.a.createElement("div", { className: e.row }, n.a.createElement(k.m, {
-            variant: "body1",
-            className: e.padding
-          }, "Rate:"), n.a.createElement(k.k, {
-            id: "rate",
-            className: e.textInput,
-            label: "g/s",
-            value: this.state.rate,
-            onChange: this.handleTextChange("rate"),
-            error: this.state.error
-          }), n.a.createElement(Ke, {
-            hideName: !0,
-            element: rt(t.ProducedElement)
-          })), n.a.createElement("div", { className: e.row }, n.a.createElement(k.m, {
-            variant: "body1",
-            className: e.padding
-          }, "Eruption Period:"), n.a.createElement(k.k, {
-            id: "eruptionActive",
-            className: e.textInputSmall,
-            label: "sec.",
-            value: this.state.eruptionActive,
-            onChange: this.handleTextChange("eruptionActive"),
-            error: this.state.error
-          }), n.a.createElement(k.m, { variant: "body1", className: e.padding }, "every"), n.a.createElement(k.k, {
-            id: "eruptionTotal",
-            className: e.textInputSmall,
-            label: "sec.",
-            value: this.state.eruptionTotal,
-            onChange: this.handleTextChange("eruptionTotal"),
-            error: this.state.error
-          })), n.a.createElement("div", { className: e.row }, n.a.createElement(k.m, {
-            variant: "body1",
-            className: e.padding
-          }, "Active Period:"), n.a.createElement(k.k, {
-            id: "activeActive",
-            className: e.textInputSmall,
-            label: "cycle",
-            value: this.state.activeActive,
-            onChange: this.handleTextChange("activeActive"),
-            error: this.state.error
-          }), n.a.createElement(k.m, { variant: "body1", className: e.padding }, "every"), n.a.createElement(k.k, {
-            id: "activeTotal",
-            className: e.textInputSmall,
-            label: "cycle",
-            value: this.state.activeTotal,
-            onChange: this.handleTextChange("activeTotal"),
-            error: this.state.error
-          })), n.a.createElement(Pe, { rows: this.rows() }))
+          return n.a.createElement(tt, { title: "平均输出计算器", variant: "main" },
+            n.a.createElement("div", { className: e.row },
+              n.a.createElement(k.m, { variant: "body1", className: e.padding }, "排放速度:"),
+              n.a.createElement(k.k, {
+                id: "rate",
+                className: e.textInput,
+                label: "g/s",
+                value: this.state.rate,
+                onChange: this.handleTextChange("rate"),
+                error: this.state.error
+              }),
+              n.a.createElement(Ke, { hideName: !0, element: rt(t.ProducedElement) })),
+            n.a.createElement("div", { className: e.row },
+              n.a.createElement(k.m, { variant: "body1", className: e.padding }, "喷发期:"),
+              n.a.createElement(k.m, { variant: "body1", className: e.padding }, "每"),
+              n.a.createElement(k.k, {
+                id: "eruptionTotal",
+                className: e.textInputSmall,
+                label: "秒",
+                value: this.state.eruptionTotal,
+                onChange: this.handleTextChange("eruptionTotal"),
+                error: this.state.error
+              }),
+              n.a.createElement(k.m, { variant: "body1", className: e.padding }, "喷发"),
+              n.a.createElement(k.k, {
+                id: "eruptionActive",
+                className: e.textInputSmall,
+                label: "秒",
+                value: this.state.eruptionActive,
+                onChange: this.handleTextChange("eruptionActive"),
+                error: this.state.error
+              })),
+            n.a.createElement("div", { className: e.row },
+              n.a.createElement(k.m, { variant: "body1", className: e.padding }, "活跃期:"),
+              n.a.createElement(k.m, { variant: "body1", className: e.padding }, "每"),
+              n.a.createElement(k.k, {
+                id: "activeTotal",
+                className: e.textInputSmall,
+                label: "周期",
+                value: this.state.activeTotal,
+                onChange: this.handleTextChange("activeTotal"),
+                error: this.state.error
+              }),
+              n.a.createElement(k.m, { variant: "body1", className: e.padding }, "活跃"),
+              n.a.createElement(k.k, {
+                id: "activeActive",
+                className: e.textInputSmall,
+                label: "周期",
+                value: this.state.activeActive,
+                onChange: this.handleTextChange("activeActive"),
+                error: this.state.error
+              })),
+            n.a.createElement(Pe, { rows: this.rows() }))
         }
       }]), e
     }(a.Component), wn = Object(C.withStyles)(function (A) {
@@ -6201,7 +6197,7 @@
           }), "undefined" !== typeof e.Description && e.Description.split("\n").map(function (A, e) {
             return n.a.createElement(f.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
           }), n.a.createElement(Pe, { rows: dn(e) }), n.a.createElement(wn, { geyser: e }), n.a.createElement(tt, {
-            title: "Emits",
+            title: "喷发物",
             variant: "main"
           }, n.a.createElement(je, { effects: un(e) })))
         }
@@ -6236,7 +6232,7 @@
           }), "undefined" !== typeof e.Description && e.Description.split("\n").map(function (A, e) {
             return n.a.createElement(f.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
           }), n.a.createElement(Pe, { rows: La(e) }), "CureDisease" in e && n.a.createElement(tt, {
-            title: "Cure Diseases",
+            title: "治疗",
             variant: "main"
           }, n.a.createElement(je, {
             effects: e.CureDisease.map(function (A) {
@@ -6284,7 +6280,7 @@
             return n.a.createElement(f.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
           }), "Duplicant" in e && n.a.createElement(Pe, {
             rows: [{
-              Name: "Calories Needed",
+              Name: "所需卡路里",
               Id: "calories",
               Value: ke(t),
               Image: ne("food"),
@@ -6292,26 +6288,32 @@
               Input: !1
             }]
           }), "Capacity" in e && n.a.createElement(tt, {
-            title: "Capacity",
+            title: "容量",
             variant: "main"
           }, n.a.createElement(je, { effects: e.Capacity.map(ot) })), ("ConsumedRate" in e || "ProducedRate" in e) && n.a.createElement(tt, {
-            title: "Effects",
+            title: "效果",
             variant: "main"
           }, n.a.createElement(je, {
             effects: dt(e),
             useArrow: !0
           })), n.a.createElement(Oa, { element: e }), "Duplicant" in e && n.a.createElement(tt, {
-            title: "Diet",
-            variant: "main"
-          }, n.a.createElement("div", { className: A.center }, n.a.createElement(rn.a, {
-            checked: this.state.bottomless,
-            onChange: this.handleChange("checkedb"),
-            value: "bottomless"
-          }), n.a.createElement(f.a, { variant: "body1" }, "Bottomless Stomach")), n.a.createElement("div", { className: A.center }, n.a.createElement(Ea.a, {
-            value: this.state.hungerRate,
-            onChange: this.handleHungerRateChange,
-            inputProps: { name: "hunger", id: "hunger" }
-          }, n.a.createElement(_.a, { value: "VeryHard" }, "Ravaging Hunger"), n.a.createElement(_.a, { value: "Hard" }, "Hungry"), n.a.createElement(_.a, { value: "Normal" }, "Regular"), n.a.createElement(_.a, { value: "Easy" }, "Fasting")), n.a.createElement(f.a, { variant: "body1" }, "Hunger Rate")), n.a.createElement(je, { effects: on(t) })))
+              title: "饮食",
+              variant: "main"
+            }, n.a.createElement("div", { className: A.center }, n.a.createElement(rn.a, {
+              checked: this.state.bottomless,
+              onChange: this.handleChange("checkedb"),
+              value: "bottomless"
+            }), n.a.createElement(f.a, { variant: "body1" }, "无底洞之胃")),
+            n.a.createElement("div", { className: A.center }, n.a.createElement(Ea.a, {
+                  value: this.state.hungerRate,
+                  onChange: this.handleHungerRateChange,
+                  inputProps: { name: "hunger", id: "hunger" }
+                }, n.a.createElement(_.a, { value: "VeryHard" }, "毁灭性饥饿"),
+                n.a.createElement(_.a, { value: "Hard" }, "饥饿"),
+                n.a.createElement(_.a, { value: "Normal" }, "正常"),
+                n.a.createElement(_.a, { value: "Easy" }, "节食")),
+              n.a.createElement(f.a, { variant: "body1" }, "饥饿速度")),
+            n.a.createElement(je, { effects: on(t) })))
         }
       }]), e
     }(a.Component), Sn = Object(C.withStyles)(function (A) {
@@ -6349,15 +6351,21 @@
         key: "render", value: function () {
           var A = this.props.classes, e = this.props.pathogen;
           return n.a.createElement("div", { className: A.content }, n.a.createElement("img", {
-            className: A.detailImg,
-            src: ae.getImage(e.Id),
-            alt: e.Name
-          }), "undefined" !== typeof e.Description && e.Description.split("\n").map(function (A, e) {
+              className: A.detailImg,
+              src: ae.getImage(e.Id),
+              alt: e.Name
+            }), "undefined" !== typeof e.Description && e.Description.split("\n").map(function (A, e) {
             return n.a.createElement(f.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
           }), n.a.createElement(Pe, { rows: Ha(e) }), "BaseResistance" in e && n.a.createElement(za, { pathogen: e }), "CanCauseDisease" in e && n.a.createElement(tt, {
-            title: "Can Cause Disease",
+            title: "可能导致疾病",
             variant: "main"
-          }, n.a.createElement(je, { effects: [rt(e.CanCauseDisease)] })), this.relationSection("DroppedBy", "Dropped By", e), this.relationSection("MultipiesIn", "Multipies In", e), this.relationSection("SurviveIn", "Survive In", e), this.relationSection("DisinfectedBy", "Disinfected By", e), this.relationSection("InhibitedBy", "Inhibited By", e), this.relationSection("KilledBy", "Killed By", e), n.a.createElement(Oa, { element: e }))
+          }, n.a.createElement(je, { effects: [rt(e.CanCauseDisease)] })),
+            this.relationSection("DroppedBy", "掉落自", e),
+            this.relationSection("MultipiesIn", "繁殖于", e),
+            this.relationSection("SurviveIn", "存活于", e),
+            this.relationSection("DisinfectedBy", "灭菌物", e),
+            this.relationSection("InhibitedBy", "抑制物", e),
+            this.relationSection("KilledBy", "抗菌物", e), n.a.createElement(Oa, { element: e }))
         }
       }]), e
     }(a.Component), Dn = Object(C.withStyles)(function (A) {
@@ -6396,25 +6404,25 @@
           }), "undefined" !== typeof t.Description && t.Description.split("\n").map(function (A, e) {
             return n.a.createElement(f.a, { variant: "body1", key: e, gutterBottom: !0 }, re()(A))
           }), n.a.createElement(tt, {
-            title: "Composition",
+            title: "组成",
             variant: "main"
           }, n.a.createElement(je, { effects: lt(t.Composition) })), "Resources" in t && n.a.createElement(tt, {
-            title: "Resources",
+            title: "资源",
             variant: "main"
           }, n.a.createElement(je, {
             effects: t.Resources.map(function (A) {
               return ot(A)
             })
           })), n.a.createElement(tt, {
-            title: "Artifacts discover chance",
+            title: "人工制品发现机会",
             variant: "main"
           }, !this.state.archaeologist && n.a.createElement(_e, {
             variant: "secondary",
-            text: be(t.NothingWeight / t.TotalWeight) + " - Nothing"
+            text: be(t.NothingWeight / t.TotalWeight) + " - 没有"
           }), Object.keys(t.TierWeight).map(function (e) {
             return n.a.createElement(n.a.Fragment, null, n.a.createElement(_e, {
               variant: "secondary",
-              text: be(t.TierWeight[e] / A) + " - Tier " + e
+              text: be(t.TierWeight[e] / A) + " - " + e + "级 "
             }), n.a.createElement(je, {
               effects: a.filter(function (A) {
                 return A.Tier === parseInt(e)
@@ -6450,10 +6458,10 @@
       return Object(o.a)(e, A), Object(r.a)(e, [{
         key: "render", value: function () {
           var A, e = this.props, t = e.classes, a = e.wheezewort.GrowthRequirement.MaxTemp;
-          return n.a.createElement(tt, { title: "Heat deletion overview", variant: "main" }, n.a.createElement(k.m, {
+          return n.a.createElement(tt, { title: "降温效果概览", variant: "main" }, n.a.createElement(k.m, {
             variant: "body1",
             className: t.padding
-          }, "A Wheezewort provide the best cooling effect (-12 kDTU/s) with the", " ", n.a.createElement(ht.a, { to: "/details/hydrogen" }, "Hydrogen"), "."), n.a.createElement(yt, {
+          }, n.a.createElement(ht.a, { to: "/details/hydrogen" }, "氢气"), "能使冰息萝卜达到最佳的冷却效果（-12 kDTU/s）。"), n.a.createElement(yt, {
             rows: ae.getElementsOfType("element").filter(function (A) {
               return "Gas" === A.State && A.LowTemp <= a && A.HighTemp >= a
             }), fields: (A = -5, [{
@@ -6793,50 +6801,21 @@
           return "rawegg" === A.MaterialId
         }).Amount
       }
-    }], lg = [{
-      Key: "ThermalConductivity", Name: "导热系数", Display: function (A) {
-        return A.ThermalConductivity
+    }], lg = [
+      { Key: "State", Name: "物质形态", Display: function (A) {return {Gas:"气态",Solid:"固态",Liquid:"液态"}[A.State]}, Value: function (A) {return {Gas:"气态",Solid:"固态",Liquid:"液态"}[A.State]}},
+      { Key: "ThermalConductivity", Name: "导热系数", Display: function (A) {return A.ThermalConductivity}, Value: function (A) {return A.ThermalConductivity }},
+      { Key: "SpecificHeatCapacity", Name: "比热容", Display: function (A) {return A.SpecificHeatCapacity}, Value: function (A) {return A.SpecificHeatCapacity}},
+      { Key: "热容积", Name: "热容积", Display: function (A) {if(A.State!=="Liquid") return "--";
+        return Math.round((A.HighTemp*100 - A.LowTemp*100) * (1000*A.SpecificHeatCapacity))/100000
       }, Value: function (A) {
-        return A.ThermalConductivity
-      }
-    }, {
-      Key: "SpecificHeatCapacity", Name: "比热容", Display: function (A) {
-        return A.SpecificHeatCapacity
-      }, Value: function (A) {
-        return A.SpecificHeatCapacity
-      }
-    }, {
-      Key: "MolarMass", Name: "摩尔质量", Display: function (A) {
-        return A.MolarMass
-      }, Value: function (A) {
-        return A.MolarMass
-      }
-    }, {
-      Key: "Hardness", Name: "硬度", Display: function (A) {
-        return A.Hardness
-      }, Value: function (A) {
-        return A.Hardness
-      }
-    }, {
-      Key: "LightAbsorptionFactor", Name: "光吸收率", Display: function (A) {
-        return be(A.LightAbsorptionFactor)
-      }, Value: function (A) {
-        return A.LightAbsorptionFactor
-      }
-    }, {
-      Key: "DecorModifier", Name: "装饰度调整", Display: function (A) {
-        return "AttributeModifiers" in A && "Decor" === A.AttributeModifiers[0].Id ? be(A.AttributeModifiers[0].Value) : "-"
-      }, Value: function (A) {
-        return "AttributeModifiers" in A && "Decor" === A.AttributeModifiers[0].Id ? A.AttributeModifiers[0].Value : 0
-      }
-    }, {
-      Key: "OverheatTemperature", Name: "过热调整", Display: function (A) {
-        var e = rg(A);
-        return "undefined" !== typeof e ? e.Value + Ne() : "-"
-      }, Value: function (A) {
-        var e = rg(A);
-        return "undefined" !== typeof e ? e.Value : 0
-      }
+          if(A.State!=="Liquid") return 0;
+          return (A.HighTemp-A.LowTemp)*A.SpecificHeatCapacity
+      }},
+      { Key: "MolarMass", Name: "摩尔质量", Display: function (A) {return A.MolarMass}, Value: function (A) {return A.MolarMass}},
+      { Key: "Hardness", Name: "硬度", Display: function (A) { return A.Hardness }, Value: function (A) { return A.Hardness }},
+      { Key: "LightAbsorptionFactor", Name: "光吸收率", Display: function (A) { return be(A.LightAbsorptionFactor) }, Value: function (A) { return A.LightAbsorptionFactor }},
+      { Key: "DecorModifier", Name: "装饰度调整", Display: function (A) { return "AttributeModifiers" in A && "Decor" === A.AttributeModifiers[0].Id ? be(A.AttributeModifiers[0].Value) : "-" }, Value: function (A) { return "AttributeModifiers" in A && "Decor" === A.AttributeModifiers[0].Id ? A.AttributeModifiers[0].Value : 0 }},
+      { Key: "OverheatTemperature", Name: "过热调整", Display: function (A) {var e = rg(A);return "undefined" !== typeof e ? e.Value + Ne() : "-"}, Value: function (A) {var e = rg(A);return "undefined" !== typeof e ? e.Value : 0}
     }];
 
   function rg(A) {
@@ -6879,7 +6858,7 @@
     Key: "DiseaseName", Name: "疾病", Display: function (A) {
       return A.DiseaseName
     }, Value: function (A) {
-      return "DiseaseName" in A ? A.DiseaseName : ""
+      return "DiseaseName" in A ? { "Slimelung": "黏液肺", "Food Poisoning": "食物中毒" }[A.DiseaseName] : ""
     }
   }, {
     Key: "MinRatePerCycle", Name: "最小速率", Display: function (A) {
@@ -7289,11 +7268,11 @@
                 align: "center",
                 className: A.titleDescription
               }, "元素信息"), n.a.createElement(f.a, {
-                variant: "body1",
-                gutterBottom: !0,
-                align: "justify",
-                className: A.topPaddingDescription
-              }, "元素是基础资源。它们可以在地图中找到，也可以在太空中找到，或者从其他元素转换而来。它们具有特定的物质状态（固体、液体或气体），并且可以随着温度的变化而改变状态。",
+                  variant: "body1",
+                  gutterBottom: !0,
+                  align: "justify",
+                  className: A.topPaddingDescription
+                }, "元素是基础资源。它们可以在地图中找到，也可以在太空中找到，或者从其他元素转换而来。它们具有特定的物质状态（固体、液体或气体），并且可以随着温度的变化而改变状态。",
                 n.a.createElement("br", null),
                 n.a.createElement("b", null, "导热系数:"),
                 " 材料的热传导能力，以(DTU/(m*s))/\xb0C为单位。在两个物体之间，传热速率将由导热系数最低的物体决定。与高导热系数（更好的导热性）材料相比，低导热热系数（更好的隔热）材料的热传递速率更低。",
@@ -7320,11 +7299,11 @@
                 align: "center",
                 className: A.titleDescription
               }, "建筑物信息"), n.a.createElement(f.a, {
-                variant: "body1",
-                gutterBottom: !0,
-                align: "justify",
-                className: A.topPaddingDescription
-              }, "小人可以使用建筑物来转换元素，产生能量或执行新任务。",
+                  variant: "body1",
+                  gutterBottom: !0,
+                  align: "justify",
+                  className: A.topPaddingDescription
+                }, "小人可以使用建筑物来转换元素，产生能量或执行新任务。",
                 n.a.createElement("br", null),
                 n.a.createElement("b", null, "类别:"),
                 " 建筑物的分类。",
@@ -7354,11 +7333,11 @@
                 align: "center",
                 className: A.titleDescription
               }, "生物和蛋信息"), n.a.createElement(f.a, {
-                variant: "body1",
-                gutterBottom: !0,
-                align: "justify",
-                className: A.topPaddingDescription
-              }, "野生生物围绕小行星运行或来自外层空间。可以驯服它们以获得它们生产的资源。",
+                  variant: "body1",
+                  gutterBottom: !0,
+                  align: "justify",
+                  className: A.topPaddingDescription
+                }, "野生生物围绕小行星运行或来自外层空间。可以驯服它们以获得它们生产的资源。",
                 n.a.createElement("br", null),
                 n.a.createElement("b", null, "温度适宜范围："),
                 " 生物生存所需的温度范围。",
@@ -7385,11 +7364,11 @@
                 align: "center",
                 className: A.titleDescription
               }, "植物和种子信息"), n.a.createElement(f.a, {
-                variant: "body1",
-                gutterBottom: !0,
-                align: "justify",
-                className: A.topPaddingDescription
-              }, "野生植物可以在小行星周围或外层空间找到。种子可以提取和种植。",
+                  variant: "body1",
+                  gutterBottom: !0,
+                  align: "justify",
+                  className: A.topPaddingDescription
+                }, "野生植物可以在小行星周围或外层空间找到。种子可以提取和种植。",
                 n.a.createElement("br", null),
                 n.a.createElement("b", null, "装饰:"),
                 " 影响复制人的压力和他们对周围环境的看法。",
@@ -7413,11 +7392,11 @@
                 align: "center",
                 className: A.titleDescription
               }, "食品信息"), n.a.createElement(f.a, {
-                variant: "body1",
-                gutterBottom: !0,
-                align: "justify",
-                className: A.topPaddingDescription
-              }, "复制人或一些小动物生存所需。",
+                  variant: "body1",
+                  gutterBottom: !0,
+                  align: "justify",
+                  className: A.topPaddingDescription
+                }, "复制人或一些小动物生存所需。",
                 n.a.createElement("br", null),
                 n.a.createElement("b", null, "品质:"),
                 " 食物的好吃程度，影响提供的士气。",
@@ -7478,11 +7457,11 @@
           variant: "h6",
           align: "center"
         }, "欢迎使用未包含氧气的数据库！", n.a.createElement("br", null)), n.a.createElement(f.a, {
-          component: "div",
-          variant: "body1",
-          align: "center",
-          className: e.topPadding
-        }, n.a.createElement("p", null, "在这里，你可以帮助你的复制人过上更好、更轻松的生活，提供一个快速参考指南，帮助他们在缺氧里玩耍。"),
+            component: "div",
+            variant: "body1",
+            align: "center",
+            className: e.topPadding
+          }, n.a.createElement("p", null, "在这里，你可以帮助你的复制人过上更好、更轻松的生活，提供一个快速参考指南，帮助他们在缺氧里玩耍。"),
           n.a.createElement("p", null, "从左侧选择一个实体，即可获得该实体与其他实体之间的所有关系。"),
           n.a.createElement("p", null, "玩得开心。。。确保您的氧气水平安全！")), n.a.createElement("img", {
           src: ne("spaced-out-mini"),
@@ -8002,7 +7981,7 @@
       title: { padding: 2 * A.spacing.unit }
     }
   }, { withTheme: !0 })(hg), Xg = Object(C.createMuiTheme)({
-    breakpoints: { values: { xs: 0, sm: 700, md: 960, lg: 1280, xl: 1920 } },
+    breakpoints: { values: { xs: 0, sm: 700, md: 960, lg: 1280, xl: 1280 } },
     palette: { primary: { main: "#7f3d5e" }, secondary: { main: "#4e5367" } },
     typography: { h6: { fontFamily: "Economica,Roboto" }, h5: { fontFamily: "Economica,Roboto" } }
   }), Wg = function (A) {

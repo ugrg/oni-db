@@ -47439,7 +47439,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.ALUMINUMGAS.NAME
 msgctxt "STRINGS.ELEMENTS.ALUMINUMGAS.NAME"
-msgid "<link=\"ALUMINUMGAS\">Aluminum</link>"
+msgid "<link=\"ALUMINUMGAS\">aluminumgas</link>"
 msgstr "<link=\"ALUMINUMGAS\">气态铝</link>"
 
 #. STRINGS.ELEMENTS.ALUMINUMORE.DESC
@@ -47730,7 +47730,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.COBALTGAS.NAME
 msgctxt "STRINGS.ELEMENTS.COBALTGAS.NAME"
-msgid "<link=\"COBALTGAS\">Cobalt</link>"
+msgid "<link=\"COBALTGAS\">cobaltgas</link>"
 msgstr "<link=\"COBALTGAS\">气态钴</link>"
 
 #. STRINGS.ELEMENTS.COBALTITE.DESC
@@ -47802,7 +47802,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.COPPERGAS.NAME
 msgctxt "STRINGS.ELEMENTS.COPPERGAS.NAME"
-msgid "<link=\"COPPERGAS\">Copper</link>"
+msgid "<link=\"COPPERGAS\">coppergas</link>"
 msgstr "<link=\"COPPERGAS\">气态铜</link>"
 
 #. STRINGS.ELEMENTS.CORIUM.DESC
@@ -48386,7 +48386,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.IRONGAS.NAME
 msgctxt "STRINGS.ELEMENTS.IRONGAS.NAME"
-msgid "<link=\"IRONGAS\">Iron</link>"
+msgid "<link=\"IRONGAS\">irongas</link>"
 msgstr "<link=\"IRONGAS\">气态铁</link>"
 
 #. STRINGS.ELEMENTS.IRONINGOT.DESC
@@ -48474,7 +48474,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.LEADGAS.NAME
 msgctxt "STRINGS.ELEMENTS.LEADGAS.NAME"
-msgid "<link=\"LEADGAS\">Lead</link>"
+msgid "<link=\"LEADGAS\">leadgas</link>"
 msgstr "<link=\"LEADGAS\">气态铅</link>"
 
 #. STRINGS.ELEMENTS.LIME.DESC
@@ -48586,7 +48586,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.LIQUIDPHOSPHORUS.NAME
 msgctxt "STRINGS.ELEMENTS.LIQUIDPHOSPHORUS.NAME"
-msgid "<link=\"LIQUIDPHOSPHORUS\">Phosphorus</link>"
+msgid "<link=\"LIQUIDPHOSPHORUS\">liquidphosphorus</link>"
 msgstr "<link=\"LIQUIDPHOSPHORUS\">液态磷</link>"
 
 #. STRINGS.ELEMENTS.LIQUIDPROPANE.DESC
@@ -48856,7 +48856,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENALUMINUM.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENALUMINUM.NAME"
-msgid "<link=\"MOLTENALUMINUM\">Aluminum</link>"
+msgid "<link=\"MOLTENALUMINUM\">moltenaluminum</link>"
 msgstr "<link=\"MOLTENALUMINUM\">熔融铝</link>"
 
 #. STRINGS.ELEMENTS.MOLTENCARBON.DESC
@@ -48898,7 +48898,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENCOPPER.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENCOPPER.NAME"
-msgid "<link=\"MOLTENCOPPER\">Copper</link>"
+msgid "<link=\"MOLTENCOPPER\">moltencopper</link>"
 msgstr "<link=\"MOLTENCOPPER\">熔融铜</link>"
 
 #. STRINGS.ELEMENTS.MOLTENGLASS.DESC
@@ -48940,7 +48940,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENIRON.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENIRON.NAME"
-msgid "<link=\"MOLTENIRON\">Iron</link>"
+msgid "<link=\"MOLTENIRON\">molteniron</link>"
 msgstr "<link=\"MOLTENIRON\">熔融铁</link>"
 
 #. STRINGS.ELEMENTS.MOLTENLEAD.DESC
@@ -48954,7 +48954,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENLEAD.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENLEAD.NAME"
-msgid "<link=\"MOLTENLEAD\">Lead</link>"
+msgid "<link=\"MOLTENLEAD\">moltenlead</link>"
 msgstr "<link=\"MOLTENLEAD\">熔融铅</link>"
 
 #. STRINGS.ELEMENTS.MOLTENNIOBIUM.DESC
@@ -48968,7 +48968,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENNIOBIUM.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENNIOBIUM.NAME"
-msgid "<link=\"MOLTENNIOBIUM\">Niobium</link>"
+msgid "<link=\"MOLTENNIOBIUM\">MOLTENNIOBIUM</link>"
 msgstr "<link=\"MOLTENNIOBIUM\">熔融铌</link>"
 
 #. STRINGS.ELEMENTS.MOLTENSALT.DESC
@@ -48996,7 +48996,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENSTEEL.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENSTEEL.NAME"
-msgid "<link=\"MOLTENSTEEL\">Steel</link>"
+msgid "<link=\"MOLTENSTEEL\">moltensteel</link>"
 msgstr "<link=\"MOLTENSTEEL\">熔融钢</link>"
 
 #. STRINGS.ELEMENTS.MOLTENSUCROSE.DESC
@@ -49016,7 +49016,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.MOLTENSUCROSE.NAME
 msgctxt "STRINGS.ELEMENTS.MOLTENSUCROSE.NAME"
-msgid "<link=\"MOLTENSUCROSE\">Sucrose</link>"
+msgid "<link=\"MOLTENSUCROSE\">MOLTENSUCROSE</link>"
 msgstr "<link=\"MOLTENSUCROSE\">熔融蔗糖</link>"
 
 #. STRINGS.ELEMENTS.MOLTENTUNGSTEN.DESC
@@ -49124,7 +49124,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.NIOBIUMGAS.NAME
 msgctxt "STRINGS.ELEMENTS.NIOBIUMGAS.NAME"
-msgid "<link=\"NIOBIUMGAS\">Niobium</link>"
+msgid "<link=\"NIOBIUMGAS\">niobiumgas</link>"
 msgstr "<link=\"NIOBIUMGAS\">气态铌</link>"
 
 #. STRINGS.ELEMENTS.NUCLEARWASTE.DESC
@@ -49248,7 +49248,7 @@ msgstr "(P) 固态磷是一种<link=\"ELEMENTSSOLID\">固态</link>化学元素�
 
 #. STRINGS.ELEMENTS.PHOSPHORUS.NAME
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUS.NAME"
-msgid "<link=\"PHOSPHORUS\">Phosphorus</link>"
+msgid "<link=\"PHOSPHORUS\">Phosphoruss</link>"
 msgstr "<link=\"PHOSPHORUS\">固态磷</link>"
 
 #. STRINGS.ELEMENTS.PHOSPHORUSGAS.DESC
@@ -49260,7 +49260,7 @@ msgstr "(P) 气态磷是一种<link=\"ELEMENTSGAS\">气态</link>化学元素。
 
 #. STRINGS.ELEMENTS.PHOSPHORUSGAS.NAME
 msgctxt "STRINGS.ELEMENTS.PHOSPHORUSGAS.NAME"
-msgid "<link=\"PHOSPHORUSGAS\">Phosphorus</link>"
+msgid "<link=\"PHOSPHORUSGAS\">phosphorusgas</link>"
 msgstr "<link=\"PHOSPHORUSGAS\">气态磷</link>"
 
 #. STRINGS.ELEMENTS.POLYPROPYLENE.BUILD_DESC
@@ -49788,7 +49788,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME
 msgctxt "STRINGS.ELEMENTS.SOLIDVISCOGEL.NAME"
-msgid "<link=\"SOLIDVISCOGEL\">Visco-Gel</link>"
+msgid "<link=\"SOLIDVISCOGEL\">solidviscogel</link>"
 msgstr "<link=\"SOLIDVISCOGEL\">固态粘性凝胶</link>"
 
 #. STRINGS.ELEMENTS.SOURGAS.DESC
@@ -49870,7 +49870,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.STEELGAS.NAME
 msgctxt "STRINGS.ELEMENTS.STEELGAS.NAME"
-msgid "<link=\"STEELGAS\">Steel</link>"
+msgid "<link=\"STEELGAS\">steelgas</link>"
 msgstr "<link=\"STEELGAS\">气态钢</link>"
 
 #. STRINGS.ELEMENTS.SUCROSE.DESC
@@ -49919,7 +49919,7 @@ msgstr ""
 
 #. STRINGS.ELEMENTS.SULFURGAS.NAME
 msgctxt "STRINGS.ELEMENTS.SULFURGAS.NAME"
-msgid "<link=\"SULFURGAS\">Sulfur</link>"
+msgid "<link=\"SULFURGAS\">sulfurgas</link>"
 msgstr "<link=\"SULFURGAS\">硫蒸气</link>"
 
 #. STRINGS.ELEMENTS.SUPERCOOLANT.DESC
@@ -97917,7 +97917,7 @@ msgstr "水域小行星"
 #~ "力</link>系统。"
 
 #~ msgctxt "STRINGS.ELEMENTS.LEADGAS.NAME"
-#~ msgid "<link=\"LEADGAS\">Lead Gas</link>"
+#~ msgid "<link=\"LEADGAS\">leadgas</link>"
 #~ msgstr "<link=\"LEADGAS\">气态铅</link>"
 
 #~ msgctxt "STRINGS.ELEMENTS.MOLTENALUMINUM.DESC"

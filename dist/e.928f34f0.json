@@ -156,7 +156,7 @@
     "Id": "algae"
   },
   {
-    "Name": "Niobium",
+    "Name": "铌",
     "Description": "(Nb) Niobium is a Rare Metal with many practical applications in metallurgy and superconductor Research.",
     "Dlc": "Base",
     "State": "Solid",
@@ -364,7 +364,7 @@
     "Id": "brineice"
   },
   {
-    "Name": "Visco-Gel",
+    "Name": "solidviscogel",
     "Description": "Visco-Gel is a polymer that has high surface tension when in Liquid form.\n\nThis selection is in a Solid state.",
     "Dlc": "Base",
     "State": "Solid",
@@ -645,7 +645,7 @@
     "Id": "solidnaphtha"
   },
   {
-    "Name": "Tungsten",
+    "Name": "钨",
     "Description": "(W) Tungsten is an extremely tough crystalline Metal.\n\nIt is suitable for building Power systems.",
     "Dlc": "Base",
     "State": "Solid",
@@ -716,7 +716,7 @@
     "Id": "refinedcarbon"
   },
   {
-    "Name": "Steel",
+    "Name": "钢",
     "Description": "Steel is a Metal Alloy composed of iron and carbon.",
     "Dlc": "Base",
     "State": "Solid",
@@ -1058,7 +1058,7 @@
     "Id": "solidpetroleum"
   },
   {
-    "Name": "Super Coolant",
+    "Name": "固态超级冷却剂",
     "Description": "Super Coolant is an industrial grade Fullerene coolant.\n\nThis selection is in a Solid state.",
     "Dlc": "Base",
     "State": "Solid",
@@ -1151,7 +1151,7 @@
     "Id": "enricheduranium"
   },
   {
-    "Name": "Gold",
+    "Name": "金",
     "Description": "(Au) Gold is a conductive precious Metal.\n\nIt is suitable for building Power systems.",
     "Dlc": "Base",
     "State": "Solid",
@@ -1246,7 +1246,7 @@
     "Id": "corium"
   },
   {
-    "Name": "Phosphorus",
+    "Name": "Phosphoruss",
     "Description": "(P) Phosphorus is a chemical element in its Solid state.",
     "Dlc": "Base",
     "State": "Solid",
@@ -1374,7 +1374,7 @@
     "Id": "electrum"
   },
   {
-    "Name": "Carbon Dioxide",
+    "Name": "固态二氧化碳",
     "Description": "(CO<sub>2</sub>) Carbon Dioxide is an unbreathable compound in a Solid state.",
     "Dlc": "Base",
     "State": "Solid",
@@ -1402,7 +1402,7 @@
     "Id": "solidcarbondioxide"
   },
   {
-    "Name": "Cobalt",
+    "Name": "钴",
     "Description": "(Co) Cobalt is a Refined Metal made from Cobalt Ore.",
     "Dlc": "SpacedOut",
     "State": "Solid",
@@ -1619,7 +1619,7 @@
     "Id": "goldamalgam"
   },
   {
-    "Name": "Salt",
+    "Name": "盐",
     "Description": "(NaCl) Salt, also known as sodium chloride, is an edible chemical compound.\n\nWhen refined, it can be eaten with meals to increase Duplicant Morale.",
     "Dlc": "Base",
     "State": "Solid",
@@ -1743,7 +1743,7 @@
     "Id": "sandstone"
   },
   {
-    "Name": "Glass",
+    "Name": "玻璃",
     "Description": "Glass is a brittle, transparent substance formed from Sand fired at high temperatures.",
     "Dlc": "Base",
     "State": "Solid",
@@ -1988,7 +1988,7 @@
     "Id": "carbon"
   },
   {
-    "Name": "Oxygen",
+    "Name": "固态氧",
     "Description": "(O<sub>2</sub>) Oxygen is a breathable element in a Solid state.",
     "Dlc": "Base",
     "State": "Solid",
@@ -2198,7 +2198,7 @@
     "Id": "maficrock"
   },
   {
-    "Name": "Iron",
+    "Name": "铁",
     "Description": "(Fe) Iron is a common industrial Metal.",
     "Dlc": "Base",
     "State": "Solid",
@@ -2593,7 +2593,7 @@
     "Id": "aluminum"
   },
   {
-    "Name": "Oxygen",
+    "Name": "液态氧",
     "Description": "(O<sub>2</sub>) Oxygen is a breathable chemical.\n\nThis selection is in a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -2650,7 +2650,7 @@
     "Id": "viscogel"
   },
   {
-    "Name": "Aluminum",
+    "Name": "moltenaluminum",
     "Description": "(Al) Aluminum is a low density Metal heated into a molten Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -2681,7 +2681,7 @@
     "Id": "moltenaluminum"
   },
   {
-    "Name": "Lead",
+    "Name": "moltenlead",
     "Description": "(Pb) Lead is an extremely dense Refined Metal heated into a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -2712,7 +2712,7 @@
     "Id": "moltenlead"
   },
   {
-    "Name": "Carbon Dioxide",
+    "Name": "液态二氧化碳",
     "Description": "(CO<sub>2</sub>) Carbon Dioxide is an unbreathable chemical compound.\n\nThis selection is currently in a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -2740,7 +2740,7 @@
     "Id": "liquidcarbondioxide"
   },
   {
-    "Name": "Crude Oil",
+    "Name": "原油",
     "Description": "Crude Oil is a raw potential Power source composed of billions of dead, primordial organisms.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -2885,7 +2885,7 @@
     "Id": "magma"
   },
   {
-    "Name": "Chlorine",
+    "Name": "液态氯",
     "Description": "(Cl) Chlorine is a natural Germ-killing element in a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -2913,7 +2913,7 @@
     "Id": "chlorine"
   },
   {
-    "Name": "Hydrogen",
+    "Name": "液态氢",
     "Description": "(H) Hydrogen is a chemical Liquid.\n\nIt freezes most substances that come into contact with it.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -2941,7 +2941,7 @@
     "Id": "liquidhydrogen"
   },
   {
-    "Name": "Resin",
+    "Name": "树脂",
     "Description": "Sticky goo harvested from a grumpy tree.\n\nIt can be polymerized into Isoresin by boiling away its excess moisture.",
     "Dlc": "SpacedOut",
     "State": "Liquid",
@@ -2969,7 +2969,7 @@
     "Id": "resin"
   },
   {
-    "Name": "Propane",
+    "Name": "液态丙烷",
     "Description": "(C<sub>3</sub>H<sub>8</sub>) Propane is an alkane in a Liquid state.\n\nIt is useful in Power production.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -2997,7 +2997,7 @@
     "Id": "liquidpropane"
   },
   {
-    "Name": "Tungsten",
+    "Name": "熔融钨",
     "Description": "(W) Tungsten is a crystalline Metal heated into a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3027,7 +3027,7 @@
     "Id": "moltentungsten"
   },
   {
-    "Name": "Petroleum",
+    "Name": "石油",
     "Description": "Petroleum is a Power source refined from Crude Oil.\n\nIt is also an essential ingredient in the production of Plastic.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3056,7 +3056,7 @@
     "Id": "petroleum"
   },
   {
-    "Name": "Salt",
+    "Name": "熔融盐",
     "Description": "(NaCl) Salt is an edible chemical compound that has been heated into a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3178,7 +3178,7 @@
     "Id": "nuclearwaste"
   },
   {
-    "Name": "Super Coolant",
+    "Name": "超级冷却剂",
     "Description": "Super Coolant is an industrial grade coolant that utilizes the unusual energy states of Fullerene.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3206,7 +3206,7 @@
     "Id": "supercoolant"
   },
   {
-    "Name": "Ethanol",
+    "Name": "乙醇",
     "Description": "(C<sub>2</sub>H<sub>6</sub>O) Ethanol is an advanced chemical compound.\n\nIt can be used as a highly effective fuel source when burned.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3235,7 +3235,7 @@
     "Id": "ethanol"
   },
   {
-    "Name": "Methane",
+    "Name": "液态甲烷",
     "Description": "(CH<sub>4</sub>) Methane is an alkane.\n\nThis selection is in a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3263,7 +3263,7 @@
     "Id": "liquidmethane"
   },
   {
-    "Name": "Iron",
+    "Name": "molteniron",
     "Description": "(Fe) Iron is a common industrial Metal heated into a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3322,7 +3322,7 @@
     "Id": "moltencarbon"
   },
   {
-    "Name": "Naphtha",
+    "Name": "石脑油",
     "Description": "Naphtha a distilled hydrocarbon mixture produced from the burning of Plastic.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3351,7 +3351,7 @@
     "Id": "naphtha"
   },
   {
-    "Name": "Sucrose",
+    "Name": "MOLTENSUCROSE",
     "Description": "(C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) Sucrose is the raw form of sugar, heated into a Liquid state.\n\nIt can be used directly for cooking, or refined and eaten with meals to increase Duplicant Morale.",
     "Dlc": "SpacedOut",
     "State": "Liquid",
@@ -3379,7 +3379,7 @@
     "Id": "moltensucrose"
   },
   {
-    "Name": "Phosphorus",
+    "Name": "liquidphosphorus",
     "Description": "(P) Phosphorus is a chemical element.\n\nThis selection is in a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3408,7 +3408,7 @@
     "Id": "liquidphosphorus"
   },
   {
-    "Name": "Steel",
+    "Name": "moltensteel",
     "Description": "Steel is a Metal alloy of iron and carbon, heated into a hazardous Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3439,7 +3439,7 @@
     "Id": "moltensteel"
   },
   {
-    "Name": "Niobium",
+    "Name": "MOLTENNIOBIUM",
     "Description": "(Nb) Niobium is a Rare Metal heated into a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3594,7 +3594,7 @@
     "Id": "moltenuranium"
   },
   {
-    "Name": "Copper",
+    "Name": "moltencopper",
     "Description": "(Cu) Copper is a conductive Metal heated into a Liquid state.",
     "Dlc": "Base",
     "State": "Liquid",
@@ -3625,7 +3625,7 @@
     "Id": "moltencopper"
   },
   {
-    "Name": "Sulfur",
+    "Name": "sulfurgas",
     "Description": "(S) Sulfur is a common chemical element and byproduct of Natural Gas production.\n\nThis selection is in a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -3653,7 +3653,7 @@
     "Id": "sulfurgas"
   },
   {
-    "Name": "Salt",
+    "Name": "气态盐",
     "Description": "(NaCl) Salt Gas is an edible chemical compound that has been superheated into a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -3681,7 +3681,7 @@
     "Id": "saltgas"
   },
   {
-    "Name": "Propane",
+    "Name": "丙烷",
     "Description": "(C<sub>3</sub>H<sub>8</sub>) Propane is a natural alkane Gas.\n\nIt is useful in Power production.",
     "Dlc": "Base",
     "State": "Gas",
@@ -3709,7 +3709,7 @@
     "Id": "propane"
   },
   {
-    "Name": "Niobium",
+    "Name": "niobiumgas",
     "Description": "(Nb) Niobium is a Rare Metal.\n\nThis selection is in a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -3768,7 +3768,7 @@
     "Id": "oxygen"
   },
   {
-    "Name": "Cobalt",
+    "Name": "cobaltgas",
     "Description": "(Co) Cobalt is a Refined Metal, heated into a Gas.",
     "Dlc": "SpacedOut",
     "State": "Gas",
@@ -3799,7 +3799,7 @@
     "Id": "cobaltgas"
   },
   {
-    "Name": "Steel",
+    "Name": "steelgas",
     "Description": "Steel is a superheated Metal Gas composed of iron and carbon.",
     "Dlc": "Base",
     "State": "Gas",
@@ -3831,7 +3831,7 @@
     "Id": "steelgas"
   },
   {
-    "Name": "Chlorine",
+    "Name": "氯气",
     "Description": "(Cl) Chlorine is a natural Germ-killing element in a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -3859,7 +3859,7 @@
     "Id": "chlorinegas"
   },
   {
-    "Name": "Hydrogen",
+    "Name": "氢气",
     "Description": "(H) Hydrogen is the universe's most common and atomically light element in a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -3972,7 +3972,7 @@
     "Id": "methane"
   },
   {
-    "Name": "Gold",
+    "Name": "气态金",
     "Description": "(Au) Gold is a conductive precious Metal, heated into a Gas.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4003,7 +4003,7 @@
     "Id": "goldgas"
   },
   {
-    "Name": "Ethanol",
+    "Name": "气态乙醇",
     "Description": "(C<sub>2</sub>H<sub>6</sub>O) Ethanol is an advanced chemical compound heated into a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4060,7 +4060,7 @@
     "Id": "rockgas"
   },
   {
-    "Name": "Carbon",
+    "Name": "气态碳",
     "Description": "(C) Carbon is an abundant, versatile element heated into a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4089,7 +4089,7 @@
     "Id": "carbongas"
   },
   {
-    "Name": "Super Coolant",
+    "Name": "气态超级冷却剂",
     "Description": "Super Coolant is an industrial grade Fullerene coolant.\n\nThis selection is in a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4117,7 +4117,7 @@
     "Id": "supercoolantgas"
   },
   {
-    "Name": "Aluminum",
+    "Name": "aluminumgas",
     "Description": "(Al) Aluminum is a low density Metal heated into a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4206,7 +4206,7 @@
     "Id": "contaminatedoxygen"
   },
   {
-    "Name": "Lead",
+    "Name": "leadgas",
     "Description": "(Pb) Lead is a soft yet extremely dense Refined Metal heated into a Gaseous.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4266,7 +4266,7 @@
     "Id": "fallout"
   },
   {
-    "Name": "Iron",
+    "Name": "irongas",
     "Description": "(Fe) Iron is a common industrial Metal, heated into a Gas.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4297,7 +4297,7 @@
     "Id": "irongas"
   },
   {
-    "Name": "Phosphorus",
+    "Name": "phosphorusgas",
     "Description": "(P) Phosphorus is a chemical element in a Gaseous state.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4326,7 +4326,7 @@
     "Id": "phosphorusgas"
   },
   {
-    "Name": "Carbon Dioxide",
+    "Name": "二氧化碳",
     "Description": "(CO<sub>2</sub>) Carbon Dioxide is an atomically heavy chemical compound in a Gaseous state.\n\nIt tends to sink below other gases.",
     "Dlc": "Base",
     "State": "Gas",
@@ -4354,7 +4354,7 @@
     "Id": "carbondioxide"
   },
   {
-    "Name": "Copper",
+    "Name": "coppergas",
     "Description": "(Cu) Copper is a conductive Metal heated into a Gas.",
     "Dlc": "Base",
     "State": "Gas",

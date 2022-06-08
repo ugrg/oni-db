@@ -8,13 +8,10 @@
   "scripts": {
     "decode": "node --experimental-modules src/decode.mjs",
     "po": "node --experimental-modules src/PO.mjs",
-    "run": "node --experimental-modules",
-    "start": "serve -s -l 80"
+    "start": "serve -s -l 8080"
   },
   "devDependencies": {
-    "serve": "^13.0.2",
-    "ts-node": "^10.8.1",
-    "typescript": "^4.7.3"
+    "serve": "^13.0.2"
   },
   "dependencies": {
     "@msgpack/msgpack": "^2.3.0"
