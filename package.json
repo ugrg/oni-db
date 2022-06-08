@@ -8,6 +8,7 @@
   "scripts": {
     "decode": "node --experimental-modules src/decode.mjs",
     "po": "node --experimental-modules src/PO.mjs",
+    "bm": "node --experimental-modules src/savetomedia.mjs",
     "start": "serve -s -l 8080"
   },
   "devDependencies": {
